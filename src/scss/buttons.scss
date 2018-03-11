@@ -1,0 +1,31 @@
+$button-bg: $gray-lighter;
+$button-color: $black;
+$button-primary-bg: $blue;
+$button-primary-color: $white;
+
+.button,
+button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid darken($button-bg, 10%);
+  background: $button-bg;
+  color: $button-color;
+  &:focus, &:hover, &:active {
+    background-color: darken($button-bg, 5%);
+    color: $button-color;
+  } 
+  &.primary {
+    background: $button-primary-bg;
+    color: $button-primary-color;
+    border-color: darken($button-primary-bg, 10%);
+    &:focus, &:hover, &:active {
+      background-color: darken($button-primary-bg, 5%);
+      color: $button-primary-color;
+    } 
+  }
+  &:not(:first-child) {
+    margin-left: .5rem;
+  }
+}

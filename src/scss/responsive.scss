@@ -1,0 +1,88 @@
+@media #{$small-up} {
+  .location-description {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ceu-logo {
+    padding-right: 1rem;
+  }
+}
+
+@media #{$medium-up} {
+  .topbar-dropdown-menu {
+    display: none;
+  }
+  .topbar-links {
+    display: block;
+  }
+  .home-section {
+    background-image: url(/img/bg-medium.jpg);
+  }
+  .number {
+    font-size: 50px;
+  }
+  .columns {
+    display: flex;
+    .main {
+      flex-grow: 1;
+      padding-right: 1rem;
+    }
+  }
+  .aside {
+    display: block;
+  }
+  .attendees {
+    width: 250px;
+    min-width: 250px;
+  }
+  .location {
+    display: flex;
+  }
+  .ceu-logo {
+    padding-right: 0;
+  }
+  .map {
+    flex-grow: 1;
+    border-top-width: 1px;
+    border-left-width: 0;
+  }
+  .location-description {
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+  .footer-row > .content.aligned {
+    flex-direction: row;
+  }
+}
+
+@media #{$large-up} {
+  
+  .home-section {
+    background-image: url(/img/bg-large.jpg);
+  }
+  
+}
+
+// desktop
+@media only screen and (min-width:720px) {
+
+  h1 { font-size: 40px; }
+  h2 { font-size: 30px; }
+  h3 { font-size: 25px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 16px; }
+  h6 { font-size: 14px; }
+
+}
+
+// big desktop
+@media only screen and (min-width:1200px) {
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+}

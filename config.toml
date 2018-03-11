@@ -1,0 +1,14 @@
+baseURL = "/"
+DefaultContentLanguage = "es"
+copyright = "Apache License 2.0"
+sectionPagesMenu = "main"
+pygmentsUseClasses=true
+disableKinds=["RSS","sitemap"]
+Title = 'Commit'
+[Languages.en]
+  weight = 2
+  languageName = "English"
+
+[Languages.es]
+  weight = 1
+  languageName = "Español"

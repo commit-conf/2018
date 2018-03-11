@@ -1,0 +1,75 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const fetch = require('node-fetch');
+const exec = require('child_process');
+const fs = require('fs');
+
+function getFileExtension(url) {
+  var parts = /\.[^.:\/]+$/.exec(url.replace(/\?.*/, ''))
+  return parts? parts[0] : '';
+}
+
+module.exports.getFileExtension = getFileExtension;
+
+function echoExec(command) {
+  // executes and logs the command
+  console.log(command)
+  return new Promise((resolve, reject) => {
+    exec.exec(command, undefined, resolve);
+  })
+}
+
+function isVectorImage(extension) {
+  return extension == '.svg' || extension == '.ai' || extension == '.eps';
+}
+
+module.exports.isVectorImage = isVectorImage;
+
+// downloads a file from the Internet
+// transforms it
+// options:
+//    - file:
+//      - url
+//      - name
+//    - originalFilename
+//    - proccesedFilename
+//    - toPng
+module.exports.download = function({file, originalFilename, processedFilename, toPng }) {
+  // if url is not empty
+  if (!file.url || file.url.replace(/ /, "") == 'N/A') {
+    return Promise.reject('Error: Url is empty', file);
+  } 
+  const extension = getFileExtension(file.url);
+  return new Promise(function(resolve, reject) {
+  
+    // and we don't have it yet
+    if (fs.existsSync(originalFilename)) {
+      resolve(originalFilename);
+      return;
+    }
+  
+    // download and do some magic
+    console.log("File download for " + file.name + " from " + file.url);
+    return fetch(file.url)
+      .catch((e) => {
+        reject('Error: ', e);
+      })
+      .then(res => {
+        const dest = fs.createWriteStream(originalFilename);
+        res.body.pipe(dest);
+      })
+  }).then(() => {
+    const transformFunction = isVectorImage(extension)? `cp "${originalFilename}" "${processedFilename}"` : toPng;
+    return echoExec(transformFunction).then((error, stdout, stderr) => {
+      if (error) {
+        console.log('stdout: ' + stdout);
+        console.log('stderr: ' + stderr);
+        console.log('Error: ' + error);
+        throw new Error('Error:', error);
+      }
+      return originalFilename;
+    });
+  })
+}

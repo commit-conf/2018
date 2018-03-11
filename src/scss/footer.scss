@@ -1,0 +1,105 @@
+$footer-link-color: $white;
+$footer-link-hover-color: $orange;
+$footer-bg: #252A29;
+$footer-theme-2-bg: darken($footer-bg, 10%);
+/*
+
+$footer-link-color: $white;
+$footer-link-hover-color: $white;
+$footer-bg: #3080b7;
+$footer-theme-2-bg: #304152;
+*/
+
+$footer-padding: 40px;
+$footer-logo-width: 140px;
+
+footer {
+//  margin-top: $footer-padding;
+width: 100%;
+
+}
+
+footer dd {
+  margin-bottom: 0;
+}
+.footer-row {
+  padding-bottom: $footer-padding;
+  background: $footer-bg;
+  &.theme-2 {
+    background: $footer-theme-2-bg;
+  }
+
+  & > .content {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    &.aligned {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
+.footer-column {
+  padding-top: $footer-padding;
+  margin-bottom: 0;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.footer-column-title {
+  text-transform: uppercase;
+  font-family: $headingFontFamily;
+  color: $footer-link-hover-color;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.footer-link {
+  color: $footer-link-color;
+  transition: color .2s ease;
+  font-size: 14px;
+  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: $footer-link-hover-color;
+    text-decoration: underline;
+  }
+  &[class*='icon-']:before {
+    margin-right: 0.9em;
+    font-size: 16px;
+  }
+}
+.logo-footer {
+  width: $footer-logo-width;
+  height: 40px;
+  text-indent: -10000px;
+  overflow: hidden;
+  display: block;
+  background: url('/img/logo-white.svg') no-repeat;
+  background-size: contain;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+.footer-credits {
+  color: $footer-link-color;
+  font-size: 12px;
+  flex-grow: 1;
+  &> .title {
+    color: $footer-link-hover-color;
+  }
+}
+.extrema-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.extrema {
+  width: 130px;
+  height: 22px;
+  display: inline-block;
+  text-indent: -100000px;
+  overflow: hidden;
+  background: url(/img/extrema.png) no-repeat 0 0;
+  background-size: contain;
+}

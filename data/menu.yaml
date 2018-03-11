@@ -1,0 +1,7 @@
+items:
+  - name: Tickets
+    url: https://www.koliseo.com/blockchainconf/blockchainconf18
+  - name: Location
+    url: /#location
+  - name: Sponsors
+    url: /sponsors

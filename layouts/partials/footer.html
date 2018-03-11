@@ -1,0 +1,49 @@
+<footer class="hide-for-print">
+  <div class="footer-row">
+    <div class="content">
+      <dl class="footer-column">
+        <dt class="footer-column-title">Contact</dt>
+        <dd>
+          <a class="footer-link" href="mailto:info@commit-conf.com">Email</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="https://www.twitter.com/commit">Twitter</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="https://www.youtube.com">Youtube</a>
+        </dd>
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">Links</dt>
+        {{ range $.Site.Data.menu.items }}
+          <dd>
+            <a class="footer-link" href="{{.url}}">{{ i18n .name }}</a>
+          </dd>
+        {{ end }}
+      </dl>
+      <dl class="footer-column">
+        <dt class="footer-column-title">{{ i18n "AboutUs" }}</dt>
+        <dd>
+          <a class="footer-link icon-globe" href="/code-of-conduct">{{ i18n "CodeOfConduct" }}</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="/terms-and-conditions">{{ i18n "TermsAndConditions" }}</a>
+        </dd>
+        <dd>
+          <a class="footer-link" href="/team">{{ i18n "TheTeam" }}</a>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <div class="footer-row theme-2">
+    <div class="content aligned">
+      <div class="footer-column logo-container">
+        <a href="/" class="logo-footer"></a>
+      </div>
+      <div class="footer-column extrema-container">
+        <a class="footer-link">Crafted with love</a> &middot;
+        <a href="http://www.extrema-sistemas.com" class="extrema"></a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,36 @@
+.sponsors {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.communities {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.community {
+  display: inline-block !important;
+  overflow: hidden;
+  text-indent: -100000px;
+  white-space: nowrap;
+  opacity: .6;
+  margin: 0 1rem .5rem 0;
+  width: 120px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: opacity .3s ease-out;
+  filter: grayscale(100%);
+  &:hover, &:focus, &:active {
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@media #{$medium-up} {
+  .sponsors {
+    max-width: 40%;
+  }
+}

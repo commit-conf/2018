@@ -1,0 +1,28 @@
+- name: Laura Vignali
+  avatar: lvignali
+  desc:
+    es: La hacker de hojas de cálculo que mantiene este bote a flote. Dice que le gusta la ensalada y la fruta, pero sabemos que es difícil decir no al chocolate.
+    en: The spreadsheet hacker that keeps this boat afloat. She says that she likes salad and fruit, but we know it's hard to say no to chocolate.
+  twitter: '@laura_vignali'
+- name: Abraham Otero
+  avatar: aotero
+  desc:
+    es: Una vez en Costa Rica cruzó solo en bote un río con cocodrilos. Programa en Java porque es sexi y no le importa mucho tu opinión sobre ello.
+    en: Once rowed a boat alone in Costa Rica in a river with cocodriles. Codes in Java because it's sexy, and does not care much about your opinion on that.
+- name: Janine Lee
+  avatar: jlee
+  desc:
+    es: La más organizada políglota sobre la faz de la tierra. La maternidad es un juego de niños para ella.
+    en: The most organized polyglot on the face of the earth. Motherhood is a children's game for her.
+- name: Ignacio Coloma
+  avatar: icoloma
+  desc:
+    es: Sabe cómo romper cosas con ordenadores. Habla mucho. Parece que se las arregla con la paternidad.
+    en: Knows how to break things with computers. Talks a lot. seems that he manages with fatherhood.
+  twitter: '@nachocoloma'
+- name: Carlos Coloma
+  avatar: ccoloma
+  desc:
+    es: Otaku nivel dios. Adicto al deporte. Cuando no está con alguna de las dos cosas, programa. 
+    en: Otaku level god. Addicted to sports. When it is not with either of the two things, program.
+  twitter: '@ccescribano'

@@ -1,0 +1,27 @@
+.suscribe {
+  background-image: url(/img/suscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suscribe-title {
+  color: $white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+@media #{$medium-up} {
+  .suscribe {
+    background-image: url(/img/suscribe-medium.jpg);
+  }
+}
+
+@media #{$large-up} {
+  .suscribe {
+    background-image: url(/img/suscribe-big.jpg);
+  }
+}

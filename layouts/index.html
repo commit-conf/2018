@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+  {{ partial "home.html" . }}
+
+  <section class="content">
+    <h1>{{ i18n "TheEvent" }}</h1>
+    <div class="columns">
+      <div class="main">
+        <p>{{ i18n "EventDescShort" }}
+        <p>{{ i18n "EventDesc" | safeHTML }}
+        <p>{{ i18n "JoinUs" }}
+        <p class="text-center">
+          <a class="button primary" href="https://www.koliseo.com/commit/commit-2019">Call for papers</a>
+          <a class="button" href="https://www.koliseo.com/commit/commit-2019">{{ i18n "Tickets" }}</a>
+        </p> 
+      </div>
+      <div class="aside">
+        <img src="/img/attendees.jpg" class="attendees" />
+      </div>
+    </div>
+  </section>
+
+  {{ partial "stats.html" . }}
+
+  {{ partial "communities.html" . }}
+
+  {{ partial "r4p.html" . }}
+
+  {{ partial "location.html" . }}
+
+  {{ partial "maillist.html" . }}
+
+  {{ .Content }}
+{{ end }}
