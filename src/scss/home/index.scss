@@ -2,34 +2,6 @@ $home-color: $black;
 $home-size: 500px;
 $svg-separator-size: 2rem;
 
-.home-section {
-  color: $home-color;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: $home-size;
-  background-size: cover;
-  background-position: 70% 25%;
-  background-repeat: no-repeat;
-  background-image: url(/img/bg.jpg);
-  background-attachment: fixed;
-  position: relative;
-  h1, h2, h3 {
-    color: $home-color;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.4)
-  }
-}
-
-.home-image-and-text {
-  padding: 40px 0;
-  height: $home-size;
-  background: rgba($white,.5);
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .home-separator {
   width: 100%;
   height: $svg-separator-size;
