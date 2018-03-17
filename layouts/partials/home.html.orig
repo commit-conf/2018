@@ -1,0 +1,74 @@
+<div class="content">
+  <div class="hero-container">
+    <div class="hero-img-container">
+      <div class="hero-filler"></div>
+    </div>
+    <div class="hero-img-container">
+<<<<<<< HEAD
+      <div class="hero-img" style="background-image: url('/img/speakers/small/0/0.jpg')"></div>
+    </div>
+    <div class="hero-img-container">
+      <div class="hero-img" style="background-image: url('/img/speakers/small/1/0.jpg')"></div>
+    </div>
+    <div class="hero-img-container">
+      <div class="hero-img" style="background-image: url('/img/speakers/small/2/0.jpg')"></div>
+=======
+      <div class="hero-img" style="background-image: url('/img/speakers/0/0.jpg')"></div>
+    </div>
+    <div class="hero-img-container">
+      <div class="hero-img" style="background-image: url('/img/speakers/1/0.jpg')"></div>
+    </div>
+    <div class="hero-img-container">
+      <div class="hero-img" style="background-image: url('/img/speakers/2/0.jpg')"></div>
+>>>>>>> 0a240062c400a0976b726209781febb866864a92
+    </div>
+    <div class="hero-img-container">
+      <div class="hero-filler"></div>
+    </div>
+    <img class="spain-outline" src="/img/spain-outline.svg" alt="Commit conference, 23-24 November">
+  </div>
+</div>
+<script>
+var heroCounter = 1;
+var timer = null;
+function replaceSpeaker() {
+  const containers = document.getElementsByClassName('hero-img-container');
+  [ containers[1], containers[2], containers[3] ].forEach(function(container, index) {
+    if (container.children.length > 1) {
+      container.children[0].remove();
+    }
+    var newChild = document.createElement("div"); 
+    newChild.className = "hero-img";
+<<<<<<< HEAD
+    var size = window.innerWidth < 400? "small" : "medium";
+    newChild.style.backgroundImage = "url('/img/speakers/" + size + "/" + index + "/" + heroCounter + ".jpg')";
+=======
+    newChild.style.backgroundImage = "url('/img/speakers/" + index + "/" + heroCounter + ".jpg')";
+>>>>>>> 0a240062c400a0976b726209781febb866864a92
+    container.appendChild(newChild);
+  });
+  heroCounter = (heroCounter + 1) % 6; 
+  registerTimeout();
+}
+function registerTimeout() {
+  timer = setTimeout(replaceSpeaker, 3000);
+}
+
+// pause animation while in background
+document.addEventListener("visibilitychange", function() {
+  if (document.visibilityState == 'visible') {
+    console.log("Timer restarted");
+    registerTimeout();
+  } else {
+    console.log("Timer paused");
+    clearTimeout(timer)
+    timer = null;
+  }
+}, false);
+registerTimeout();
+</script>
+  <!--
+  <svg class="home-separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,500 0,0 500,500" fill="#fff"></polygon>
+  </svg>
+-->
