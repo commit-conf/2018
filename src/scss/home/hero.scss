@@ -1,32 +1,41 @@
-.home-hero-img-container {
+.hero-container {
   position: relative;
   display: flex;
   height: 73vw;
   max-height: 890px;
 }
 
-.hero-img {
+.hero-img-container {
+  flex-grow: 1;
+  position: relative;
+
+  @for $i from 1 through 6 {
+    &:nth-child(#{$i}) > .hero-img {
+      animation-delay: .2s * $i;
+    }
+  }
+
+}
+
+.hero-img,
+.hero-filler {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  background-color: red;
-  flex-grow: 1;
   animation-duration: 1s;
   animation-timing-function: ease-out;
   animation-name: appear-hero-img;
   animation-fill-mode: forwards;
 
   clip-path: circle(0% at 10% 50%);
+}
 
-  @for $i from 1 through 6 {
-    &:nth-child(#{$i}) {
-      animation-delay: .2s * $i;
-    }
-  }
-
-  &.filler {
-    background: linear-gradient(#563c29, #000);
-  }
+.hero-filler {
+  background: linear-gradient(#563c29, #000);
 }
 
 .spain-outline {
