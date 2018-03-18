@@ -27,6 +27,8 @@ other = 'The Call for Papers is Open'
 other='Tickets Available Now'
 
 # Location
+[HowToGetThere]
+other='How To Get There'
 [LocationDesc]
 other = '<b class="uppercase">Donde siempre</b>. Ahí donde el metro normal no llega, sino el metro ligero. En Montepríncipe.'
 [TransportDesc]

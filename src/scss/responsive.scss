@@ -22,14 +22,33 @@
   .number {
     font-size: 50px;
   }
+
+  // block of text with image aside
   .main-and-aside {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     .main {
       flex-grow: 1;
       padding-right: 1rem;
     }
   }
+
+  // two columns of text with same weight
+  .two-columns {
+    display: flex;
+
+    & > .column {
+      flex-basis: 0;
+      flex-grow: 1;
+
+      &:first-child {
+        margin-right: 2rem;
+      }
+    }
+
+  }
+
   .attendees {
     width: 250px;
     min-width: 250px;
