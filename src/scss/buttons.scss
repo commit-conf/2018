@@ -3,8 +3,7 @@ $button-color: $black;
 $button-primary-bg: $blue;
 $button-primary-color: $white;
 
-.button,
-button {
+.button {
   padding: 10px 20px;
   border-radius: 3px;
   display: inline-block;
@@ -13,6 +12,8 @@ button {
   border-bottom-width: 3px;
   background: $button-bg;
   color: $button-color;
+  margin: 0 .5rem 1rem 0;
+
   &:focus, &:hover, &:active {
     background-color: darken($button-bg, 5%);
     color: $button-color;
@@ -25,9 +26,6 @@ button {
       background-color: darken($button-primary-bg, 5%);
       color: $button-primary-color;
     } 
-  }
-  &:not(:first-child) {
-    margin-left: .5rem;
   }
 }
 
