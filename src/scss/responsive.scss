@@ -1,12 +1,4 @@
 @media #{$small-up} {
-  .location-description {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .ceu-logo {
-    padding-right: 1rem;
-  }
 }
 
 @media #{$medium-up} {
@@ -53,21 +45,16 @@
     width: 250px;
     min-width: 250px;
   }
-  .location {
+  .location-description > .content {
     display: flex;
+    align-items: center;
   }
-  .ceu-logo {
-    padding-right: 0;
+  .ceu-logo-a {
+    margin-right: 2rem;
+    margin-bottom: 0;
   }
-  .map {
-    flex-grow: 1;
-    border-top-width: 1px;
-    border-left-width: 0;
-  }
-  .location-description {
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem 2rem;
+  .address {
+    margin-bottom: 0;
   }
   .footer-row > .content.aligned {
     flex-direction: row;

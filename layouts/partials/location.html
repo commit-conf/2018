@@ -1,9 +1,40 @@
 
-<section id="location" class="content">
+
+<section id="location" class="location">
+  <a 
+    class="map" 
+    title="{{ i18n "ViewOnGoogleMaps" }}" 
+    target="_blank" href="https://goo.gl/maps/X5eoF" rel="noopener noreferrer"
+  ></a>
+  <div class="location-description">
+    <div class="content">
+      <a 
+        href="http://www.uspceu.com/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="ceu-logo-a"
+      >
+        <img src="/img/sponsors/ceu-white.png" alt="Universidad San Pablo CEU" class="ceu-logo">
+      </a>
+      <p class="address">
+        Universidad San Pablo CEU, Campus de Montepríncipe. Boadilla del monte, Madrid
+        &middot; 
+        <a 
+          target="_blank" 
+          href="https://goo.gl/maps/X5eoF" 
+          rel="noopener noreferrer"
+          class="location-link"
+        >
+          {{ i18n "ViewOnGoogleMaps" }}
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="content">
   <!--
-  <p>
-    {{ i18n "LocationDesc" | safeHTML }}
-  </p>
+    <div class="map-advice">{{ i18n "MapAdvice" | safeHTML }}</div>
 -->
   <div class="two-columns">
     <div class="column">
@@ -42,18 +73,5 @@
       <h3>{{ i18n "Shuttles"}}</h3>
       <p>{{ i18n "ShuttlesDesc" }}</p>
     </div>
-  </div>
-  <div class="map-advice">{{ i18n "MapAdvice" | safeHTML }}</div>
-  <div class="location">
-    <div class="location-description">
-      <p><a href="http://www.uspceu.com/" target="_blank" rel="noopener noreferrer"><img src="/img/sponsors/ceu.png" alt="Universidad San Pablo CEU" class="ceu-logo"></a></p>
-      <div>
-        <p>Universidad San Pablo CEU</p>
-        <p>Campus de Montepríncipe</p>
-        <p>Boadilla del monte, Madrid</p>
-        <a class="button primary" target="_blank" href="https://goo.gl/maps/X5eoF" rel="noopener noreferrer">{{ i18n "ViewOnGoogleMaps" }}</a>
-      </div>
-    </div>
-    <div class="map"></div>
   </div>
 </section>

@@ -29,8 +29,6 @@ other='Tickets Available Now'
 # Location
 [HowToGetThere]
 other='How To Get There'
-[LocationDesc]
-other = '<b class="uppercase">Donde siempre</b>. Ahí donde el metro normal no llega, sino el metro ligero. En Montepríncipe.'
 [TransportDesc]
 other = 'El parking tiene capacidad limitada, y seremos bastantes. Recomendamos usar el transporte público, que es sorprendentemente sencillo'
 [ViewRoute]
@@ -42,7 +40,7 @@ other = 'Commit pone gratuitamente unos autobuses que salen de Plaza de España 
 [MapAdvice]
 other = '<b>ESTO NO ES LO MISMO QUE "CAMPUS DE MONCLOA".</b> Por favor, comprueba las instrucciones de tu GPS.'
 [ViewOnGoogleMaps]
-other = 'See in Google Maps'
+other = 'Open in Google Maps'
 
 # Sponsoring
 [BecomeASponsor]
@@ -56,7 +54,7 @@ other = 'Contáctanos'
 [OurCommunities]
 other = 'Our Communities'
 [OurCommunitiesDesc]
-other = 'This event is only possible because of the content and time contributed by our communities.'
+other = 'This event is only possible because of the invaluable content and effort contributed by our communities.'
 [AddYourComunity]
 other = 'Solicita incluir tu comunidad'
 

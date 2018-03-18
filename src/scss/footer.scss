@@ -48,17 +48,16 @@ footer dd {
 }
 .footer-column-title {
   text-transform: uppercase;
-  font-family: $headingFontFamily;
   color: $footer-link-hover-color;
-  margin-bottom: 12px;
+  margin-bottom: .3rem;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 .footer-link {
   color: $footer-link-color;
   transition: color .2s ease;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   &:hover, &:focus, &:active {
     color: $footer-link-hover-color;
