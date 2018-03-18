@@ -101,7 +101,7 @@ other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que 
 other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
 
 # Maillist
-[SuscribeToMaillist]
+[SubscribeToMaillist]
 other = 'Suscríbete a nuestra lista de correo'
-[Suscribe]
+[Subscribe]
 other = 'Suscribirme'

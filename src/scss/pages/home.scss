@@ -26,16 +26,8 @@ $svg-separator-size: 2rem;
 
 }
 
-.home-actions {
-  margin-top: 2rem;
-}
-
-.aside {
-  display: none;
-}
-
 .stats {
-  padding: 1.8rem 0;
+  padding: $section-vertical-margin 0;
   background: $blue-dark;
 }
 
@@ -70,38 +62,3 @@ $svg-separator-size: 2rem;
   line-height: 1.1;
 }
 
-
-.c4p {
-  background: $green;
-  color: $white;
-  position: relative;
-  padding: 1rem 0;
-  .speaker {
-    width: 100px;
-    margin-right: 2rem;
-  }
-  .home-separator {
-    fill: $green;
-    bottom: -$svg-separator-size;
-  }
-}
-
-.c4p-title {
-  color: $white;
-}
-
-.c4p-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.c4p-action {
-  background: $purple-dark;
-  color: $white;
-  border: darken($purple-dark, 10%);
-  &:hover, &:focus, &:active {
-    background: darken($purple-dark, 5%);
-    color: $white;
-  }
-}

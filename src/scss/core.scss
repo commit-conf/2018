@@ -155,3 +155,7 @@ code {
   font-size: 14px;
   border-radius: 3px;
 }
+
+.main-and-aside > aside {
+  margin-bottom: $section-vertical-margin;
+}

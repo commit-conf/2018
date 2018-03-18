@@ -62,33 +62,26 @@ registerTimeout();
     <section class="content">
 
       <h1>{{ i18n "TheEvent" }}</h1>
-      <div class="columns">
-        <div class="main">
-          <p>{{ i18n "EventDescShort" }}</p>
-          <p>{{ i18n "EventDesc" | safeHTML }}</p>
-          <p class="home-actions">
-            <a class="button primary" href="https://www.koliseo.com/commit/commit-2019">
-              {{ i18n "SubmitYourTalk" }}
-              <span class="button-small">{{ i18n "CallForPapersIsOpen" }}</span>
-            </a>
-            <a class="button" href="https://www.koliseo.com/commit/commit-2019">
-              {{ i18n "Tickets" }}
-              <span class="button-small">{{ i18n "TicketsAvailableNow" }}</span>
-            </a>
-          </p> 
-        </div>
-        <div class="aside">
-          <img src="/img/attendees.jpg" class="attendees" />
-        </div>
-      </div>
+      <p>{{ i18n "EventDescShort" }}</p>
+      <p>{{ i18n "EventDesc" | safeHTML }}</p>
+      <p class="actions">
+        <a class="button primary" href="https://www.koliseo.com/commit/commit-2019">
+          {{ i18n "SubmitYourTalk" }}
+          <span class="button-small">{{ i18n "CallForPapersIsOpen" }}</span>
+        </a>
+        <a class="button" href="https://www.koliseo.com/commit/commit-2019">
+          {{ i18n "Tickets" }}
+          <span class="button-small">{{ i18n "TicketsAvailableNow" }}</span>
+        </a>
+      </p> 
     </section>
   </div>
 
   {{ partial "stats.html" . }}
 
-  {{ partial "communities.html" . }}
-
   {{ partial "r4p.html" . }}
+
+  {{ partial "communities.html" . }}
 
   {{ partial "location.html" . }}
 

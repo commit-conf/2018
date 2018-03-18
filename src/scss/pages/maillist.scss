@@ -1,5 +1,5 @@
-.suscribe {
-  background-image: url(/img/suscribe.jpg);
+.subscribe {
+  background-image: url(/img/subscribe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem 0;
@@ -9,19 +9,19 @@
   justify-content: center;
 }
 
-.suscribe-title {
+.subscribe-title {
   color: $white;
   text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
 @media #{$medium-up} {
-  .suscribe {
-    background-image: url(/img/suscribe-medium.jpg);
+  .subscribe {
+    background-image: url(/img/subscribe-medium.jpg);
   }
 }
 
 @media #{$large-up} {
-  .suscribe {
-    background-image: url(/img/suscribe-big.jpg);
+  .subscribe {
+    background-image: url(/img/subscribe-big.jpg);
   }
 }

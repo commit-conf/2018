@@ -20,9 +20,9 @@ other = 'Commit is the conference where we get together to discuss all aspects o
 [EventDesc]
 other = 'Or come for the foosball, the retro arcade and the free beer. In any case, welcome to Spain.'
 [SubmitYourTalk]
-other = 'Submit your talk'
+other = 'Send Your Talk'
 [CallForPapersIsOpen]
-other = 'The Call for Papers is open' 
+other = 'The Call for Papers is Open' 
 [TicketsAvailableNow]
 other='Tickets Available Now'
 
@@ -40,7 +40,7 @@ other = 'Commit pone gratuitamente unos autobuses que salen de Plaza de España 
 [MapAdvice]
 other = '<b>ESTO NO ES LO MISMO QUE "CAMPUS DE MONCLOA".</b> Por favor, comprueba las instrucciones de tu GPS.'
 [ViewOnGoogleMaps]
-other = 'Ver en Google Maps'
+other = 'See in Google Maps'
 
 # Sponsoring
 [BecomeASponsor]
@@ -59,12 +59,10 @@ other = 'This event is only possible because of the content and time contributed
 other = 'Solicita incluir tu comunidad'
 
 # R4P
-[SendYourTalk]
-other = 'Envía tu charla'
 [BecomeASpeaker]
-other = 'Siempre estamos en busca de nuevos ponentes. Todo el mundo tiene algo que contar, no es necesario ser un experto para poder hablar de un tema. Anímate y participa. Se aprende mucho siendo ponente y además te puedes llevar stuff exclusivo de speakers ^_^'
+other = "If you have something that you are passionate about, you don't need to be an expert to share it. Get involved and send your talk to become part of Commit."
 [TechShessions]
-other = 'Y si eres una profesional del sector pero aún no te atreves a presentar una charla este año, échale un vistazo <a class="white" href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, el programa de mentoring para nuevas ponentes que se encuentra ya en su segunda edición.'
+other = 'If you are a woman in tech and think that you are not yet ready to present, take a look at the second edition of <a href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, our mentoring program for kickstarting new female speakers.'
 
 # Stats
 [Attendees]
@@ -111,7 +109,7 @@ other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que 
 other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
 
 # Maillist
-[SuscribeToMaillist]
-other = 'Suscribe to our mailing list'
-[Suscribe]
-other = 'Suscribe'
+[SubscribeToMaillist]
+other = 'Subscribe to our mailing list'
+[Subscribe]
+other = 'Subscribe'

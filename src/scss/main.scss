@@ -9,12 +9,12 @@
 @import "buttons";
 
 //pages
-@import "home/index";
-@import "home/hero";
-@import "home/location";
-@import "home/maillist";
-@import "sponsors/communities";
-@import "sponsors/index";
-@import "team/index";
+@import "pages/home";
+@import "pages/hero";
+@import "pages/location";
+@import "pages/maillist";
+@import "pages/communities";
+@import "pages/sponsors";
+@import "pages/team";
 
 @import "responsive";

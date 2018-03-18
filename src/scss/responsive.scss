@@ -22,15 +22,13 @@
   .number {
     font-size: 50px;
   }
-  .columns {
+  .main-and-aside {
     display: flex;
+    flex-direction: row-reverse;
     .main {
       flex-grow: 1;
       padding-right: 1rem;
     }
-  }
-  .aside {
-    display: block;
   }
   .attendees {
     width: 250px;
