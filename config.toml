@@ -4,7 +4,7 @@ copyright = "Apache License 2.0"
 sectionPagesMenu = "main"
 pygmentsUseClasses=true
 disableKinds=["RSS","sitemap"]
-Title = 'Commit'
+Title = 'Commit Conference'
 [Languages.en]
   weight = 2
   languageName = "English"

@@ -8,20 +8,22 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="/img/favicon.ico">
   <meta name="author" content="Carlos Coloma">
-  <meta name="description" content="Commit es el evento que junta a todas las comunidades de desarrolladores IT de España durante dos días.">
+  <meta name="description" content="{{ .Description }}">
   <meta name="google-site-verification" content="">
   <link rel="canonical" href="https://2019.commit-conf.com">
-  <!-- Social: Twitter -->
+  
+  {{/* Social: Twitter */}}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@commit-conf">
-  <meta name="twitter:description" content="Commit es el evento que junta a todas las comunidades de desarrolladores IT de España durante dos días.">
-  <!-- Social: Facebook / Open Graph -->
-  <meta property="og:title" content="Commit - For the communities, by the communities"> 
-  <meta property="og:site_name" content="Commit - For the communities, by the communities"> 
+  <meta name="twitter:description" content="{{ i18n "CommitDesc" }}">
+
+  {{/* Social: Facebook, Open Graph */}}
+  <meta property="og:title" content="{{ .Site.Title }}"> 
+  <meta property="og:site_name" content="{{ .Site.Title }}"> 
   <meta property="og:type" content="website"> 
-  <meta property="og:url" content="https://2019.commit-conf.com">
-  <meta property="og:image" content="https://2019.commit-conf.com/img/logo.svg">
-  <meta property="og:description" content="Commit es el evento que junta a todas las comunidades de desarrolladores IT de España durante dos días."> 
+  <meta property="og:url" content="https://2018.commit-conf.com">
+  <meta property="og:image" content="https://2018.commit-conf.com/img/logo.svg">
+  <meta property="og:description" content="{{ i18n "CommitDesc" }}"> 
   <title>{{ .Site.Title }}</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
   </main>
   {{ partial "footer.html" . }}
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  {{/* Google Analytics */}}
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114399004-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
