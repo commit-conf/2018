@@ -5,6 +5,8 @@ $svg-separator-size: 2rem;
 .home-separator {
   width: 100%;
   height: $svg-separator-size;
+  position: relative;
+  top: -1px;
 }
 
 .home-highlight {

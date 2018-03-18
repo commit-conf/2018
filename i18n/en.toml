@@ -56,7 +56,7 @@ other = 'Our Communities'
 [OurCommunitiesDesc]
 other = 'This event is only possible because of the invaluable content and effort contributed by our communities.'
 [AddYourComunity]
-other = 'Solicita incluir tu comunidad'
+other = 'Is your community missing? <a href="#">Contact us</a>'
 
 # R4P
 [BecomeASpeaker]
@@ -109,7 +109,11 @@ other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que 
 other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
 
 # Maillist
-[SubscribeToMaillist]
+[SubscribeToList]
 other = 'Subscribe to our mailing list'
+[SubscribeDesc]
+other = 'Get notified when we announce any changes or publish the final agenda'
+[EmailAddress]
+other = 'E-Mail address'
 [Subscribe]
 other = 'Subscribe'

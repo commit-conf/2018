@@ -1,16 +1,10 @@
 <section class="content">
   <div>
     <h2>{{ i18n "OurCommunities" }}</h2>
-    <p>
-      {{ i18n "OurCommunitiesDesc" }}
-    </p>
+    <p>{{ i18n "OurCommunitiesDesc" }}</p>
     <div class="communities">
       {{ partial "communities_logos.html" . }}
     </div>
-    <div class="actions">
-      <a class="button primary" target="_blank" href="https://groups.google.com/forum/#!forum/commit-conf">
-        {{ i18n "AddYourComunity" }}
-      </a>
-    </div>
+    <div><small>{{ i18n "AddYourComunity" | safeHTML }}</small></div>
   </div>
 </section>

@@ -56,6 +56,15 @@
   .address {
     margin-bottom: 0;
   }
+
+  .subscribe {
+    background-image: url(/img/subscribe-medium.jpg);
+  }
+
+  .form-inline > input[type="email"] { 
+    width: 400px;
+  }
+
   .footer-row > .content.aligned {
     flex-direction: row;
   }
@@ -71,11 +80,9 @@
 
 @media #{$large-up} {
 
-  /*
-  .home-section {
-    background-image: url(/img/bg-large.jpg);
+  .subscribe {
+    background-image: url(/img/subscribe-big.jpg);
   }
-  */
   
 }
 
