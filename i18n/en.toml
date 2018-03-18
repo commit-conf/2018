@@ -1,6 +1,6 @@
 # menu
 [Tickets]
-other = 'Tickets'
+other = 'Get Your Tickets'
 [Location]
 other = 'Location'
 [Sponsors]
@@ -14,13 +14,17 @@ other = 'The team'
 
 # The event
 [TheEvent]
-other = 'About the event'
+other = 'The IT landscape from Spain, distilled'
 [EventDescShort]
-other = 'Una manera de describir Commit sería como un evento de dos días sobre el desarrollo de software, contemplando múltiples tecnologías y apoyado por comunidades de toda España.'
+other = 'Commit is the conference where we get together to discuss all aspects of Software Development. Come with us for two days of sharing and learning about all things IT, and an opportunity to get outside of your comfort zone.'
 [EventDesc]
-other = 'Pero también son dos días para salir de tu zona de confort y aprender de todo tipo de tecnologías. Dos días para hacer networking con asistentes y ponentes motivados por el desarrollo bien hecho. Un evento con futbolín y videojuegos, porque implementar tu propia librería no es incompatible con saber hacer una baselina o un <a href="http://streetfighter.wikia.com/wiki/Hadoken" rel="noreferrer noopener" target="_blank">Hadoken</a>. Un evento con personas estupendas y ganas de pasarlo bien, de aprender y de compartir.'
-[JoinUs]
-other = '¿Quiéres formar parte?'
+other = 'Or come for the foosball, the retro arcade and the free beer. In any case, welcome to Spain.'
+[SubmitYourTalk]
+other = 'Submit your talk'
+[CallForPapersIsOpen]
+other = 'The Call for Papers is open' 
+[TicketsAvailableNow]
+other='Tickets Available Now'
 
 # Location
 [LocationDesc]
@@ -48,9 +52,9 @@ other = 'Contáctanos'
 
 # Communities
 [OurCommunities]
-other = 'Nuestras comunidades'
+other = 'Our Communities'
 [OurCommunitiesDesc]
-other = 'Este evento no sería posible sin la participación de nuestras comunidades. Ellas producen el contenido que da sentido a todo esto.'
+other = 'This event is only possible because of the content and time contributed by our communities.'
 [AddYourComunity]
 other = 'Solicita incluir tu comunidad'
 

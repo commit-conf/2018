@@ -10,6 +10,7 @@ button {
   display: inline-block;
   text-decoration: none;
   border: 1px solid darken($button-bg, 10%);
+  border-bottom-width: 3px;
   background: $button-bg;
   color: $button-color;
   &:focus, &:hover, &:active {
@@ -29,3 +30,12 @@ button {
     margin-left: .5rem;
   }
 }
+
+.button-small {
+  font-family: $headingFontFamily;
+  font-size: 77%;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: block;
+}
+

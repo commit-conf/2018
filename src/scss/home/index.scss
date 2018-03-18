@@ -5,10 +5,29 @@ $svg-separator-size: 2rem;
 .home-separator {
   width: 100%;
   height: $svg-separator-size;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+}
+
+.home-highlight {
+  background: $blue;
+  color: #fff;
+
+  & h1 {
+    color: $blue-dark;
+  }
+
+  & .button.primary {
+    background: $pink;
+    border-color: darken($pink, 10%);
+    &:focus, &:hover, &:active {
+      background-color: darken($pink, 5%);
+    } 
+    
+  }
+
+}
+
+.home-actions {
+  margin-top: 2rem;
 }
 
 .aside {
@@ -16,9 +35,8 @@ $svg-separator-size: 2rem;
 }
 
 .stats {
-  padding: 1rem 0 0;
-  background: $orange;
-  position: relative;
+  padding: 1.8rem 0;
+  background: $blue-dark;
 }
 
 .numbers {
@@ -34,16 +52,22 @@ $svg-separator-size: 2rem;
   .text {
     text-transform: uppercase;
     font-weight: 700;
-    color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.5);
+    text-shadow: 1px 1px 1px #000;
   }
 }
 
+.communities {
+  padding-top: 1rem 0;
+}
+
 .number {
-  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  text-shadow: 1px 1px 1px #000;
   color: #fff;
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 0;
+  line-height: 1.1;
 }
 
 

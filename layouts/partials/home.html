@@ -18,7 +18,7 @@
     <img class="spain-outline" src="/img/spain-outline.svg" alt="Commit conference, 23-24 November">
   </div>
 </div>
-<script>
+<script async>
 var heroCounter = 1;
 var timer = null;
 function replaceSpeaker() {
@@ -53,8 +53,44 @@ document.addEventListener("visibilitychange", function() {
 }, false);
 registerTimeout();
 </script>
-  <!--
-  <svg class="home-separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,500 0,0 500,500" fill="#fff"></polygon>
-  </svg>
--->
+
+  <div class="home-highlight">
+    <svg class="home-separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+      <polygon points="0,500 0,0 500,0" fill="#fff"></polygon>
+    </svg>
+
+    <section class="content">
+
+      <h1>{{ i18n "TheEvent" }}</h1>
+      <div class="columns">
+        <div class="main">
+          <p>{{ i18n "EventDescShort" }}</p>
+          <p>{{ i18n "EventDesc" | safeHTML }}</p>
+          <p class="home-actions">
+            <a class="button primary" href="https://www.koliseo.com/commit/commit-2019">
+              {{ i18n "SubmitYourTalk" }}
+              <span class="button-small">{{ i18n "CallForPapersIsOpen" }}</span>
+            </a>
+            <a class="button" href="https://www.koliseo.com/commit/commit-2019">
+              {{ i18n "Tickets" }}
+              <span class="button-small">{{ i18n "TicketsAvailableNow" }}</span>
+            </a>
+          </p> 
+        </div>
+        <div class="aside">
+          <img src="/img/attendees.jpg" class="attendees" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  {{ partial "stats.html" . }}
+
+  {{ partial "communities.html" . }}
+
+  {{ partial "r4p.html" . }}
+
+  {{ partial "location.html" . }}
+
+  {{ partial "maillist.html" . }}
+
