@@ -1,13 +1,13 @@
 <nav class="topbar top-bar-section" role="navigation">
   <div class="content">
-    <a href="/" class="topbar-logo" aria-label="Homepage">
+    <a href="{{ "/" | relLangURL }}" class="topbar-logo" aria-label="Homepage">
       <img aria-hidden="true" class="topbar-logo-img" src="/img/logo-white.svg">
     </a>
     <div class="topbar-separator"></div>
     <div class="topbar-content">
       <div class="topbar-links">
         {{ range $.Site.Data.menu.items }}
-          <a class="topbar-link" href="{{.url}}">{{i18n .name}}</a>
+          <a class="topbar-link" href="{{.url | safeURL | relLangURL }}">{{i18n .name}}</a>
         {{ end }}
         {{ if eq $.Site.Language.Lang "en" }}
           <a class="topbar-link" href="{{ strings.TrimPrefix "/en" $.Page.URL }}">Español</a>
@@ -21,7 +21,7 @@
         </a>
         <div class="topbar-dropdown">
           {{ range $.Site.Data.menu.items }}
-            <a class="topbar-link" href="{{.url}}">{{i18n .name}}</a>
+            <a class="topbar-link" href="{{.url | safeURL | relLangURL }}">{{i18n .name}}</a>
           {{ end }}
           {{ if eq $.Site.Language.Lang "en" }}
             <a class="topbar-link" href="{{ strings.TrimPrefix "/en" $.Page.URL }}">Español</a>

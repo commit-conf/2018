@@ -17,20 +17,20 @@
         <dt class="footer-column-title">Links</dt>
         {{ range $.Site.Data.menu.items }}
           <dd>
-            <a class="footer-link" href="{{.url}}">{{ i18n .name }}</a>
+            <a class="footer-link" href="{{.url | safeURL | relLangURL }}">{{ i18n .name }}</a>
           </dd>
         {{ end }}
       </dl>
       <dl class="footer-column">
         <dt class="footer-column-title">{{ i18n "AboutUs" }}</dt>
         <dd>
-          <a class="footer-link icon-globe" href="/code-of-conduct">{{ i18n "CodeOfConduct" }}</a>
+          <a class="footer-link icon-globe" href="{{"/code-of-conduct" | relLangURL }}">{{ i18n "CodeOfConduct" }}</a>
         </dd>
         <dd>
-          <a class="footer-link" href="/terms-and-conditions">{{ i18n "TermsAndConditions" }}</a>
+          <a class="footer-link" href="{{ "/terms-and-conditions" | relLangURL }}">{{ i18n "TermsAndConditions" }}</a>
         </dd>
         <dd>
-          <a class="footer-link" href="/team">{{ i18n "TheTeam" }}</a>
+          <a class="footer-link" href="{{ "/team" | relLangURL }}">{{ i18n "TheTeam" }}</a>
         </dd>
       </dl>
     </div>
@@ -38,7 +38,7 @@
   <div class="footer-row theme-2">
     <div class="content aligned">
       <div class="footer-column logo-container">
-        <a href="/" class="logo-footer"></a>
+        <a href="{{ "/" | relLangURL }}" class="logo-footer"></a>
       </div>
       <div class="footer-column extrema-container">
         <a class="footer-link">Crafted with love</a> &middot;
