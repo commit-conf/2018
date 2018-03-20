@@ -1,16 +1,17 @@
-<section class="c4p">
-  <div class="content">
-    <h1 class="c4p-title">Request for proposals</h1>
-    <div class="c4p-content">
-      <img src="/img/speaker.png" class="speaker" />
-      <div>
-        <p>{{ i18n "BecomeASpeaker" }}</p>
-        <p>{{ i18n "TechShessions" | safeHTML }}</p>
-      </div>
+
+<section class="content main-and-aside">
+  <img src="/img/c4p.jpg" alt="Submit your talk to the Call for Papers">
+  <div class="main">
+    <h1>{{ i18n "CallForPapersIsOpen" }} </h1>
+    <p>{{ i18n "BecomeASpeaker" }}</p>
+    <p>{{ i18n "TechShessions" | safeHTML }}</p>
+    <div class="actions">
+      <a href="" class="button primary">{{ i18n "SubmitYourTalk" }}</a>
     </div>
-    <div class="text-center"><a href="" class="button c4p-action">{{ i18n "SendYourTalk" }}</a></div>
   </div>
+  <!--
   <svg class="home-separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
     <polygon points="0,0 500,0 250,500"></polygon>
   </svg>
+-->
 </section>

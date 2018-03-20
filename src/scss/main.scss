@@ -7,14 +7,16 @@
 @import "topbar";
 @import "footer";
 @import "buttons";
+@import "forms";
 
 //pages
 @import "404";
-@import "home/index";
-@import "home/location";
-@import "home/maillist";
-@import "sponsors/communities";
-@import "sponsors/index";
-@import "team/index";
+@import "pages/home";
+@import "pages/hero";
+@import "pages/location";
+@import "pages/mail-list";
+@import "pages/communities";
+@import "pages/sponsors";
+@import "pages/team";
 
 @import "responsive";

@@ -1,12 +1,4 @@
 @media #{$small-up} {
-  .location-description {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .ceu-logo {
-    padding-right: 1rem;
-  }
 }
 
 @media #{$medium-up} {
@@ -22,51 +14,60 @@
   .number {
     font-size: 50px;
   }
-  .columns {
+
+  // block of text with image aside
+  .main-and-aside {
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     .main {
       flex-grow: 1;
       padding-right: 1rem;
     }
   }
-  .aside {
-    display: block;
+
+  // two columns of text with same weight
+  .two-columns {
+    display: flex;
+
+    & > .column {
+      flex-basis: 0;
+      flex-grow: 1;
+
+      &:first-child {
+        margin-right: 2rem;
+      }
+    }
+
   }
+
   .attendees {
     width: 250px;
     min-width: 250px;
   }
-  .location {
+  .location-description > .content {
     display: flex;
+    align-items: center;
   }
-  .ceu-logo {
-    padding-right: 0;
+  .ceu-logo-a {
+    margin-right: 2rem;
+    margin-bottom: 0;
   }
-  .map {
-    flex-grow: 1;
-    border-top-width: 1px;
-    border-left-width: 0;
+  .address {
+    margin-bottom: 0;
   }
-  .location-description {
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem 2rem;
+
+  .subscribe {
+    background-image: url(/img/subscribe-medium.jpg);
   }
+
+  .form-inline > input[type="email"] { 
+    width: 400px;
+  }
+
   .footer-row > .content.aligned {
     flex-direction: row;
   }
-}
-
-@media #{$large-up} {
-  
-  .home-section {
-    background-image: url(/img/bg-large.jpg);
-  }
-  
-}
-
-// desktop
-@media only screen and (min-width:720px) {
 
   h1 { font-size: 40px; }
   h2 { font-size: 30px; }
@@ -75,6 +76,14 @@
   h5 { font-size: 16px; }
   h6 { font-size: 14px; }
 
+}
+
+@media #{$large-up} {
+
+  .subscribe {
+    background-image: url(/img/subscribe-big.jpg);
+  }
+  
 }
 
 // big desktop

@@ -19,8 +19,6 @@ other = 'Quiénes somos'
 other = 'Una manera de describir Commit sería como un evento de dos días sobre el desarrollo de software, contemplando múltiples tecnologías y apoyado por comunidades de toda España.'
 [EventDesc]
 other = 'Pero también son dos días para salir de tu zona de confort y aprender de todo tipo de tecnologías. Dos días para hacer networking con asistentes y ponentes motivados por el desarrollo bien hecho. Un evento con futbolín y videojuegos, porque implementar tu propia librería no es incompatible con saber hacer una baselina o un <a href="http://streetfighter.wikia.com/wiki/Hadoken" rel="noreferrer noopener" target="_blank">Hadoken</a>. Un evento con personas estupendas y ganas de pasarlo bien, de aprender y de compartir.'
-[JoinUs]
-other = '¿Quieres formar parte?'
 
 # Location
 [LocationDesc]
@@ -49,8 +47,6 @@ other = 'Contáctanos'
 # Communities
 [OurCommunities]
 other = 'Nuestras comunidades'
-[OurCommunitiesDesc]
-other = 'Este evento no sería posible sin la participación de nuestras comunidades. Ellas producen el contenido que da sentido a todo esto.'
 [AddYourComunity]
 other = 'Incluye tu comunidad'
 
@@ -105,7 +101,7 @@ other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que 
 other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
 
 # Maillist
-[SuscribeToMaillist]
+[SubscribeToList]
 other = 'Suscríbete a nuestra lista de correo'
-[Suscribe]
+[Subscribe]
 other = 'Suscribirme'

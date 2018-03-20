@@ -140,11 +140,14 @@ dl {
 
 // container with max-width 980px 
 .content {
-  padding: 0 1rem;
+  padding: 0 2rem;
+  width: 100%;
 }
 
 section.content {
-  padding: 3rem 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 22px;
 }
 
 pre {
@@ -153,3 +156,8 @@ pre {
   font-size: 14px;
   border-radius: 3px;
 }
+
+.main-and-aside > aside {
+  margin-bottom: $section-vertical-margin;
+}
+

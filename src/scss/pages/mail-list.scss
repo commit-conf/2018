@@ -1,0 +1,15 @@
+.subscribe {
+  background-image: url(/img/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe,
+.subscribe-title {
+  color: $white;
+  text-shadow: 1px 1px 0px rgba(0,0,0,.4);
+}
+
+.subscribe-form input[type="email"] {
+  border-color: #666;
+}

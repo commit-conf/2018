@@ -2,22 +2,35 @@ $map-center: '40.399567,-3.839917';
 $map-marker: '/img/map-marker.svg';
 $venue-geo: '40.399567,-3.837917';
 $key: 'AIzaSyBBqBM0a6puvXBrsMg6r2lnrOxF6NgszMQ';
+$map-border: 1px solid $gray-light;
+
+.location {
+  border-top: $map-border;
+  border-bottom: $map-border;
+}
+
 .map {
+  display: block;
   background-position: 50% 50%;
   height: 500px;
-  border: 1px solid $gray-light;
-  border-top-width: 0;
+  border-bottom: $map-border;
   background-image: url('https://maps.googleapis.com/maps/api/staticmap?zoom=14&center=#{$map-center}&size=1000x700&scale=2&language=en&markers=icon:#{$map-marker}|#{$venue-geo}&maptype=roadmap&style=visibility:on|lightness:40|gamma:1.1|weight:0.9&style=element:labels|visibility:off&style=feature:water|hue:0x0066ff&style=feature:road|visibility:on&style=feature:road|element:labels|saturation:-30&key=#{$key}')
 }
 
 .transport-details {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: .5rem 0;
 }
 
 .transport-separator {
   margin: 0 0.5rem;
+}
+
+.transport {
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .metro, .bus {
@@ -26,30 +39,25 @@ $key: 'AIzaSyBBqBM0a6puvXBrsMg6r2lnrOxF6NgszMQ';
   width: 2rem;
   height: 2rem;
 }
-.metro {
-  &:hover, &:focus, &:active {
-    fill: $blue;
-  }
-}
-.bus {
-  &:hover, &:focus, &:active {
-    fill: $orange;
-  }
-}
-
-.map-advice {
-  background: $red;
-  padding: 1rem;
-  color: $white;
-}
 
 .location-description {
-  border: 1px solid $gray-light;
   padding: 1rem;
-  text-align: center;
+  background: $blue-dark;
+  color: white;
+}
+
+.location-link {
+  color: inherit;
+  &:hover, &:focus, &:active {
+    color: #96d7ff;
+  }
+}
+
+.ceu-logo-a {
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .ceu-logo {
-  max-width: 100%;
   width: 200px;
 }

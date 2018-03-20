@@ -18,13 +18,6 @@
   text-transform: uppercase;
 }
 
-.white {
-  color: $white;
-  &:hover, &:focus, &:active {
-    color: $white;
-  }
-}
-
 .hidden {
   display: none;
 }
