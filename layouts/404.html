@@ -1,11 +1,30 @@
 {{ define "main"}}
-<div class="content">
+<section class="content">
   <h1>Page not found</h1>
   <h3 class="section-description">
-    We are sorry, but we could not find the page that you are asking for.
+    Sorry, but we could not find the page that you are looking for. <a href="{{ "/" | relURL }}">Go to the homepage</a>
   </h3>
-  <p>
-    <a href="{{ "/" | relURL }}">Go to the homepage</a>
-  </p>
-</div>
+  <div>
+    <img src="/img/404.jpg" class="not-found" />
+  </div>
+  {{  range $index, $element := $.Site.Data.helloworld }}
+    <div class="hello-world{{if ne $index 0}} hidden{{end}}">
+      <p>
+        In the meantime, this is how you write a Hello World for {{.language}}:
+      </p>
+      <pre>{{.code}}</pre>
+    </div>
+  {{ end }} 
+</section>
+{{ end }}
+
+{{ define "js" }}
+<script defer>
+  var blocks = document.querySelectorAll('.hello-world');
+  for (var i = 0; i < blocks.length; i++) {
+    blocks[i].classList.add('hidden');
+  }
+  var block = blocks[Math.floor(Math.random() * blocks.length)];
+  block.classList.remove('hidden');
+</script>
 {{ end }}
