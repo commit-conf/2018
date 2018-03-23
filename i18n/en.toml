@@ -1,6 +1,6 @@
 # menu
 [Tickets]
-other = 'Get Your Tickets'
+other = 'Get Your Ticket'
 [Location]
 other = 'Location'
 [Sponsors]
@@ -30,25 +30,25 @@ other='Tickets Available Now'
 [HowToGetThere]
 other='How To Get There'
 [TransportDesc]
-other = 'El parking tiene capacidad limitada, y seremos bastantes. Recomendamos usar el transporte público, que es sorprendentemente sencillo'
+other = 'Our parking has limited capacity, and we will be quite a few. We recommend using public transport, which is surprisingly simple'
 [ViewRoute]
-other = 'Haz clic para ver esta ruta'
+other = 'Click to see this route'
 [Shuttles]
-other = 'Shuttles gratuitos'
+other = 'Free Shuttles'
 [ShuttlesDesc]
-other = 'Commit pone gratuitamente unos autobuses que salen de Plaza de España y tardan unos 20 minutos en llegar al recinto. También puedes utilizar los autobuses para volver de Commit al centro de Madrid. Eso sí, recuerda que no podemos garantizar que haya plazas para todos. En cuanto sea posible estará toda la información de los horarios en nuestro blog.'
+other = 'We provide a free shuttle service to/from Plaza de España that takes 20 minutes to do a one-way trip. We have adjusted the schedule according to our experience from previous years, but we cannot guarantee seats for everyone in every shuttle. The departure information will be published in our blog.'
 [MapAdvice]
-other = '<b>ESTO NO ES LO MISMO QUE "CAMPUS DE MONCLOA".</b> Por favor, comprueba las instrucciones de tu GPS.'
+other = '<b>THIS IS NOT THE SAME AS "CAMPUS DE MONCLOA"</b>. Please, check the instructions from your GPS.'
 [ViewOnGoogleMaps]
 other = 'Open in Google Maps'
 
 # Sponsoring
 [BecomeASponsor]
-other = 'Conviértete en patrocinador'
+other = 'Become a Sponsor'
 [BecomeASponsorDesc]
-other = 'Toma parte como patrocinador en el evento abierto a todos los lenguajes, plataformas y tecnologías con una red de más de 30K desarrolladores.'
+other = 'Get involved in the event that gathers together all the IT talent from a country.'
 [GetInContact]
-other = 'Contáctanos'
+other = 'Get in contact'
 
 # Communities
 [OurCommunities]
@@ -56,57 +56,33 @@ other = 'Our Communities'
 [OurCommunitiesDesc]
 other = 'This event is only possible because of the invaluable content and effort contributed by our communities.'
 [AddYourComunity]
-other = 'Is your community missing? <a href="#">Contact us</a>'
+other = 'Is your community missing? <a href="TODO">Contact us</a>'
 
 # R4P
 [BecomeASpeaker]
-other = "If you have something that you are passionate about, you don't need to be an expert to share it. Get involved and send your talk to become part of Commit."
+other = "If there is something that keeps you awake at night, you don't need to be an expert to share it. Get involved and send your talk to become a part of Commit."
 [TechShessions]
-other = 'If you are a woman in tech and think that you are not yet ready to present, take a look at the second edition of <a href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, our mentoring program for kickstarting new female speakers.'
+other = 'If you are a woman in tech and need help to present for the first time, you do not have to do this alone. Join us for the second edition of <a href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, our mentoring program to help new female speakers get started.'
 
 # Stats
 [Attendees]
-other = 'Asistentes'
+other = 'Attendees'
 [Communities]
-other = 'Comunidades'
+other = 'Communities'
 [TalksAndLabs]
-other = 'Charlas &amp; Labs'
+other = 'Talks and Labs'
 
 # CoC
 [CodeOfConduct]
-other = 'Código de conducta'
+other = 'Code of Conduct'
 [CodeOfConductCredits]
-other = 'Fuente original y créditos'
-
-# Terms and Conditions
-[TermsAndConditions]
-other = 'Términos y condiciones'
-[TermsAndConditionsPrefix]
-other = 'Para la compra de entradas de Commit, es necesario aceptar los siguientes puntos:'
-[TermsAndConditionsSuffix]
-other = 'La organización se reserva el derecho a modificar estos Términos y Condiciones en cualquier momento y sin necesidad de previo aviso.'
-[TermsAndConditionsBullets]
-other = '''
-<li>La compra sólo se podrá realizar iniciando sesión en Koliseo a través de uno de los proveedores de autenticación soportados.</li>
-<li>Puedes generar una factura de tu compra a través del enlace <code>Crear Factura</code> de la página de la entrada. Tienes hasta un mes después del evento para generar tu factura.</li>
-<li>En ningún caso se realizarán devoluciones de las entradas compradas, a menos que el evento sea cancelado o reprogramado.</li>
-<li>Al adquirir la entrada de estudiante tendrás que enseñar en el registro algún tipo de documento que lo acredite (carnet o sustituto).</li>
-<li>Puedes ceder tu entrada a otra persona editando la entrada para poner los datos del nuevo asistente o poniendote en contacto con la organización para hacer la transferencia por ti. En este último caso, el nuevo usuario tendrá que editar la entrada poniendo sus datos personales.</li>
-<li>La organización no se hace responsable de entradas transferidas a otro usuario. La organización revisará en el registro que la entrada sea válida o si ha sido presentada por otra persona con anterioridad.</li>
-<li>Presentando tu entrada recibirás un badge y una pulsera en el registro. Tienes que llevar la pulsera siempre puesta y visible, o no podrás acceder a las actividades.</li>
-'''
+other = 'Original source and credits'
 
 # The team
 [TheTeamSubtitle]
-other = '¿Quién organiza esto?'
+other = 'Who organizes Commit?'
 [TheTeamDesc]
-other = 'Commit es un evento montado por mujeres, hombres, canarios, gallegos, italianas, alemanes, informáticos, exceldependientes, fans de Android, fans de Apple, ... y aún con todo eso, no pasamos de 5 personas. Pero 5 con experiencia a las espaldas. ¿Quiéres saber más? Aquí podrás ver algo de nuestra info.'
-[Volunteers]
-other = 'Voluntarios'
-[ThanksToVolunteers]
-other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que nos ayudan. No sólo están en los tracks o repartiendo comida en los breaks comida, sino que el día antes curran muchísimo para montar todo y para embolsar cerca de 2000 wellcome packs. Toda una proeza que agradecemos de corazón.'
-[ThanksToCommunities]
-other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
+other = "Commit is an event managed by a team of women, men, Canary Islanders, Galicians, Italians, Germans, nerds, Excel addicts, Android and iPhone fans... That's a total of five people."
 
 # Maillist
 [SubscribeToList]
@@ -117,3 +93,20 @@ other = 'Get notified when we announce any changes or publish the final agenda'
 other = 'E-Mail address'
 [Subscribe]
 other = 'Subscribe'
+
+[TermsAndConditions]
+other = 'Terms and Conditions'
+[TermsAndConditionsPrefix]
+other = 'To purchase tickets for Codemotion you must accept the following Terms and Conditions:'
+[TermsAndConditionsSuffix]
+other = 'The organization reserves the right to modify these Terms and Conditions at any time and without prior notice.'
+[TermsAndConditionsBullets]
+other = '''
+<li>Tickets can only be purchased by logging into Koliseo using one of the supported authentication providers.</li>
+<li>You can generate an invoice for your purchase through the <b>Create Invoice</b> link in the ticket page. You have until one month after the event to generate your invoice.</li>
+<li>In no case will the organization emit a refund, unless the event is cancelled or rescheduled.</li>
+<li>If you acquire a Student Ticket you will have to show your student ID at the event.</li>
+<li>You can transfer your ticket to someone else by introducing their data in the ticket page or contacting the organization to do the transfer on your behalf.</li>
+<li>The organization is not responsible for any transferred tickets. Your ticket will be validated in the Registration Point and it will be rejected if it has already been presented by someone else.</li>
+<li>With your ticket you will receive a badge and a bracelet at the registration desk. You must wear the bracelet always visible, or you will not be able to attend any talk or lab.</li>
+'''

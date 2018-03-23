@@ -1,6 +1,6 @@
 # menu
 [Tickets]
-other = 'Entradas'
+other = 'Consigue tu Entrada'
 [Location]
 other = 'Dónde'
 [Sponsors]
@@ -14,23 +14,29 @@ other = 'El equipo'
 
 # The event
 [TheEvent]
-other = 'Quiénes somos'
+other = 'El paisaje tecnológico de España, en concreto'
 [EventDescShort]
-other = 'Una manera de describir Commit sería como un evento de dos días sobre el desarrollo de software, contemplando múltiples tecnologías y apoyado por comunidades de toda España.'
+other = 'Commit es la conferencia donde nos sentamos juntos a discutir todos los aspectos de Desarrollo de Software. Ven con nosotros para vivir dos días compartiendo y aprendiendo todo lo que tiene la tecnología, y por la oportunidad de salirte de tu zona de confort.'
 [EventDesc]
-other = 'Pero también son dos días para salir de tu zona de confort y aprender de todo tipo de tecnologías. Dos días para hacer networking con asistentes y ponentes motivados por el desarrollo bien hecho. Un evento con futbolín y videojuegos, porque implementar tu propia librería no es incompatible con saber hacer una baselina o un <a href="http://streetfighter.wikia.com/wiki/Hadoken" rel="noreferrer noopener" target="_blank">Hadoken</a>. Un evento con personas estupendas y ganas de pasarlo bien, de aprender y de compartir.'
+other = 'O vente por el futbolín, el arcade retro y la cerveza gratis. En cualquier caso, bienvenido a España.'
+[SubmitYourTalk]
+other = 'Envía tu charla'
+[CallForPapersIsOpen]
+other = 'El Call for Papers está Abierto' 
+[TicketsAvailableNow]
+other='Hay entradas disponibles'
 
 # Location
-[LocationDesc]
-other = '<b class="uppercase">Donde siempre</b>. Ahí donde el metro normal no llega, sino el metro ligero. En Montepríncipe.'
+[HowToGetThere]
+other='Cómo llegar'
 [TransportDesc]
-other = 'El parking tiene capacidad limitada, y seremos bastantes. Recomendamos usar el transporte público, que es sorprendentemente sencillo'
+other = 'El parking tiene capacidad limitada, y seremos bastantes. Recomendamos usar el transporte público, que es sorprendentemente simple'
 [ViewRoute]
 other = 'Haz clic para ver esta ruta'
 [Shuttles]
 other = 'Shuttles gratuitos'
 [ShuttlesDesc]
-other = 'Commit pone gratuitamente unos autobuses que salen de Plaza de España y tardan unos 20 minutos en llegar al recinto. También puedes utilizar los autobuses para volver de Commit al centro de Madrid. Eso sí, recuerda que no podemos garantizar que haya plazas para todos. En cuanto sea posible estará toda la información de los horarios en nuestro blog.'
+other = 'Ponemos disponibles unos autobuses gratuitos que salen desde/hacia Plaza de España y tardan unos 20 minutos en hacer el trayecto. Hemos ajustado el horario de acuerdo a nuestra experiencia de años anteriores, pero no podemos garantizar asientos para todos en todos los autobuses. El horario de los autobuses lo haremos público en nuestro blog.'
 [MapAdvice]
 other = '<b>ESTO NO ES LO MISMO QUE "CAMPUS DE MONCLOA".</b> Por favor, comprueba las instrucciones de tu GPS.'
 [ViewOnGoogleMaps]
@@ -40,21 +46,23 @@ other = 'Ver en Google Maps'
 [BecomeASponsor]
 other = 'Conviértete en patrocinador'
 [BecomeASponsorDesc]
-other = 'Toma parte como patrocinador en el evento abierto a todos los lenguajes, plataformas y tecnologías con una red de más de treinta mil desarrolladores.'
+other = 'Implícate en el evento que junta todo el talento IT de un país.'
 [GetInContact]
 other = 'Contáctanos'
 
 # Communities
 [OurCommunities]
 other = 'Nuestras comunidades'
+[OurCommunitiesDesc]
+other = 'Este evento sólo es posible gracias a el contenido y esfuerzo contribuido por nuestras comunidades.'
 [AddYourComunity]
-other = 'Incluye tu comunidad'
+other = '¿Falta tu comunidad? <a href="#">Contáctanos</a>'
 
 # R4P
-[SendYourTalk]
-other = 'Envía tu charla'
 [BecomeASpeaker]
-other = 'Siempre estamos en busca de nuevos ponentes. Todo el mundo tiene algo que contar, no es necesario ser un experto para poder hablar de un tema. Anímate y participa. Se aprende mucho siendo ponente y además te puedes llevar stuff exclusivo.'
+other = "Si tienes algo que te tiene despierto por las noches, no tienes que ser un experto para compartirlo. Implícate y envíanos tu charla para convertirte en parte de Commit."
+[TechShessions]
+other = 'Si eres mujer y te dedicas a la tecnología pero necesitas ayuda para presentar por primera vez, no necesitas hacerlo sola. Únete a nosotras para la segunda edición de <a href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, nuestro programa de mentoring para ayudar a arrancar a nuevas ponentes.'
 
 # Stats
 [Attendees]
@@ -62,7 +70,7 @@ other = 'Asistentes'
 [Communities]
 other = 'Comunidades'
 [TalksAndLabs]
-other = 'Charlas &amp; Labs'
+other = 'Charlas y Labs'
 
 # CoC
 [CodeOfConduct]
@@ -70,38 +78,35 @@ other = 'Código de conducta'
 [CodeOfConductCredits]
 other = 'Fuente original y créditos'
 
-# Terms and Conditions
-[TermsAndConditions]
-other = 'Términos y condiciones'
-[TermsAndConditionsPrefix]
-other = 'Para la compra de entradas de Commit, es necesario aceptar los siguientes puntos:'
-[TermsAndConditionsSuffix]
-other = 'La organización se reserva el derecho a modificar estos Términos y Condiciones en cualquier momento y sin necesidad de previo aviso.'
-[TermsAndConditionsBullets]
-other = '''
-<li>La compra sólo se podrá realizar iniciando sesión en Koliseo a través de uno de los proveedores de autenticación soportados.</li>
-<li>Puedes generar una factura de tu compra a través del enlace <b>Crear Factura</b> de la página de la entrada. Tienes hasta un mes después del evento para generar tu factura.</li>
-<li>En ningún caso se realizarán devoluciones de las entradas compradas, a menos que el evento sea cancelado o reprogramado.</li>
-<li>Al adquirir la entrada de estudiante tendrás que enseñar en el registro algún tipo de documento que lo acredite (carnet o sustituto).</li>
-<li>Puedes ceder tu entrada a otra persona editando la entrada para poner los datos del nuevo asistente o poniendote en contacto con la organización para hacer la transferencia por ti. En este último caso, el nuevo usuario tendrá que editar la entrada poniendo sus datos personales.</li>
-<li>La organización no se hace responsable de entradas transferidas a otro usuario. La organización revisará en el registro que la entrada sea válida o si ha sido presentada por otra persona con anterioridad.</li>
-<li>Presentando tu entrada recibirás un badge y una pulsera en el registro. Tienes que llevar la pulsera siempre puesta y visible, o no podrás acceder a las actividades.</li>
-'''
-
 # The team
 [TheTeamSubtitle]
-other = '¿Quién organiza esto?'
+other = '¿Quién organiza Commit?'
 [TheTeamDesc]
-other = 'Commit es un evento montado por mujeres, hombres, canarios, gallegos, italianas, alemanes, informáticos, exceldependientes, fans de Android, fans de Apple, ... y aún con todo eso, no pasamos de 5 personas. Pero 5 con experiencia a las espaldas. ¿Quieres saber más? Aquí podrás ver algo de nuestra info.'
-[Volunteers]
-other = 'Voluntarios'
-[ThanksToVolunteers]
-other = 'Pero el evento no sería posible hacerlo sin todos los voluntarios que nos ayudan. No sólo están en los tracks o repartiendo comida en los breaks comida, sino que el día antes curran muchísimo para montar todo y para embolsar cerca de 2000 wellcome packs. Toda una proeza que agradecemos de corazón.'
-[ThanksToCommunities]
-other = 'Y no nos podemos olvidar de las comunidades, que promocionan y ayudan a seleccionar las mejores charlas entre todas las propuestas recibidas. Te recomendamos que pases por las que puedas, que montan unos meetups y unas charlas durante el año magníficos.'
+other = 'Commit es un evento gestionado por mujeres, hombres, canarios, gallegos, italianas, alemanes, informáticos, exceldependientes, fans de Android y iPhone... Eso hace un total de cinco personas.'
 
 # Maillist
 [SubscribeToList]
 other = 'Suscríbete a nuestra lista de correo'
+[SubscribeDesc]
+other = 'Recibe una notificación cuando anunciemos cualquier cambio o publiquemos la agenda final'
+[EmailAddress]
+other = 'Dirección de correo'
 [Subscribe]
 other = 'Suscribirme'
+
+[TermsAndConditions]
+other = 'Términos y condiciones'
+[TermsAndConditionsPrefix]
+other = 'Para comprar entradas para Commit es necesario aceptar los siguientes Términos y Condiciones:'
+[TermsAndConditionsSuffix]
+other = 'La organización se reserva el derecho a modificar estos Términos y Condiciones en cualquier momento y sin necesidad de previo aviso.'
+[TermsAndConditionsBullets]
+other = '''
+<li>La compra sólo se puede realizar iniciando sesión en Koliseo a través de uno de los proveedores de autenticación soportados.</li>
+<li>Puedes generar una factura de tu compra a través del enlace <b>Crear Factura</b> en la página de la entrada. Tienes hasta un mes después del evento para generar tu factura.</li>
+<li>En ningún caso se realizarán devoluciones, a menos que el evento sea cancelado o reprogramado.</li>
+<li>Si adquieres una entrada de estudiante deberás enseñar en el registro algún tipo de documento que lo acredite (carnet o sustituto).</li>
+<li>Puedes ceder tu entrada a otra persona introduciendo sus datos en la página de la entrada o entrando en contacto con la organización para hacer la transferencia por ti.</li>
+<li>La organización no se hace responsable de entradas transferidas a otro usuario. Tu entrada se validará en el registro y será rechazada si ha sido presentada por otra persona con anterioridad.</li>
+<li>Presentando tu entrada recibirás un badge y una pulsera en el registro. Tienes que llevar la pulsera siempre puesta y visible, o no podrás acceder a las charlas y talleres.</li>
+'''
