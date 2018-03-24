@@ -1,22 +1,17 @@
 {{ define "main" }}
 
-  <section class="content">
-    <h1>{{ i18n "BecomeASponsor" }}</h1>
-    <div class="columns">
-      <div class="main">
-        <p>{{ i18n "BecomeASponsorDesc"}}
-        <p><a class="button primary" href="mailto:info@commit-conf.com">{{ i18n "GetInContact"}}</a>
-      </div>
-      <div class="sponsors">
-        <img src="/img/sponsors.jpg" />
-      </div>
+  <section class="content sponsors">
+    <h1 class="sponsors-text">{{ i18n "BecomeASponsor" }}</h1>
+    <img src="/img/sponsors.jpg" alt="Sponsors picture" class="sponsors-img">
+    <div class="sponsors-text">
+
+      <p>{{ i18n "BecomeASponsorDesc"}}</p>
+      <p><a class="button primary" href="mailto:info@commit-conf.com">{{ i18n "GetInContact"}}</a></p>
     </div>
   </section>
   
-  <svg class="separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,0 500,150 500,500 0,350"></polygon>
-  </svg>
-  
+  <hr>
+
   {{ partial "communities.html" }}
 
 {{ end }}

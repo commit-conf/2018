@@ -1,6 +1,8 @@
-.sponsors {
-  max-width: 70%;
-  margin: 0 auto;
+.sponsors-img {
+  display: block;
+  width: 270px;
+  height: auto;
+  margin: 0 2rem 2rem;
 }
 
 .community {
@@ -25,6 +27,15 @@
 
 @media #{$medium-up} {
   .sponsors {
-    max-width: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .sponsors-img {
+    width: 350px;
+  }
+  .sponsors-text {
+    flex-grow: 1;
+    flex-basis: 0;
   }
 }
