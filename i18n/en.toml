@@ -56,7 +56,7 @@ other = 'Our Communities'
 [OurCommunitiesDesc]
 other = 'This event is only possible because of the invaluable content and effort contributed by our communities.'
 [AddYourComunity]
-other = 'Is your community missing? <a href="TODO">Contact us</a>'
+other = 'Is your community missing? <a href="mailto:info@commit-conf.com">Contact us</a>'
 
 # R4P
 [BecomeASpeaker]
