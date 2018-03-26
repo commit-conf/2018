@@ -15,10 +15,8 @@ other = 'El equipo'
 # The event
 [TheEvent]
 other = 'El paisaje tecnológico de España, en concreto'
-[EventDescShort]
-other = 'Commit es la conferencia donde nos sentamos juntos a discutir todos los aspectos de Desarrollo de Software. Ven con nosotros para vivir dos días compartiendo y aprendiendo todo lo que tiene la tecnología, y por la oportunidad de salirte de tu zona de confort.'
 [EventDesc]
-other = 'O vente por el futbolín, el arcade retro y la cerveza gratis. En cualquier caso, bienvenido a España.'
+other = '<p>Commit es la conferencia donde nos sentamos juntos a discutir todos los aspectos de Desarrollo de Software. Ven con nosotros para vivir dos días compartiendo y aprendiendo todo lo que tiene la tecnología, y por la oportunidad de romper con la rutina y experimentar algo nuevo.</p></p>Vente por el futbolín, el arcade retro y la Jenga tamaño Hobbit. Vente por el networking. Tráete a tus amigos, y haz algunos nuevos.</p><p>Estamos encantados de tenerte aquí.</p>'
 [SubmitYourTalk]
 other = 'Envía tu charla'
 [CallForPapersIsOpen]

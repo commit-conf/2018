@@ -19,19 +19,3 @@ input[type=email] {
   margin-bottom: $input-margin;
 }
 
-.form-inline {
-  display: flex;
-  align-items: stretch;
-  margin-bottom: $input-margin;
-
-  & > .button {
-    border-radius: 0 3px 3px 0;
-    margin-left: 0;
-    border-width: 1px;
-  }
-
-  & > input {
-    margin-bottom: 0;
-  }
-
-}

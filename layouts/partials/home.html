@@ -62,8 +62,7 @@ registerTimeout();
     <section class="content">
 
       <h1>{{ i18n "TheEvent" }}</h1>
-      <p>{{ i18n "EventDescShort" }}</p>
-      <p>{{ i18n "EventDesc" | safeHTML }}</p>
+      {{ i18n "EventDesc" | safeHTML }}
       <p class="actions">
         <a class="button primary" href="https://www.koliseo.com/commit/commit-2018/r4p/5630471824211968">
           {{ i18n "SubmitYourTalk" }}
