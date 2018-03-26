@@ -1,0 +1,6 @@
+#!/bin/bash
+# Deploy changes to Firebase hosting
+set -e
+
+npm run build
+firebase deploy
