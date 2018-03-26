@@ -11,7 +11,7 @@
           <img src="/img/team/{{.avatar}}.jpeg" class="avatar" />
         </div>
         <div class="text">
-          <p><b>{{ .name }}:</b> {{ (index .desc $.Site.Language.Lang) }}</p>
+          <div><b>{{ .name }}:</b> {{ (index .desc $.Site.Language.Lang) }}</div>
           {{ if isset . "twitter" }}
             <a href="https://twitter.com/{{.twitter}}">{{.twitter}}</a>
           {{ end }}
