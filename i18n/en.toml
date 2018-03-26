@@ -16,7 +16,7 @@ other = 'The team'
 [TheEvent]
 other = 'The IT landscape from Spain, distilled'
 [EventDesc]
-other = '<p>Commit is the conference where we get together to discuss all aspects of Software Development. Come with us for two days of sharing and learning about all things IT, and an opportunity to break your routine and experience something new.</p><p>Come for the foosball, the retro arcade and the hobbit-sized Jenga. Come for the networking. Bring your friends, make some new.</p><p>We are so glad to have you here.</p>'
+other = '<p>Commit is the conference where we get together to discuss all aspects of Software Development. Come with us for two days of sharing and learning about all things IT, and an opportunity to break your routine and experience something new.</p><p>Come for the foosball, the retro arcade and the hobbit-sized Jenga. Come for the networking. Bring your friends, make some new.</p><p>We are excited to have you here.</p>'
 [SubmitYourTalk]
 other = 'Send Your Talk'
 [CallForPapersIsOpen]
