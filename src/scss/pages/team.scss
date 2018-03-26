@@ -16,6 +16,9 @@
     margin-bottom: 0;
   }
 }
+.twitter-link {
+  text-decoration: none;
+}
 @media #{$medium-up} {
   .avatar-and-text {
     flex-direction: row;
