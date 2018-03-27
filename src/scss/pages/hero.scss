@@ -16,6 +16,13 @@
     }
   }
 
+  &:last-of-type {
+    flex-grow: .6;
+  }
+  &:first-child {
+    flex-grow: 1.2;
+  }
+
 }
 
 .hero-img,
