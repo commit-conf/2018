@@ -5,10 +5,6 @@ The source code of Commit Conf. This project contains the source code of a websi
 snap install hugo
 # do not use apt-get - it has an old version of hugo
 
-# Install Firebase CLI
-npm install -g firebase-tools
-firebase login
-
 # Install node depenedencies
 npm i
 
@@ -22,4 +18,13 @@ npm run test
 npm run build
 ```
 
-The contents are located on `/_build` on the `master` branch. To publish changes, run `bin/deploy.sh`.
+To deploy, we use the contents located on `/_build`
+
+```bash
+# Install and config Firebase CLI
+npm install -g firebase-tools
+firebase login
+
+# Deploy on Firebase
+bin/deploy
+```
