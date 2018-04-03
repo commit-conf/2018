@@ -21,8 +21,12 @@ other = '<p>Commit is the conference where we get together to discuss different 
 other = 'Send Your Talk'
 [CallForPapersIsOpen]
 other = 'The Call for Papers is Open' 
+[CallForPapersWillOpenSoon]
+other = 'The Call for Papers opens on April 16'
 [TicketsAvailableNow]
 other='Tickets Available Now'
+[TicketsAvailableSoon]
+other='Tickets are not available yet'
 
 # Location
 [HowToGetThere]

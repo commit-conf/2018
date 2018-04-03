@@ -20,9 +20,13 @@ other = '<p>Commit es la conferencia donde nos reunimos a discutir diferentes pe
 [SubmitYourTalk]
 other = 'Envía tu charla'
 [CallForPapersIsOpen]
-other = 'El Call for Papers está Abierto' 
+other = 'El Call for Papers está Abierto'
+[CallForPapersWillOpenSoon]
+other = 'El Call for Papers abre el 16 de Abril'
 [TicketsAvailableNow]
 other='Hay entradas disponibles'
+[TicketsAvailableSoon]
+other='Aún no hay entradas disponibles'
 
 # Location
 [HowToGetThere]

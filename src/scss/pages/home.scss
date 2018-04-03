@@ -22,6 +22,10 @@ $svg-separator-size: 2rem;
     border-color: darken($pink, 10%);
     &:focus, &:hover, &:active {
       background-color: darken($pink, 5%);
+    }
+    &[disabled] {
+      cursor: auto;
+      background-color: darken($pink, 5%);
     } 
     
   }

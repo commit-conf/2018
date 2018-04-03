@@ -13,11 +13,15 @@ $button-primary-color: $white;
   background: $button-bg;
   color: $button-color;
   margin: 0 .5rem 1rem 0;
-
+  
   &:focus, &:hover, &:active {
     background-color: darken($button-bg, 5%);
     color: $button-color;
   } 
+  &[disabled] {
+    cursor: auto;
+    background-color: darken($button-bg, 5%);
+  }
   &.primary {
     background: $button-primary-bg;
     color: $button-primary-color;
@@ -25,8 +29,13 @@ $button-primary-color: $white;
     &:focus, &:hover, &:active {
       background-color: darken($button-primary-bg, 5%);
       color: $button-primary-color;
+    }
+    &[disabled] {
+      cursor: auto;
+      background-color: darken($button-primary-bg, 5%);
     } 
   }
+
 }
 
 .button-small {
@@ -41,4 +50,3 @@ $button-primary-color: $white;
 .actions {
   margin-top: 2rem;
 }
-
