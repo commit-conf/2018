@@ -41,6 +41,14 @@
 
   }
 
+  .c4p {
+    flex-direction: column;
+  }
+
+  .c4p-img {
+    max-width: 70%;
+  }
+
   .attendees {
     width: 250px;
     min-width: 250px;
@@ -96,6 +104,14 @@
 }
 
 @media #{$large-up} {
+
+  .c4p {
+    flex-direction: row-reverse;
+  }
+
+  .c4p-img {
+    max-width: 100%;
+  }
 
   .subscribe {
     background-image: url(/img/subscribe-big.jpg);
