@@ -1,13 +1,17 @@
 @media #{$small-up} {
 }
 
-@media #{$medium-up} {
+@media only screen and (min-width:750px) {
+  .topbar-links {
+    display: block;
+    font-size: 80%;
+  }
   .topbar-dropdown-menu {
     display: none;
   }
-  .topbar-links {
-    display: block;
-  }
+}
+
+@media #{$medium-up} {
   .home-section {
     background-image: url(/img/bg-medium.jpg);
   }
@@ -104,6 +108,10 @@
 }
 
 @media #{$large-up} {
+
+  .topbar-links {
+    font-size: 100%;
+  }
 
   .c4p {
     flex-direction: row-reverse;

@@ -5,6 +5,8 @@ other = 'Consigue tu Entrada'
 other = 'Dónde'
 [Sponsors]
 other = 'Patrocinadores'
+[Blog]
+other = 'Blog'
 
 # footer
 [AboutUs]
@@ -84,7 +86,7 @@ other = 'Fuente original y créditos'
 [TheTeamSubtitle]
 other = '¿Quién organiza Commit?'
 [TheTeamDesc]
-other = 'Commit es un evento gestionado por mujeres, hombres, canarios, gallegos, italianas, alemanes, informáticos, exceldependientes, fans de Android y iPhone... Eso hace un total de cinco personas.'
+other = 'Commit es un evento gestionado por mujeres, hombres, canarios, gallegos, alemanes, informáticos, exceldependientes, fans de Android y iPhone... Eso hace un total de cuatro personas.'
 
 # Maillist
 [SubscribeToList]

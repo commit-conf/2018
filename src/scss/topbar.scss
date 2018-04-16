@@ -17,7 +17,7 @@ $topbar-dropgown-bg-hover: lighten($topbar-dropdown-bg, 15%);
     right: 10px;
   }
 }
-$logo-margin: .8rem 1rem;
+$logo-margin: .8rem .5rem .5rem 0;
 .topbar-logo {
   float: left;
   display: block;
@@ -29,6 +29,8 @@ $logo-margin: .8rem 1rem;
 }
 .topbar-link {
   padding: $logo-margin;
+  padding-left: .5rem;
+  padding-right: .5rem;
   color: $topbar-color;
   text-decoration: none;
   &:hover, &:active, &:focus {
