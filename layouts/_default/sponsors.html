@@ -1,5 +1,26 @@
 {{ define "main" }}
 
+  <section class="content">
+    <h1>{{ i18n "OurSponsors" }}</h1>
+    <p>{{ i18n "OurSponsorsDesc" }}</p>
+    {{ range $category := $.Site.Data.sponsors }}
+      <div class="sponsor-category">
+        <h2 class="category-name">{{ $category.name }}</h2>
+        <div class="category-sponsors {{ $category.name | replaceRE "\\s" "-" | lower }}">
+          {{ range $category.items }}
+          <a href="{{.href }}" alt="{{.name}}" title="{{.name}}" class="sponsor" target="_blank" rel="noopner noreferrer">
+            <img src="{{.logo}}">
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </section>
+  
+  <svg class="separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,0 500,150 500,500 0,350"></polygon>
+  </svg>
+
   <section class="content sponsors">
     <h1 class="sponsors-text">{{ i18n "BecomeASponsor" }}</h1>
     <img src="/img/sponsors.jpg" alt="Sponsors picture" class="sponsors-img">
@@ -10,7 +31,9 @@
     </div>
   </section>
   
-  <hr>
+  <svg class="separator theme-2" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+    <polygon points="0,0 500,150 500,500 0,350"></polygon>
+  </svg>
 
   {{ partial "communities.html" }}
 

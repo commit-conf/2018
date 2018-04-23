@@ -53,6 +53,10 @@ other = 'Conviértete en patrocinador'
 other = 'Implícate en el evento que junta todo el talento IT de un país.'
 [GetInContact]
 other = 'Contáctanos'
+[OurSponsors]
+other = 'Nuestros patrocinadores'
+[OurSponsorsDesc]
+other = 'Éstas son algunas empresas que se preocupan por nuestros desarrolladores'
 
 # Communities
 [OurCommunities]

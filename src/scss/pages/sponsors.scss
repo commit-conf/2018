@@ -1,3 +1,18 @@
+.category-sponsors {
+  display: flex;
+}
+
+.sponsor-category {
+  width: 100%;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid $gray-light;
+}
+
+.sponsor {
+  max-width: 33%;
+}
+
 .sponsors-img {
   display: block;
   width: 270px;
@@ -26,6 +41,18 @@
 }
 
 @media #{$medium-up} {
+  .sponsor-category {
+    align-items: center;
+    display: inline-flex;
+  }
+  .category-name {
+    white-space: nowrap;
+    padding-right: 3rem;
+    width: 200px;
+  }
+  .sponsor {
+    max-width: 20%;
+  }
   .sponsors {
     display: flex;
     align-items: center;

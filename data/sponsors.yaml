@@ -1,0 +1,10 @@
+- name: Hiring Silver
+  items: 
+    - name: idealista
+      logo: /img/sponsors/idealista.svg
+      href: https://www.idealista.com/
+- name: Collaborators
+  items: 
+    - name: Universidad San Pablo CEU
+      logo: /img/sponsors/ceu.png
+      href: http://www.uspceu.com/

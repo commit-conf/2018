@@ -53,6 +53,10 @@ other = 'Become a Sponsor'
 other = 'Get involved in the event that gathers the IT talent of a country together.'
 [GetInContact]
 other = 'Get in contact'
+[OurSponsors]
+other = 'Our sponsors'
+[OurSponsorsDesc]
+other = 'These are some companies that care about our developers'
 
 # Communities
 [OurCommunities]
