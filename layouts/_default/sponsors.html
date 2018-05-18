@@ -9,7 +9,7 @@
         <div class="category-sponsors {{ $category.name | replaceRE "\\s" "-" | lower }}">
           {{ range $category.items }}
           <a href="{{.href }}" alt="{{.name}}" title="{{.name}}" class="sponsor" target="_blank" rel="noopner noreferrer">
-            <img src="{{.logo}}">
+            <img src="/img/sponsors/{{.logo}}">
           </a>
           {{ end }}
         </div>
