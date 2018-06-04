@@ -28,7 +28,7 @@ other = 'El Call for Papers abre el 16 de Abril'
 [TicketsAvailableNow]
 other='Hay entradas disponibles'
 [TicketsAvailableSoon]
-other='Aún no hay entradas disponibles'
+other='Disponibles a partir del 5 de Junio'
 
 # Location
 [HowToGetThere]
@@ -118,3 +118,7 @@ other = '''
 <li>La organización no se hace responsable de entradas transferidas a otro usuario. Tu entrada se validará en el registro y será rechazada si ha sido presentada por otra persona con anterioridad.</li>
 <li>Presentando tu entrada recibirás un badge y una pulsera en el registro. Tienes que llevar la pulsera siempre puesta y visible, o no podrás acceder a las charlas y talleres.</li>
 '''
+[OrganizerIdentification]
+other = 'Identificación del organizador'
+[DataOwner]
+other = 'Fundación Extrema, dueño del sitio web <a href="http://commit-conf.com">http://commit-conf.com</a> (en adelante Commit), con sede en la calle Casas de Miravete 24A, 28031 Madrid; y CIF G86410040. Cualquier incidencia debe ser dirigida a la dirección: <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>.'

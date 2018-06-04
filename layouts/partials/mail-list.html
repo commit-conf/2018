@@ -1,40 +1,11 @@
 <div class="subscribe">
-  <section class="content">
+  <section class="content text-center">
     <h1 class="subscribe-title">{{ i18n "SubscribeToList" }}</h1>
     <p>{{ i18n "SubscribeDesc" }}</p>
-    
-    <form
-      action="https://commit-conf.us8.list-manage.com/subscribe/post?u=b180f87ed019c243f111b693a&amp;id=dfb96742d9"
-      method="post"
-      id="mc_embed_signup"
-      class="subscribe-form"
-    >
-
-      <div class="form-inline">
-        <input 
-          type="email" 
-          name="EMAIL" 
-          required 
-          id="mce-EMAIL"
-          placeholder="{{ i18n "EmailAddress" }}"
-        >
-        <input 
-          type="submit" 
-          value="{{ i18n "Subscribe" }}" name="subscribe" id="mc-embedded-subscribe" 
-          class="button primary"
-        >
-
-      </div>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -50000px;" aria-hidden="true">
-        <input 
-          type="text" 
-          name="b_b180f87ed019c243f111b693a_dfb96742d9"
-          tabindex="-1" 
-          value=""
-        >
-      </div>
-
-    </form>
+    <a href="https://commit-conf.us8.list-manage.com/subscribe?u=b180f87ed019c243f111b693a&id=6a6bdcb448" 
+      class="button primary"
+      target="_blank" 
+      rel="noopener norreferer"
+    >{{i18n "Subscribe"}}</a> 
   </section>
 </div>

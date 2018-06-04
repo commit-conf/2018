@@ -28,7 +28,7 @@ other = 'The Call for Papers opens on April 16th'
 [TicketsAvailableNow]
 other='Tickets Available Now'
 [TicketsAvailableSoon]
-other='Tickets are not available yet'
+other='Tickets are available from june 5th'
 
 # Location
 [HowToGetThere]
@@ -105,7 +105,7 @@ other = 'Subscribe'
 [TermsAndConditions]
 other = 'Terms and Conditions'
 [TermsAndConditionsPrefix]
-other = 'To purchase tickets for Codemotion you must accept the following Terms and Conditions:'
+other = 'To purchase tickets for Commit you must accept the following Terms and Conditions:'
 [TermsAndConditionsSuffix]
 other = 'The organization reserves the right to modify these Terms and Conditions at any time and without prior notice.'
 [TermsAndConditionsBullets]
@@ -118,3 +118,7 @@ other = '''
 <li>The organization is not responsible for any transferred tickets. Your ticket will be validated in the Registration Point and it will be rejected if it has already been presented by someone else.</li>
 <li>With your ticket you will receive a badge and a bracelet at the registration desk. You must wear the bracelet always visible, or you will not be able to attend any talk or lab.</li>
 '''
+[OrganizerIdentification]
+other = 'Organizer Identification'
+[DataOwner]
+other = 'Fundación Extrema, owner of the website <a href="http://commit-conf.com">http://commit-conf.com</a> (hereinafter Commit), residing at 24A Casas de Miravete St., 28031 Madrid; with CIF G86410040. Any inquiries may be directed to the address: <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>.'

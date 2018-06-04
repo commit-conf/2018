@@ -1,12 +1,18 @@
 {{ define "main" }}
 
 <section class="content">
-  <h1>{{ i18n "TermsAndConditions" }}</h1>
-  <p>{{ i18n "TermsAndConditionsPrefix" }}</p>
-  <ul class="square">
-    {{ i18n "TermsAndConditionsBullets" | safeHTML }}
-  </ul>
-  <p>{{ i18n "TermsAndConditionsSuffix" }}</p>
+  <div>
+    <h1>{{ i18n "OrganizerIdentification"}}</h1>
+    <p>{{i18n "DataOwner" | safeHTML}}</p>
+  </div>
+  <div>
+    <h1>{{ i18n "TermsAndConditions" }}</h1>
+    <p>{{ i18n "TermsAndConditionsPrefix" }}</p>
+    <ul class="square">
+      {{ i18n "TermsAndConditionsBullets" | safeHTML }}
+    </ul>
+    <p>{{ i18n "TermsAndConditionsSuffix" }}</p>
+  </div>
 </section>
 
 {{ end }}
