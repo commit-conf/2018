@@ -13,6 +13,10 @@
   max-width: 33%;
 }
 
+.platinum .sponsor {
+  max-width: 50%;
+}
+
 .sponsors-img {
   display: block;
   width: 270px;
@@ -40,6 +44,24 @@
   }
 }
 
+.sponsors-offers {
+  display: inline;
+}
+
+.sponsor-offer {
+  display: inline-block;
+  max-width: 25%;
+}
+
+.return-top {
+  float: right;
+  font-size: 80%;
+}
+
+.offer-desc {
+  font-size: 80%;
+}
+
 @media #{$medium-up} {
   .sponsor-category {
     align-items: center;
@@ -53,6 +75,9 @@
   .sponsor {
     max-width: 20%;
   }
+  .platinum .sponsor {
+    max-width: 40%;
+  }
   .sponsors {
     display: flex;
     align-items: center;
@@ -64,5 +89,8 @@
   .sponsors-text {
     flex-grow: 1;
     flex-basis: 0;
+  }
+  .sponsor-offer {
+    max-width: 15%;
   }
 }

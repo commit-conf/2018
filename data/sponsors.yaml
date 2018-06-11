@@ -1,3 +1,8 @@
+- name: Platinum
+  items: 
+    - name: Sopra Steria
+      logo: sopra.svg
+      href: http://www.soprasteria.es/es
 - name: Hiring Silver
   items: 
     - name: idealista

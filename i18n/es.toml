@@ -57,6 +57,14 @@ other = 'Contáctanos'
 other = 'Nuestros patrocinadores'
 [OurSponsorsDesc]
 other = 'Éstas son algunas empresas que se preocupan por nuestros desarrolladores'
+[JobOffers]
+other = 'Ofertas de trabajo'
+[JobOffersDesc]
+other = 'Nuestros patrocinadores tienen algunas ofertas de trabajo, échales un vistazo.'
+[JobOffersAction]
+other = 'Ver las ofertas'
+[ReturnTop]
+other = 'Volver arriba'
 
 # Communities
 [OurCommunities]

@@ -57,6 +57,14 @@ other = 'Get in contact'
 other = 'Our sponsors'
 [OurSponsorsDesc]
 other = 'These are some companies that care about our developers'
+[JobOffers]
+other = 'Job offers'
+[JobOffersDesc]
+other = 'Our sponsors have some job offers, check them out.'
+[JobOffersAction]
+other = 'View job offers'
+[ReturnTop]
+other = 'Return top'
 
 # Communities
 [OurCommunities]

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="content" id="offers">
+    <h1>{{ i18n "JobOffers" }}</h1>
+    
+    <ul class="sponsors-offers">
+      {{ range $offer := $.Site.Data.offers }}
+        <li class="sponsor-offer">
+          <a href="#{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}">
+            <img src="/img/sponsors/{{$offer.logo}}" alt="{{$offer.Name}}" title="{{$offer.Name}}">
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+    {{ range $offer := $.Site.Data.offers }}
+      <article id="{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}">
+        <hr/>
+        <a class="return-top" href="#offers">{{ i18n "ReturnTop" }}</a>
+        <h2>{{ $offer.Name }}</h2>
+        <div class="offer-desc">
+          {{ $path := (printf "%s%s" "offers/" $offer.html ) }}
+          {{ partial $path }}
+        </div>
+      </article>
+    {{ end }}
+  </section>
+
+{{ end }}
