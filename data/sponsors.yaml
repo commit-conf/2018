@@ -8,6 +8,9 @@
     - name: idealista
       logo: idealista.svg
       href: https://www.idealista.com/
+    - name: Tokiota
+      logo: tokiota.svg
+      href: http://tokiota.es/
 - name: Silver
   items:
     - name: Liferay

@@ -1,5 +1,7 @@
 .category-sponsors {
   display: flex;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 .sponsor-category {
@@ -11,6 +13,7 @@
 
 .sponsor {
   max-width: 33%;
+  margin-right: 1rem;
 }
 
 .platinum .sponsor {
@@ -63,6 +66,9 @@
 }
 
 @media #{$medium-up} {
+  .category-sponsors {
+    padding-top: 0;
+  }
   .sponsor-category {
     align-items: center;
     display: inline-flex;
@@ -74,6 +80,7 @@
   }
   .sponsor {
     max-width: 20%;
+    margin-right: 2rem;
   }
   .platinum .sponsor {
     max-width: 40%;
