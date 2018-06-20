@@ -1,3 +1,0 @@
-#!/bin/bash
-# This is just an example of how to resize 
-mogrify -quality 87% -resize x890 file.jpg
