@@ -1,6 +1,25 @@
 #!/bin/bash
-# Deploy changes to Firebase hosting
+
 set -e
 
+# Build the content on _build
 npm run build
-firebase deploy
+
+FOLDER=.gh-pages
+
+if [ ! -d ${FOLDER} ]; then
+  git clone -b gh-pages git@github.com:ccoloma/commit-conf ${FOLDER}
+  cd ${FOLDER}
+else
+  cd ${FOLDER}
+  git pull
+fi
+
+rm -r *
+cp -R ../_build/* .
+git add -A
+git commit -m "${1:-Update gh-pages}"
+git push
+
+cd ..
+echo "Successfully uploaded" 
