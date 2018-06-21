@@ -5,7 +5,7 @@
     <ul class="sponsors-offers">
       {{ range $offer := $.Site.Data.offers }}
         <li class="sponsor-offer">
-          <a href="#{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}">
+          <a href="#{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}" class="sponsor-offer-link">
             <img src="/img/sponsors/{{$offer.logo}}" alt="{{$offer.Name}}" title="{{$offer.Name}}">
           </a>
         </li>
