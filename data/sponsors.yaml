@@ -3,6 +3,11 @@
     - name: Sopra Steria
       logo: sopra.svg
       href: http://www.soprasteria.es/es
+- name: Gold
+  items: 
+    - name: Magnolia
+      logo: magnolia.svg
+      href: https://www.magnolia-cms.es/
 - name: Hiring Silver
   items: 
     - name: idealista
