@@ -25,6 +25,8 @@ other = 'Send Your Talk'
 other = 'The Call for Papers is Open' 
 [CallForPapersWillOpenSoon]
 other = 'The Call for Papers opens on April 16th'
+[CallForPapersIsClosed]
+other = 'The Call for Papers is now closed' 
 [TicketsAvailableNow]
 other='Tickets Available Now'
 [TicketsAvailableSoon]
@@ -79,6 +81,10 @@ other = 'Is your community missing? <a href="mailto:info@commit-conf.com">Contac
 other = "If there is something that keeps you awake at night, you don't need to be an expert to share it. Get involved and send your talk to become a part of Commit."
 [TechShessions]
 other = 'If you are a woman in tech and need help to present for the first time, you do not have to do this alone. Join us for the second edition of <a href="https://www.meetup.com/es-ES/Tech-SHEssions/" target="_blank" rel="noopener noreferrer">TechSHEssions</a>, our mentoring program to help new female speakers get started.'
+[TimeToReview]
+other = "After a couple of very intense months where we received more than 400 talks, it's now time to review all the proposals together with the help of our communities. It's going to be a hard job but we will do our best to offer you an awesome agenda."
+[AgendaExpectation]
+other = 'We expect to have the agenda ready to be published by the beginning of September.'
 
 # Stats
 [Attendees]

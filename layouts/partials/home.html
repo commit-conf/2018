@@ -31,13 +31,13 @@
       <h1>{{ i18n "TheEvent" }}</h1>
       {{ i18n "EventDesc" | safeHTML }}
       <p class="actions">
-        <a class="button primary" href="https://www.koliseo.com/events/commit-2018/r4p/5630471824211968" target="_blank">
-          {{ i18n "SubmitYourTalk" }}
-          <span class="button-small">{{ i18n "CallForPapersIsOpen" }}</span>
-        </a>
-        <a class="button" target="_blank" href="https://www.koliseo.com/events/commit-2018/">
+        <a class="button primary" target="_blank" href="https://www.koliseo.com/events/commit-2018/">
           {{ i18n "Tickets" }}
           <span class="button-small">{{ i18n "TicketsAvailableNow" }}</span>
+        </a>
+        <a class="button" disabled target="_blank">
+          {{ i18n "SubmitYourTalk" }}
+          <span class="button-small">{{ i18n "CallForPapersIsClosed" }}</span>
         </a>
       </p> 
     </section>
