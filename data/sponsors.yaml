@@ -8,6 +8,9 @@
     - name: Magnolia
       logo: magnolia.svg
       href: https://www.magnolia-cms.es/
+    - name: Autentia
+      logo: autentia.svg
+      href: https://www.autentia.com/
 - name: Hiring Silver
   items: 
     - name: idealista
