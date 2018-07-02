@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="techshessions-bg-container">
+  <div class="techshessions-bg"></div>
+  <img src="/img/TechSHEssions.svg" class="techshessions-img">
+  <h1>{{ i18n "TechSHEssions"}}</h1>
+</div>
+
+<section class="techshessions-links">
+  <a class="techshessions-link" href="https://www.meetup.com/es-ES/Tech-SHEssions/"><img src="/img/meetup.svg" /></a>
+  <a class="techshessions-link" href="https://www.youtube.com/playlist?list=PLu976vDeELBoOaC8OW2HrgaKkeWLpvco5"><img src="/img/youtube.svg" /></a>
+</section>
+
+<section class="content"> 
+  <h2>{{ i18n "TechSHEssionsObjectives" }}</h2>
+  {{ i18n "TechSHEssionsObjectivesDesc" | safeHTML }}
+  <div class="youtube-player-container text-center">
+    <iframe class="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/nQg7hvOYOZY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</section>
+
+{{ partial "separator.html" }}
+
+<section class="content">
+  <h2>{{ i18n "WantToBeAStudent" }}</h2>
+  <p>{{ i18n "WantToBeAStudentDesc" }}</p>
+  <h3>{{ i18n "StudentRequirements" }}</h3>
+  <p>{{ i18n "StudentRequirementsDesc" | safeHTML }}</p>
+</section>
+
+{{ partial "separator.html" (dict "class" "theme-2") }}
+
+<section class="content">
+    <h2>{{ i18n "WantToBeAMentor" }}</h2>
+    <p>{{ i18n "WantToBeAMentorDesc" }}</p>
+    <h3>{{ i18n "MentorRequirements" }}</h3>
+    <p>{{ i18n "MentorRequirementsDesc" }}</p>
+</section>
+
+{{ end }}

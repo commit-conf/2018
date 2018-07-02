@@ -16,10 +16,8 @@
       </div>
     {{ end }}
   </section>
-  
-  <svg class="separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,0 500,150 500,500 0,350"></polygon>
-  </svg>
+
+  {{ partial "separator.html" }}
 
   <section class="content">
     <h1>{{ i18n "JobOffers" }}</h1>
@@ -27,9 +25,7 @@
     <a class="button primary" href="{{"sponsors-offers" | relLangURL }}">{{ i18n "JobOffersAction" }}</a>
   </section>
 
-  <svg class="separator theme-2" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,0 500,150 500,500 0,350"></polygon>
-  </svg>
+  {{ partial "separator.html" (dict "class" "theme-2") }}
 
   <section class="content sponsors">
     <h1 class="sponsors-text">{{ i18n "BecomeASponsor" }}</h1>
@@ -40,10 +36,8 @@
       <p><a class="button primary" href="mailto:info@commit-conf.com">{{ i18n "GetInContact"}}</a></p>
     </div>
   </section>
-  
-  <svg class="separator theme-3" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
-    <polygon points="0,0 500,150 500,500 0,350"></polygon>
-  </svg>
+
+  {{ partial "separator.html" (dict "class" "theme-3" "direction" "reverse") }}
 
   {{ partial "communities.html" }}
 

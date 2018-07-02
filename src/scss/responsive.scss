@@ -53,6 +53,19 @@
     max-width: 70%;
   }
 
+  .techshessions {
+    flex-direction: row; 
+  }
+
+  .techshessions .main {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+
+  .techshessions-img {
+    max-width: 250px;
+  }
+
   .attendees {
     width: 250px;
     min-width: 250px;
@@ -118,6 +131,14 @@
   }
 
   .c4p-img {
+    max-width: 100%;
+  }
+
+  .techshessions-bg {
+    background-position-y: 30%;
+  }
+
+  .techshessions-img {
     max-width: 100%;
   }
 

@@ -1,0 +1,8 @@
+
+<svg class="separator {{.class}}" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
+{{if eq .direction "reverse"}}
+  <polygon points="0,150 500,0 500,350 0,500"></polygon>
+{{ else }}
+  <polygon points="0,0 500,150 500,500 0,350"></polygon>
+{{end}}
+</svg>

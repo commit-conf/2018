@@ -1,0 +1,13 @@
+
+{{ partial "separator.html" (dict "class" "theme-4" "direction" "reverse") }}
+
+<section class="content">
+  <div class="main-and-aside techshessions">
+    <img src="/img/TechSHEssions.svg" class="techshessions-img"/>
+    <div class="main">
+      <h1>{{ i18n "TechSHEssions" }}</h1>
+      <p>{{ i18n "TechSHEssionsDesc" | safeHTML }}</p>
+      <div><a href="{{ "/tech-shessions" | relLangURL }}" class="button primary">{{ i18n "ViewMore" }}</a></div>
+    </div>
+  </div>
+</section>
