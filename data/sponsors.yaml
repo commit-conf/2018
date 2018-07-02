@@ -11,6 +11,9 @@
     - name: Autentia
       logo: autentia.svg
       href: https://www.autentia.com/
+    - name: FutureSpace
+      logo: futurespace.svg
+      href: https://www.futurespace.es/
 - name: Hiring Silver
   items: 
     - name: idealista
