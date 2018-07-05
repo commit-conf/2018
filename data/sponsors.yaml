@@ -22,11 +22,22 @@
     - name: Tokiota
       logo: tokiota.svg
       href: http://tokiota.es/
+    - name: Intelygenz
+      logo: intelygenz.png
+      href: https://www.intelygenz.com/
 - name: Silver
   items:
     - name: Liferay
       logo: liferay.png
       href: https://www.liferay.com/es/home
+    - name: Profile
+      logo: profile.svg
+      href: https://profile.es/
+- name: Supporter
+  items:
+    - name: RSI
+      logo: rsi.svg
+      href: http://www.ruralserviciosinformaticos.com/
 - name: Collaborators
   items: 
     - name: Universidad San Pablo CEU
