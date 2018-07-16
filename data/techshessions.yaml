@@ -1,0 +1,25 @@
+students:
+  - name: Julia Lopez
+    twitter: julia
+  - name: Julia Lopez 2
+    twitter: julia
+  - name: Julia Lopez 3
+    twitter: julia
+  - name: Julia Lopez 4
+    twitter: julia
+  - name: Julia Lopez 5
+    twitter: julia
+  - name: Julia Lopez 6
+    twitter: julia
+  - name: Julia Lopez 7
+    twitter: julia
+  - name: Julia Lopez 8
+    twitter: julia
+  - name: Julia Lopez 9
+    twitter: julia
+  - name: Julia Lopez 10
+    twitter: julia
+mentors:
+  - name: Laura Vignali
+    twitter: laura_vignali
+    avatar: example.jpeg

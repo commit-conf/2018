@@ -138,6 +138,10 @@ other = "¿Qué implica ser una mentora?"
 other = 'Tener contacto, presencial o telemático, con la alumna aproximadamente una vez a la semana o una vez cada dos semanas. Revisar cómo va la presentación en la que está trabajando, proponle mejoras, ayudarla a ensayar la
     presentación. Y cómo no, servir de apoyo. Las revisiones ayudan muchísimo, pero los nervios no siempre atienden a razones.
     Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote es una ayuda tremenda.'
+[OurStudents]
+other = 'Nuestras estudiantes'
+[OurMentors]
+other = 'Nuestras mentoras'
 
 # Stats
 [Attendees]

@@ -31,10 +31,46 @@
 {{ partial "separator.html" (dict "class" "theme-2") }}
 
 <section class="content">
-    <h2>{{ i18n "WantToBeAMentor" }}</h2>
-    <p>{{ i18n "WantToBeAMentorDesc" }}</p>
-    <h3>{{ i18n "MentorRequirements" }}</h3>
-    <p>{{ i18n "MentorRequirementsDesc" }}</p>
+  <h2>{{ i18n "WantToBeAMentor" }}</h2>
+  <p>{{ i18n "WantToBeAMentorDesc" }}</p>
+  <h3>{{ i18n "MentorRequirements" }}</h3>
+  <p>{{ i18n "MentorRequirementsDesc" }}</p>
 </section>
 
+{{ partial "separator.html" (dict "class" "theme-3") }}
+
+<section class="content">
+  <h2>{{ i18n "OurStudents" }}</h2>
+  <div class="students">
+    {{ range $student := $.Site.Data.techshessions.students }}
+      <div class="student">
+        <img src="/img/avatar.svg" class="avatar lazy-avatar" data-avatar="/img/techshessions/{{$student.avatar}}">
+        <div class="data">
+          <span>  
+            <span>{{ $student.name }}</span>
+            <br/>
+            <small><a href="https://twitter.com/{{$student.twitter}}" target="_blank" rel="noopener noreferrer">@{{ $student.twitter }}</a></small>
+          </span>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <h2>{{ i18n "OurMentors" }}</h2>
+  <div class="mentors">
+    {{ range $mentor := $.Site.Data.techshessions.mentors }}
+      <div class="mentor">
+        <img src="/img/avatar.svg" class="avatar lazy-avatar" data-avatar="/img/techshessions/{{$mentor.avatar}}">
+        <div class="data">
+          <span>
+            <span>{{ $mentor.name }}</span>
+            <br/>
+            <small><a href="https://twitter.com/{{$mentor.twitter}}" target="_blank" rel="noopener noreferrer">@{{ $mentor.twitter }}</a></small>
+          </span>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+<script async src="/js/techshessions.js" />
+</script>
 {{ end }}
