@@ -47,6 +47,12 @@ other = 'We provide a free shuttle service to/from Plaza de España that takes 2
 other = '<b>THIS IS NOT THE SAME AS "CAMPUS DE MONCLOA"</b>. Please, check the instructions from your GPS.'
 [ViewOnGoogleMaps]
 other = 'Open in Google Maps'
+[RenfeTitle]
+other = 'Renfe discount'
+[RenfeDesc]
+other = 'Renfe offers a 30% discount to attend Commit. This offer is valid for all trains and all national travels, for one-way or round-trips, but cannot be combined with any other commercial offer. <a href="http://www.renfe.com/viajeros/tarifas/eventos_tutorial.html" rel="noopener noreferrer" target="_blank">Here</a> you can read more about how this works.'
+[RenfeImportant]
+other = '<b>Important:</b> to get this special fare you will need a discount card, that is strictly personal and that must show your name. You will be required to show the discount card, together with your train ticket, at the train station or during your trip by the train inspector. To obtain your personal discount card, you have to email us at <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>, providing your Commit ticket as attachment.'
 
 # Sponsoring
 [BecomeASponsor]

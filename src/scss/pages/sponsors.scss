@@ -18,6 +18,7 @@
   vertical-align: middle;
   min-width: 120px;
   max-width: 150px;
+  padding: 1rem 0;
 }
 
 .platinum .sponsor {
@@ -58,13 +59,19 @@
 }
 
 .sponsors-offers {
-  display: inline;
+  display: inline-block;
+  margin-bottom: 0;
 }
 
 .sponsor-offer {
   display: inline-block;
-  max-width: 30%;
-  margin-right: 0.5rem;
+  max-width: 40%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sponsor-offer-link > img {
+  vertical-align: middle;
 }
 
 .return-top {
@@ -74,6 +81,10 @@
 
 .offer-desc {
   font-size: 80%;
+}
+
+.youtube-player {
+  max-width: 100%;
 }
 
 @media #{$medium-up} {
@@ -97,7 +108,7 @@
     max-width: 36%;
   }
   .gold .sponsor {
-    max-width: 33%;
+    max-width: 25%;
   }
   .sponsors {
     display: flex;
@@ -113,6 +124,5 @@
   }
   .sponsor-offer {
     max-width: 15%;
-    margin-right: 1rem;
   }
 }

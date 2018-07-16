@@ -21,10 +21,6 @@ npm run build
 To deploy, we use the contents located on `/_build`
 
 ```bash
-# Install and config Firebase CLI
-npm install -g firebase-tools
-firebase login
-
-# Deploy on Firebase
+# Deploy on GitHub Pages
 bin/deploy
 ```
