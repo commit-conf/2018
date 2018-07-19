@@ -53,6 +53,15 @@ other = 'Renfe discount'
 other = 'Renfe offers a 30% discount to attend Commit. This offer is valid for all trains and all national travels, for one-way or round-trips, but cannot be combined with any other commercial offer. <a href="http://www.renfe.com/viajeros/tarifas/eventos_tutorial.html" rel="noopener noreferrer" target="_blank">Here</a> you can read more about how this works.'
 [RenfeImportant]
 other = '<b>Important:</b> to get this special fare you will need a discount card, that is strictly personal and that must show your name. You will be required to show the discount card, together with your train ticket, at the train station or during your trip by the train inspector. To obtain your personal discount card, you have to email us at <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>, providing your Commit ticket as attachment.'
+[IberiaTitle]
+other = 'Iberia discount'
+[IberiaDesc]
+other = '
+  <p>Iberia offers a 10% discount on the purchase of tickets to Madrid. The discount applies on journeys from 5 days before up to 5 days after Commit. 
+  Before ending your booking at <a href="https://www.iberia.com" target="_blank" rel="noopner noreferrer">www.iberia.com</a>, use the section "I have a promotional code" to enter the code <b>COMMIT18</b>.</p>
+
+  <p>This offer only applies to fixed date flights (no including Air Bridge flights) operated by Iberia, Iberia Express and Air Nostrum) and it does not include lines with a shared code (IB7000, IB5000, IB4000). In the case of reservations in which the promotional code is not included before the end of the process, the discount will not apply.</p>
+'
 
 # Sponsoring
 [BecomeASponsor]

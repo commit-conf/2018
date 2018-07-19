@@ -14,6 +14,9 @@
     - name: Future Space
       logo: futurespace.svg
       href: https://www.futurespace.es/
+    - name: Softtek
+      logo: softtek.svg
+      href: http://www.softtek.com/es/
 - name: Hiring Silver
   items: 
     - name: idealista
@@ -43,3 +46,9 @@
     - name: Universidad San Pablo CEU
       logo: ceu.png
       href: http://www.uspceu.com/
+    - name: Renfe
+      logo: renfe.png
+      href: http://www.renfe.com/
+    - name: Iberia
+      logo: iberia.jpg
+      href: https://www.iberia.com/
