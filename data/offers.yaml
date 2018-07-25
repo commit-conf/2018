@@ -1,6 +1,9 @@
 - Name: Sopra Steria
   logo: sopra.svg
   html: sopra.html
+- Name: Magnolia
+  logo: magnolia.svg
+  html: magnolia.html
 - Name: Future Space
   logo: futurespace.svg
   html: futurespace.html
