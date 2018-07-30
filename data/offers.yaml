@@ -4,6 +4,9 @@
 - Name: Magnolia
   logo: magnolia.svg
   html: magnolia.html
+- Name: Autentia
+  logo: autentia.svg
+  html: autentia.html
 - Name: Future Space
   logo: futurespace.svg
   html: futurespace.html

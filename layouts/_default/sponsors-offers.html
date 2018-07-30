@@ -15,7 +15,11 @@
       <article id="{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}">
         <hr/>
         <a class="return-top" href="#offers">{{ i18n "ReturnTop" }}</a>
-        <h2>{{ $offer.Name }}</h2>
+        <h2 class="sponsor-offer">
+          <a href="#{{ $offer.Name | replaceRE "-" "" | replaceRE "\\s" "-" }}" class="sponsor-offer-link">
+            <img src="/img/sponsors/{{$offer.logo}}" alt="{{$offer.Name}}" title="{{$offer.Name}}">
+          </a>
+        </h2>
         <div class="offer-desc">
           {{ $path := (printf "%s%s" "offers/" $offer.html ) }}
           {{ partial $path }}
