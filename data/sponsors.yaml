@@ -28,6 +28,9 @@
     - name: Intelygenz
       logo: intelygenz.png
       href: https://www.intelygenz.com/
+    - name: Amazon
+      logo: amazon.svg
+      href: https://www.amazon.es/
 - name: Silver
   items:
     - name: Liferay
