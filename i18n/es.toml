@@ -30,7 +30,7 @@ other = 'El Call for Papers abre el 16 de Abril'
 [CallForPapersIsClosed]
 other = 'El Call for Papers está cerrado'
 [TicketsAvailableNow]
-other='Hay entradas disponibles'
+other='Últimas entradas disponibles'
 [TicketsAvailableSoon]
 other='Disponibles a partir del 5 de Junio'
 
@@ -108,6 +108,8 @@ other = 'Una vez tengamos la valoración hecha empezaremos a crear la agenda del
 
 # Agenda
 [AgendaIsPublished]
+other = 'La agenda ya está online'
+[TheAgenda]
 other = 'La agenda'
 [AgendaIsPublishedDesc]
 other = 'Tras muchas horas de votaciones y valoraciones en las que, tanto la organización como nuestras comunidades, hemos puesto nuestro mayor esfuerzo, ¡ya tenemos agenda para Commit 2018!'

@@ -30,7 +30,7 @@ other = 'The Call for Papers opens on April 16th'
 [CallForPapersIsClosed]
 other = 'The Call for Papers is now closed' 
 [TicketsAvailableNow]
-other='Tickets Available Now'
+other='Last Tickets Available'
 [TicketsAvailableSoon]
 other='Tickets are available from june 5th'
 
@@ -105,6 +105,8 @@ other = 'We expect to have the agenda ready to be published by the beginning of 
 
 # Agenda
 [AgendaIsPublished]
+other = 'The agenda is already online'
+[TheAgenda]
 other = 'The agenda'
 [AgendaIsPublishedDesc]
 other = 'After several hours spent by our team and communities voting and reviewing all the talks received, we finally have the agenda for Commit 2018!'
