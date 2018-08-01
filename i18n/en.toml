@@ -1,6 +1,8 @@
 # menu
 [Tickets]
 other = 'Get Your Ticket'
+[Agenda]
+other = 'Agenda'
 [Location]
 other = 'Location'
 [Sponsors]
@@ -100,6 +102,16 @@ other = 'If you are a woman in tech and need help to present for the first time,
 other = "After a couple of very intense months where we received more than 400 talks, it's now time to review all the proposals together with the help of our communities. It's going to be a hard job but we will do our best to offer you an awesome agenda."
 [AgendaExpectation]
 other = 'We expect to have the agenda ready to be published by the beginning of September.'
+
+# Agenda
+[AgendaIsPublished]
+other = 'The agenda'
+[AgendaIsPublishedDesc]
+other = 'After several hours spent by our team and communities voting and reviewing all the talks received, we finally have the agenda for Commit 2018!'
+[AgendaDesc]
+other = 'The level of the talks was great but unfortunately we can’t include all of them. Take a look at our awesome agenda.'
+[GoToTheAgenda]
+other = 'Go to the agenda'
 
 # Stats
 [Attendees]

@@ -1,6 +1,8 @@
 # menu
 [Tickets]
 other = 'Consigue tu Entrada'
+[Agenda]
+other = 'Agenda'
 [Location]
 other = 'Dónde'
 [Sponsors]
@@ -103,6 +105,16 @@ other = 'Si eres mujer y te dedicas a la tecnología pero necesitas ayuda para p
 other = 'Tras dos meses muy intensos, donde hemos recibido más de 400 propuestas, ahora toca arremangarse y valorar todas las charlas con la ayuda de nuestras comunidades. Será complicado elegir, pero entre todos haremos nuestro mejor esfuerzo.'
 [AgendaExpectation]
 other = 'Una vez tengamos la valoración hecha empezaremos a crear la agenda del evento, que tendremos lista para anunciar en septiembre.'
+
+# Agenda
+[AgendaIsPublished]
+other = 'La agenda'
+[AgendaIsPublishedDesc]
+other = 'Tras muchas horas de votaciones y valoraciones en las que, tanto la organización como nuestras comunidades, hemos puesto nuestro mayor esfuerzo, ¡ya tenemos agenda para Commit 2018!'
+[AgendaDesc]
+other = 'El nivel de las charlas que se han propuesto es altísimo pero, aunque nos gustaría, no caben todas. Echa un vistazo a nuestra flamante agenda.'
+[GoToTheAgenda]
+other = 'Ir a la agenda'
 
 # Stats
 [Attendees]
