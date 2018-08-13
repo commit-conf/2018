@@ -92,7 +92,7 @@ other = 'Volver arriba'
 [OurCommunities]
 other = 'Nuestras comunidades'
 [OurCommunitiesDesc]
-other = 'Este evento sólo es posible gracias a el contenido y esfuerzo contribuido por nuestras comunidades.'
+other = 'Este evento sólo es posible gracias al contenido y esfuerzo contribuido por nuestras comunidades.'
 [AddYourComunity]
 other = '¿Falta tu comunidad? <a href="mailto:info@commit-conf.com">Contáctanos</a>'
 
