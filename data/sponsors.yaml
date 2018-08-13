@@ -42,6 +42,9 @@
     - name: atSistemas
       logo: atsistemas.svg
       href: https://www.atsistemas.com/es
+    - name: Tuenti
+      logo: tuenti.svg
+      href: https://corporate.tuenti.com/es
 - name: Supporter
   items:
     - name: RSI
