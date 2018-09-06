@@ -71,6 +71,8 @@ other = '
 other = 'Descuentos en hoteles'
 [EurostarsDiscount]
 other = '<b>Eurostars iHotel</b> ofrece un 10% de descuento para las noches del 22, 23 y 24 de noviembre. Usa el código promocional COMMIT reservando a través de su <a href="https://www.eurostarshotels.com/eurostars-i-hotel.html" target="_blank" rel="noopener noreferrer">web</a>.'
+[NHCiudadDeLaImagenDiscount]
+other = 'El hotel <b>NH Ciudad de la Imagen</b> ofrece habitaciones dobles a 89€ +IVA y habitaciones dobles de uso individual a 80€ +IVA, desayuno incluido. Usa el siguiente <a href="https://www.nh-hoteles.es/event/conferencia-commit" target="_blank" rel="noopener noreferrer">enlace</a> para acceder a esta promoción (válida hasta completar ocupación).'
 
 # Sponsoring
 [BecomeASponsor]
