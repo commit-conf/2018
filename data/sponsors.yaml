@@ -31,6 +31,9 @@
     - name: Amazon
       logo: amazon.svg
       href: https://www.amazon.es/
+    - name: TravelPerk
+      logo: travelperk.svg
+      href: https://www.travelperk.com/
 - name: Silver
   items:
     - name: Liferay
