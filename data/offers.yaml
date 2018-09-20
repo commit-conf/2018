@@ -22,6 +22,12 @@
 - Name: Intelygenz
   logo: intelygenz.png
   html: intelygenz.html
+- Name: Zara
+  logo: zara.svg
+  html: zara.html
+- Name: Travelperk
+  logo: travelperk.svg
+  html: travelperk.html
 - Name: Liferay
   logo: liferay.png
   html: liferay.html

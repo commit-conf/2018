@@ -3,6 +3,9 @@
     - name: Sopra Steria
       logo: sopra.svg
       href: http://www.soprasteria.es/es
+    - name: Google Cloud
+      logo: googlecloud.svg
+      href: https://cloud.google.com/
 - name: Gold
   items: 
     - name: Magnolia
@@ -17,6 +20,9 @@
     - name: Softtek
       logo: softtek.svg
       href: http://www.softtek.com/es/
+    - name: Hotelbeds Group
+      logo: hotelbedsgroup.svg
+      href: http://group.hotelbeds.com/
 - name: Hiring Silver
   items: 
     - name: idealista
@@ -34,6 +40,9 @@
     - name: TravelPerk
       logo: travelperk.svg
       href: https://www.travelperk.com/
+    - name: Zara
+      logo: zara.svg
+      href: https://www.zara.com/
 - name: Silver
   items:
     - name: Liferay
@@ -48,6 +57,12 @@
     - name: Tuenti
       logo: tuenti.svg
       href: https://medium.com/makingtuenti
+    - name: Ryanair
+      logo: ryanair.svg
+      href: https://careers.ryanair.com/travel-labs-spain-open-day-tuesday-12th-december-1pm-7pm/
+    - name: BBVA Next Technologies
+      logo: bbvanexttechnologies.svg
+      href: https://www.bbvanexttechnologies.com/
 - name: Supporter
   items:
     - name: RSI
