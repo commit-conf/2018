@@ -63,6 +63,9 @@
     - name: BBVA Next Technologies
       logo: bbvanexttechnologies.svg
       href: https://www.bbvanexttechnologies.com/
+    - name: Sngular 
+      logo: sngular.svg
+      href: https://sngular.team/
 - name: Supporter
   items:
     - name: RSI
