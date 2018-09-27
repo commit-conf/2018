@@ -23,6 +23,9 @@
     - name: Hotelbeds Group
       logo: hotelbedsgroup.svg
       href: http://group.hotelbeds.com/
+    - name: ING
+      logo: ing.jpg
+      href: https://www.ing.es/
 - name: Hiring Silver
   items: 
     - name: idealista
