@@ -3,6 +3,9 @@
     - name: Sopra Steria
       logo: sopra.svg
       href: http://www.soprasteria.es/es
+    - name: Google Cloud
+      logo: googlecloud.svg
+      href: https://cloud.google.com/
 - name: Gold
   items: 
     - name: Magnolia
@@ -14,6 +17,15 @@
     - name: Future Space
       logo: futurespace.svg
       href: https://www.futurespace.es/
+    - name: Softtek
+      logo: softtek.svg
+      href: http://www.softtek.com/es/
+    - name: Hotelbeds Group
+      logo: hotelbedsgroup.svg
+      href: http://group.hotelbeds.com/
+    - name: ING
+      logo: ing.jpg
+      href: https://www.ing.es/
 - name: Hiring Silver
   items: 
     - name: idealista
@@ -25,6 +37,15 @@
     - name: Intelygenz
       logo: intelygenz.png
       href: https://www.intelygenz.com/
+    - name: Amazon
+      logo: amazon.svg
+      href: https://www.amazon.es/
+    - name: TravelPerk
+      logo: travelperk.svg
+      href: https://www.travelperk.com/
+    - name: Zara
+      logo: zara.svg
+      href: https://www.zara.com/
 - name: Silver
   items:
     - name: Liferay
@@ -33,6 +54,21 @@
     - name: Profile
       logo: profile.svg
       href: https://profile.es/
+    - name: atSistemas
+      logo: atsistemas.svg
+      href: https://www.atsistemas.com/es
+    - name: Tuenti
+      logo: tuenti.svg
+      href: https://medium.com/makingtuenti
+    - name: Ryanair
+      logo: ryanair.svg
+      href: https://careers.ryanair.com/travel-labs-spain-open-day-tuesday-12th-december-1pm-7pm/
+    - name: BBVA Next Technologies
+      logo: bbvanexttechnologies.svg
+      href: https://www.bbvanexttechnologies.com/
+    - name: Sngular 
+      logo: sngular.svg
+      href: https://sngular.team/
 - name: Supporter
   items:
     - name: RSI
@@ -43,3 +79,9 @@
     - name: Universidad San Pablo CEU
       logo: ceu.png
       href: http://www.uspceu.com/
+    - name: Renfe
+      logo: renfe.png
+      href: http://www.renfe.com/
+    - name: Iberia
+      logo: iberia.jpg
+      href: https://www.iberia.com/

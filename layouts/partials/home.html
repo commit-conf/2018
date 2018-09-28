@@ -35,9 +35,9 @@
           {{ i18n "Tickets" }}
           <span class="button-small">{{ i18n "TicketsAvailableNow" }}</span>
         </a>
-        <a class="button" disabled target="_blank">
-          {{ i18n "SubmitYourTalk" }}
-          <span class="button-small">{{ i18n "CallForPapersIsClosed" }}</span>
+        <a class="button" target="_blank" href="https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda">
+          {{ i18n "GoToTheAgenda" }}
+          <span class="button-small">{{ i18n "AgendaIsPublished" }}</span>
         </a>
       </p> 
     </section>
@@ -45,7 +45,7 @@
 
   {{ partial "stats.html" . }}
 
-  {{ partial "r4p.html" . }}
+  {{ partial "agenda.html" . }}
 
   {{ partial "tech-shessions.html" . }}
 

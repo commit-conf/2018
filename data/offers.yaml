@@ -1,9 +1,18 @@
 - Name: Sopra Steria
   logo: sopra.svg
   html: sopra.html
+- Name: Magnolia
+  logo: magnolia.svg
+  html: magnolia.html
+- Name: Autentia
+  logo: autentia.svg
+  html: autentia.html
 - Name: Future Space
   logo: futurespace.svg
   html: futurespace.html
+- Name: Softtek
+  logo: softtek.svg
+  html: softtek.html
 - Name: Idealista
   logo: idealista.svg
   html: idealista.html
@@ -13,3 +22,12 @@
 - Name: Intelygenz
   logo: intelygenz.png
   html: intelygenz.html
+- Name: Zara
+  logo: zara.svg
+  html: zara.html
+- Name: Travelperk
+  logo: travelperk.svg
+  html: travelperk.html
+- Name: Liferay
+  logo: liferay.png
+  html: liferay.html

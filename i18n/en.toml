@@ -1,6 +1,8 @@
 # menu
 [Tickets]
 other = 'Get Your Ticket'
+[Agenda]
+other = 'Agenda'
 [Location]
 other = 'Location'
 [Sponsors]
@@ -28,7 +30,7 @@ other = 'The Call for Papers opens on April 16th'
 [CallForPapersIsClosed]
 other = 'The Call for Papers is now closed' 
 [TicketsAvailableNow]
-other='Tickets Available Now'
+other='Last Tickets Available'
 [TicketsAvailableSoon]
 other='Tickets are available from june 5th'
 
@@ -42,7 +44,7 @@ other = 'Click to see this route'
 [Shuttles]
 other = 'Free Shuttles'
 [ShuttlesDesc]
-other = 'We provide a free shuttle service to/from Plaza de España that takes 20 minutes to do a one-way trip. We have adjusted the schedule according to our experience from previous years, but we cannot guarantee seats for everyone in every shuttle. The departure information will be published in our blog.'
+other = 'We provide a free shuttle service to/from Plaza de España that takes 20 minutes to do a one-way trip. We have adjusted the schedule according to our experience, but we cannot guarantee seats for everyone in every shuttle. You will find the timetable and more details about the transfer in our blog starting from October.'
 [MapAdvice]
 other = '<b>THIS IS NOT THE SAME AS "CAMPUS DE MONCLOA"</b>. Please, check the instructions from your GPS.'
 [ViewOnGoogleMaps]
@@ -53,6 +55,22 @@ other = 'Renfe discount'
 other = 'Renfe offers a 30% discount to attend Commit. This offer is valid for all trains and all national travels, for one-way or round-trips, but cannot be combined with any other commercial offer. <a href="http://www.renfe.com/viajeros/tarifas/eventos_tutorial.html" rel="noopener noreferrer" target="_blank">Here</a> you can read more about how this works.'
 [RenfeImportant]
 other = '<b>Important:</b> to get this special fare you will need a discount card, that is strictly personal and that must show your name. You will be required to show the discount card, together with your train ticket, at the train station or during your trip by the train inspector. To obtain your personal discount card, you have to email us at <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>, providing your Commit ticket as attachment.'
+[IberiaTitle]
+other = 'Iberia discount'
+[IberiaDesc]
+other = '
+  <p>Iberia offers a 10% discount on the purchase of tickets to Madrid. The discount applies on journeys from 5 days before up to 5 days after Commit. 
+  Before ending your booking at <a href="https://www.iberia.com" target="_blank" rel="noopner noreferrer">www.iberia.com</a>, use the section "I have a promotional code" to enter the code <b>COMMIT18</b>.</p>
+
+  <p>This offer only applies to fixed date flights (no including Air Bridge flights) operated by Iberia, Iberia Express and Air Nostrum) and it does not include lines with a shared code (IB7000, IB5000, IB4000). In the case of reservations in which the promotional code is not included before the end of the process, the discount will not apply.</p>
+'
+
+[HotelDiscounts]
+other = 'Hotel discounts'
+[EurostarsDiscount]
+other = '<b>Eurostars iHotel</b> offers a 10% discount on selected nights (November 22, 23 and 24). Use the discount code COMMIT when booking on their <a href="https://www.eurostarshotels.co.uk/eurostars-i-hotel.html" target="_blank" rel="noopener noreferrer">website</a>.'
+[NHCiudadDeLaImagenDiscount]
+other = 'The <b>NH Ciudad de la Imagen</b> hotel offers a special price on double rooms (89€ +VAT) and double rooms for single use (80€ +VAT), both breakfast included. Use the following <a href="https://www.nh-hoteles.es/event/conferencia-commit" target="_blank" rel="noopener noreferrer">link</a> to access this promotion (while rooms last).'
 
 # Sponsoring
 [BecomeASponsor]
@@ -89,6 +107,18 @@ other = "If there is something that keeps you awake at night, you don't need to 
 other = "After a couple of very intense months where we received more than 400 talks, it's now time to review all the proposals together with the help of our communities. It's going to be a hard job but we will do our best to offer you an awesome agenda."
 [AgendaExpectation]
 other = 'We expect to have the agenda ready to be published by the beginning of September.'
+
+# Agenda
+[AgendaIsPublished]
+other = 'The agenda is already online'
+[TheAgenda]
+other = 'The agenda'
+[AgendaIsPublishedDesc]
+other = 'After several hours spent by our team and communities voting and reviewing all the talks received, we finally have the agenda for Commit 2018!'
+[AgendaDesc]
+other = 'The level of the talks was great but unfortunately we can’t include all of them. Take a look at our awesome agenda.'
+[GoToTheAgenda]
+other = 'Go to the agenda'
 
 # Tech SHEssions
 [TechSHEssions]

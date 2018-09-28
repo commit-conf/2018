@@ -1,6 +1,8 @@
 items:
   - name: Tickets
     url: https://www.koliseo.com/events/commit-2018
+  - name: Agenda
+    url: https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda
   - name: Blog
     url: https://blog.commit-conf.com/
   - name: Location

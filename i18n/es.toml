@@ -1,6 +1,8 @@
 # menu
 [Tickets]
 other = 'Consigue tu Entrada'
+[Agenda]
+other = 'Agenda'
 [Location]
 other = 'Dónde'
 [Sponsors]
@@ -28,7 +30,7 @@ other = 'El Call for Papers abre el 16 de Abril'
 [CallForPapersIsClosed]
 other = 'El Call for Papers está cerrado'
 [TicketsAvailableNow]
-other='Hay entradas disponibles'
+other='Últimas entradas disponibles'
 [TicketsAvailableSoon]
 other='Disponibles a partir del 5 de Junio'
 
@@ -42,7 +44,7 @@ other = 'Haz clic para ver esta ruta'
 [Shuttles]
 other = 'Shuttles gratuitos'
 [ShuttlesDesc]
-other = 'Ponemos disponibles unos autobuses gratuitos que salen desde/hacia Plaza de España y tardan unos 20 minutos en hacer el trayecto. Hemos ajustado el horario de acuerdo a nuestra experiencia de años anteriores, pero no podemos garantizar asientos para todos en todos los autobuses. El horario de los autobuses lo haremos público en nuestro blog.'
+other = 'Ponemos disponibles unos autobuses gratuitos que salen desde/hacia Plaza de España y tardan unos 20 minutos en hacer el trayecto. Hemos ajustado el horario de acuerdo a nuestra experiencia, pero no podemos garantizar asientos para todos en todos los autobuses. Más detalles y horarios en nuestro blog a partir de octubre.'
 [MapAdvice]
 other = '<b>ESTO NO ES LO MISMO QUE "CAMPUS DE MONCLOA".</b> Por favor, comprueba las instrucciones de tu GPS.'
 [ViewOnGoogleMaps]
@@ -53,6 +55,24 @@ other = 'Descuento con Renfe'
 other = 'Renfe ofrece un descuento del 30% para viajar a Commit presentando la correspondiente cédula. La oferta es válida para todos los trenes y todos los trayectos de recorrido nacional, para viajes de ida o ida y vuelta, no siendo acumulables a otras ofertas comerciales. <a href="http://www.renfe.com/viajeros/tarifas/eventos_tutorial.html" rel="noopener noreferrer" target="_blank">Aquí</a> puedes leer cómo funciona.'
 [RenfeImportant]
 other = '<b>Importante:</b> la cédula es estrictamente personal y tiene que indicar tu nombre. Es obligatoria su presentación impresa en el control de acceso o al Interventor/Supervisor del tren. Para obtener la cédula personalizada, tendrás que escribirnos a <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>, indicándonos tu entrada para Commit (adjuntar el PDF).'
+[IberiaTitle]
+other = 'Descuento con Iberia'
+[IberiaDesc]
+other = '
+    <p>Iberia ofrece un descuento del 10% para vuelos cuyo destino sea Madrid y cuyos billetes sean desde 5 días antes hasta 5 días después de la fecha de la celebración de Commit. 
+    Antes de finalizar la compra en <a href="https://www.iberia.com" target="_blank" rel="noopner noreferrer">www.iberia.com</a>, una vez seleccionados los vuelos,
+    debes usar el apartado “Tengo un código promocional” indicando el código <b>COMMIT18</b>.</p>
+
+    <p>Esta oferta es aplicable exclusivamente en vuelos regulares con fecha cerrada (no
+    incluidos vuelos del Puente Aéreo) operados por Iberia, Iberia Express y Air Nostrum. Quedan fuera de este acuerdo las líneas con código compartido
+    (7000/5000/4000). En el caso de las reservas en las que no se incluya el código promocional antes de la finalización del proceso no será de aplicación dicho descuento.</p>
+'
+[HotelDiscounts]
+other = 'Descuentos en hoteles'
+[EurostarsDiscount]
+other = '<b>Eurostars iHotel</b> ofrece un 10% de descuento para las noches del 22, 23 y 24 de noviembre. Usa el código promocional COMMIT reservando a través de su <a href="https://www.eurostarshotels.com/eurostars-i-hotel.html" target="_blank" rel="noopener noreferrer">web</a>.'
+[NHCiudadDeLaImagenDiscount]
+other = 'El hotel <b>NH Ciudad de la Imagen</b> ofrece habitaciones dobles a 89€ +IVA y habitaciones dobles de uso individual a 80€ +IVA, desayuno incluido. Usa el siguiente <a href="https://www.nh-hoteles.es/event/conferencia-commit" target="_blank" rel="noopener noreferrer">enlace</a> para acceder a esta promoción (válida hasta completar ocupación).'
 
 # Sponsoring
 [BecomeASponsor]
@@ -78,7 +98,7 @@ other = 'Volver arriba'
 [OurCommunities]
 other = 'Nuestras comunidades'
 [OurCommunitiesDesc]
-other = 'Este evento sólo es posible gracias a el contenido y esfuerzo contribuido por nuestras comunidades.'
+other = 'Este evento sólo es posible gracias al contenido y esfuerzo contribuido por nuestras comunidades.'
 [AddYourComunity]
 other = '¿Falta tu comunidad? <a href="mailto:info@commit-conf.com">Contáctanos</a>'
 
@@ -89,6 +109,18 @@ other = "Si tienes algo que te tiene despierto por las noches, no tienes que ser
 other = 'Tras dos meses muy intensos, donde hemos recibido más de 400 propuestas, ahora toca arremangarse y valorar todas las charlas con la ayuda de nuestras comunidades. Será complicado elegir, pero entre todos haremos nuestro mejor esfuerzo.'
 [AgendaExpectation]
 other = 'Una vez tengamos la valoración hecha empezaremos a crear la agenda del evento, que tendremos lista para anunciar en septiembre.'
+
+# Agenda
+[AgendaIsPublished]
+other = 'La agenda ya está online'
+[TheAgenda]
+other = 'La agenda'
+[AgendaIsPublishedDesc]
+other = 'Tras muchas horas de votaciones y valoraciones en las que, tanto la organización como nuestras comunidades, hemos puesto nuestro mayor esfuerzo, ¡ya tenemos agenda para Commit 2018!'
+[AgendaDesc]
+other = 'El nivel de las charlas que se han propuesto es altísimo pero, aunque nos gustaría, no caben todas. Echa un vistazo a nuestra flamante agenda.'
+[GoToTheAgenda]
+other = 'Ir a la agenda'
 
 # Tech SHEssions
 [TechSHEssions]
