@@ -1,25 +1,26 @@
 students:
-  - name: Julia Lopez
-    twitter: julia
-  - name: Julia Lopez 2
-    twitter: julia
-  - name: Julia Lopez 3
-    twitter: julia
-  - name: Julia Lopez 4
-    twitter: julia
-  - name: Julia Lopez 5
-    twitter: julia
-  - name: Julia Lopez 6
-    twitter: julia
-  - name: Julia Lopez 7
-    twitter: julia
-  - name: Julia Lopez 8
-    twitter: julia
-  - name: Julia Lopez 9
-    twitter: julia
-  - name: Julia Lopez 10
-    twitter: julia
+  - name: Ana Sanmartín Domenech
+    twitter: ASDomenech7
+    avatar: ana-sanmartin.jpg
+  - name: Carmen Pérez Elvira
+    twitter: holayosoycarmen
+    avatar: carmen-perez.jpg
+  - name: Luna Garrido
+    twitter: LunaGarridoLpez
+    avatar: luna-garrido.jpg
+  - name: Rosa María González
+    twitter: gprosemary
+    avatar: rosa-gonzalez.jpg
 mentors:
-  - name: Laura Vignali
-    twitter: laura_vignali
-    avatar: example.jpeg
+  - name: Laura Morillo-Velarde Rodríguez
+    twitter: Laura_Morillo
+    avatar: laura-morillo.jpg
+  - name: Isabel Cabezas
+    twitter: isabelcabezasm
+    avatar: isabel-cabezas.jpg
+  - name: Nerea Luis Mingueza
+    twitter: sailormerqury
+    avatar: nerea-luis.jpg
+  - name: Laura Lacarra Arcos
+    twitter: lauralacarra
+    avatar: laura-lacarra.jpg

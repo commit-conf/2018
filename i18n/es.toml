@@ -126,7 +126,7 @@ other = 'Ir a la agenda'
 [TechSHEssions]
 other = "Tech SHEssions"
 [TechSHEssionsDesc]
-other = "En Commit creemos que <b>la diversidad en los eventos es importante</b>. Muy importante. Por eso, llevamos dos años con un programa que busca empoderar mujeres técnicas para que se atrevan a participar activamente en las comunidades técnicas. A largo plazo, nos gustaría que estas mujeres fueran referentes en sus comunidades y el sector IT."
+other = "En Commit creemos que <b>la diversidad en los eventos es muy importante</b>. Por eso, llevamos dos años con un programa que busca empoderar mujeres técnicas para que se atrevan a participar activamente en las comunidades técnicas. A largo plazo, nos gustaría que estas mujeres fueran referentes en sus comunidades y el sector IT."
 [ViewMore]
 other = "Ver más"
 [TechSHEssionsObjectives]
@@ -136,10 +136,9 @@ other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssion
     El programa incluye formación en habilidades de comunicación oral, expresión corporal, control del
     nerviosismo y gestión de situaciones difíciles que puedan surgir.</p>
   <p>
-    Y para ello hemos optado por un mentoring para guiar a la alumna en su proceso formativo.
-    Las mentoras son mujeres profesionales del sector IT con experiencia participando en la organización de eventos 
-    tecnológicos o como ponentes en eventos de este tipo. Su misión es enseñar y apoyar a las alumnas a la hora de recorrer
-    el camino que ellas ya han recorrido.
+    Para ello hemos optado por un mentoring para guiar a la alumna en su proceso formativo. 
+    Las mentoras son mujeres profesionales del sector IT con experiencia participando en la organización de eventos tecnológicos o como ponentes en eventos de este tipo. 
+    Su misión es enseñar y apoyar a las alumnas a la hora de recorrer el camino que ellas ya han recorrido.
   </p>
   <p>A largo plazo, nos gustaría conseguir que estas mujeres sean referentes en sus
     comunidades. Creemos que la existencia de referentes femeninos en las comunidades tecnológicas animará a las mujeres
@@ -153,10 +152,10 @@ other = "Cualquier mujer con un background técnico que esté interesada en part
 [StudentRequirements]
 other = "¿Qué tendrías que hacer?"
 [StudentRequirementsDesc]
-other = '<b>Asistir a charlas y actividades</b> formativas impartidas por mujeres que ya son un referente en el sector.
-    ¿Qué mejor forma de aprender comunicación oral, expresión corporal, técnicas de relajación, etc que auténticas expertas que
-    han pasado por tu misma situación? Además, tendrás que <b>preparar y realizar presentaciones</b> con el apoyo de tu mentora, siempre
-    dentro de un espacio seguro para que puedas hacerlo de forma cómoda.'
+other = '<b>Asistir a charlas y actividades</b> formativas impartidas por mujeres que ya son un referente en el sector. 
+    ¿Qué mejor forma de aprender comunicación oral, expresión corporal, técnicas de relajación, etc. que de auténticas 
+    expertas que han pasado por tu misma situación? Además, tendrás que <b>preparar y realizar presentaciones</b> con el 
+    apoyo de tu mentora, siempre dentro de un espacio seguro para que puedas hacerlo de forma cómoda.'
 [WantToBeAMentor]
 other = "¿Quieres ayudar como mentora del programa?"
 [WantToBeAMentorDesc]
@@ -167,9 +166,11 @@ other = 'No hace falta que tengas ninguna habilidad técnica concreta para parti
 [MentorRequirements]
 other = "¿Qué implica ser una mentora?"
 [MentorRequirementsDesc]
-other = 'Tener contacto, presencial o telemático, con la alumna aproximadamente una vez a la semana o una vez cada dos semanas. Revisar cómo va la presentación en la que está trabajando, proponle mejoras, ayudarla a ensayar la
-    presentación. Y cómo no, servir de apoyo. Las revisiones ayudan muchísimo, pero los nervios no siempre atienden a razones.
-    Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote es una ayuda tremenda.'
+other = 'Tener contacto, presencial y/o en remoto, con tu alumna aproximadamente una vez a la semana o una vez cada 
+    dos semanas. Revisar cómo va la presentación en la que está trabajando, proponerle mejoras, ayudarla a ensayar 
+    la presentación. Y, cómo no, servir de apoyo. Las revisiones ayudan muchísimo, pero los nervios no siempre atienden 
+    a razones. Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote 
+    es una ayuda tremenda.'
 [OurStudents]
 other = 'Nuestras estudiantes'
 [OurMentors]

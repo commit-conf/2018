@@ -124,9 +124,50 @@ other = 'Go to the agenda'
 [TechSHEssions]
 other = "Tech SHEssions"
 [TechSHEssionsDesc]
-other = "At Commit, we believe that <b>diversity in events is important</b>. Very important. For this reason, we have been working for two years with a program that seeks to empower technical women to dare to participate actively in technical communities. In the long term, we would like these women to be leaders in their communities and the IT sector."
+other = "At Commit we believe <b>diversity is very important</b>. That's why two years ago we started a program seeking to empower tech women in order to help them reach the confidence to participate actively in tech communities. In the long term we would like these women to be referents in their communities and the IT sector."
 [ViewMore]
 other = "View more"
+[TechSHEssionsObjectives]
+other = "Tech SHEssions objectives"
+[TechSHEssionsObjectivesDesc]
+other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssions</a> seeks to empower tech women so they can become confident enough to participate actively in tech communities. The program includes training in oral communication, body language, anxiety control and also difficult situations management.</p>
+  <p>
+    To achieve that we chose the mentoring model to guide the students in their training. Mentors are IT professionals 
+    women with experience in the organization of tech events or speakers. Their goal is to teach and support the mentees 
+    with their own experience and knowledge.
+  </p>
+  <p>In the long term we would like these women to be referents of their communities. We believe that having female 
+  referents in tech communities will enforce other women to participate, and will contribute to close the gender 
+  gap in the IT sector and also make more women consider working in this sector.
+  </p>'
+[WantToBeAStudent]
+other = "Do you want to be a mentee?"
+[WantToBeAStudentDesc]
+other = "Any woman with a technical background, interested in participating actively in communities, can be part of the program. It doesn't matter if you are a professional or a student."
+[StudentRequirements]
+other = "What do you have to do?"
+[StudentRequirementsDesc]
+other = '''<b>Attend talks and training activities</b> given by women who are referents in this sector. 
+  What better way to learn about oral communication skills, body language, relax techniques than listening to 
+  experts that were once beginners as well? Also, you will have to <b>prepare and present your own talks</b> with 
+  your mentor's support, always in a safe space that makes you feel confortable.'''
+[WantToBeAMentor]
+other = "Do you want to be a mentor?"
+[WantToBeAMentorDesc]
+other = '''You don't need any specific tech skills to be a mentor, you only need experience participating in 
+  communities or tech events. Your goal is not to give tech support but teach how to do talks, speak in public and 
+  help with their first steps full of anxiety and scenic panic.'''
+[MentorRequirements]
+other = "What do mentors do?"
+[MentorRequirementsDesc]
+other = '''You need to be in contact (remotely and/or in person) with your mentee approximately once a week or every 
+  two weeks. You will review her slides, suggest improvements, help her rehearse the presentation. And, of course, 
+  give her support. Reviews help a lot but when you are nervous, you have doubts or don't know how to move forward, 
+  something as simple as having someone supporting you is a huge help.'''
+[OurStudents]
+other = 'Our students'
+[OurMentors]
+other = 'Our mentors'
 
 # Stats
 [Attendees]

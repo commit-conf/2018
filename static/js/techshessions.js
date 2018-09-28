@@ -8,6 +8,12 @@ if (window.NodeList && !NodeList.prototype.forEach) {
   };
 }
 
+function removeSpinner(lazyAvatar) {
+  var parentNode = lazyAvatar.parentNode;
+  var spinner = parentNode.firstElementChild;
+  parentNode.removeChild(spinner);
+}
+
 window.addEventListener("load", function() {
   var lazyAvatars = document.querySelectorAll(".lazy-avatar");
   lazyAvatars.forEach(function(element) {
@@ -16,6 +22,10 @@ window.addEventListener("load", function() {
       var downloadingImage = new Image();
       downloadingImage.onload = function() {
         element.src = this.src;
+        removeSpinner(element);
+      };
+      downloadingImage.onerror = function() {
+        removeSpinner(element);
       };
       downloadingImage.src = avatar;
     }
