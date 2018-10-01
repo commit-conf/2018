@@ -46,6 +46,9 @@
     - name: Zara
       logo: zara.svg
       href: https://www.zara.com/
+    - name: The Cocktail
+      logo: thecocktail.svg
+      href: https://the-cocktail.com/
 - name: Silver
   items:
     - name: Liferay
