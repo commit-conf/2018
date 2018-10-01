@@ -172,9 +172,23 @@ other = 'Tener contacto, presencial y/o en remoto, con tu alumna aproximadamente
     a razones. Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote 
     es una ayuda tremenda.'
 [OurStudents]
-other = 'Nuestras estudiantes'
+other = 'Nuestras graduadas'
 [OurMentors]
 other = 'Nuestras mentoras'
+
+#IndieMad
+[IndieMadDesc]
+other = '<p>
+  Tras el éxito de la edición anterior vuelve <a href="https://indiemad.org/" target="_blank" rel="noopener noreferrer">Indie[Mad]</a>, el mayor evento de desarrollo independiente de videojuegos de Madrid.
+  </p><p>
+  40 equipos procedentes de toda España expondrán sus proyectos, donde el visitante podrá tener una visión completa 
+  del auge del desarrollo independiente en nuestro país. Se trata de un espacio en el que los desarrolladores podrán 
+  compartir experiencias e ideas y donde el visitante tendrá contacto directo con ellos.
+  </p><p>
+  Este año las actividades se desarrollarán en dos salas dedicadas a charlas y networking con ponentes de máximo 
+  nivel que completarán el espacio de exposición.
+  </p>
+'
 
 # Stats
 [Attendees]

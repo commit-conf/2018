@@ -165,9 +165,23 @@ other = '''You need to be in contact (remotely and/or in person) with your mente
   give her support. Reviews help a lot but when you are nervous, you have doubts or don't know how to move forward, 
   something as simple as having someone supporting you is a huge help.'''
 [OurStudents]
-other = 'Our students'
+other = 'Our graduates'
 [OurMentors]
 other = 'Our mentors'
+
+#IndieMad
+[IndieMadDesc]
+other = '<p>
+  After the success of the previous edition <a href="https://indiemad.org/" target="_blank" rel="noopener noreferrer">Indie[Mad]</a>, the largest independent video game development event in Madrid, is back!
+  </p><p>
+  40 teams from all over Spain will expose their projects to show a complete view of the boom on the independent 
+  development industry in our Country. It is a space where developers can share experiences and ideas and the 
+  visitor can have a direct contact with them.
+  </p><p>
+  This year the activities will take place in two rooms, dedicated to talks and networking with top level speakers, 
+  that will complete the exhibition space.
+  </p>
+'
 
 # Stats
 [Attendees]

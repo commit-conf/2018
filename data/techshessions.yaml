@@ -11,6 +11,9 @@ students:
   - name: Rosa María González
     twitter: gprosemary
     avatar: rosa-gonzalez.jpg
+  - name: Cristina Fernández
+    twitter: cristinafsanz
+    avatar: cristina-fernandez.jpg
 mentors:
   - name: Laura Morillo-Velarde Rodríguez
     twitter: Laura_Morillo
@@ -24,3 +27,12 @@ mentors:
   - name: Laura Lacarra Arcos
     twitter: lauralacarra
     avatar: laura-lacarra.jpg
+  - name: Escandia Camargo
+    twitter: escandiacamargo
+    avatar: escandia-camargo.jpg
+  - name: Eva Mosquera
+    twitter: EvaMosqueraR
+    avatar: eva-mosquera.jpg
+  - name: Meriem El Yamri
+    twitter: melyamri
+    avatar: meriem-el-yamri.jpg

@@ -1,0 +1,18 @@
+.indiemad {
+  background: rgba($gray-light, .3);
+  > .separator {
+    margin-top: -15px;
+  }
+}
+
+.indiemad-logo {
+  padding-bottom: 1rem;
+  @media #{$medium-up} {
+    width: 300px;
+    min-width: 40%;
+    padding-left: 1rem;
+  }
+  @media #{$large-up} {
+    width: 500px;
+  }
+}
