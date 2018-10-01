@@ -17,6 +17,9 @@
   }
   &.theme-4 {
     fill: $blue;
+    &.dark {
+      fill: $blue-dark;
+    }
   }
 }
 
