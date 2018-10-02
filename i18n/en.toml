@@ -1,5 +1,5 @@
 # menu
-[Tickets]
+[GetYourTicket]
 other = 'Get Your Ticket'
 [Agenda]
 other = 'Agenda'
@@ -233,3 +233,126 @@ other = '''
 other = 'Organizer Identification'
 [DataOwner]
 other = 'Fundación Extrema, owner of the website <a href="http://commit-conf.com">http://commit-conf.com</a> (hereinafter Commit), residing at 24A Casas de Miravete St., 28031 Madrid; with CIF G86410040. Any inquiries may be directed to the address: <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>.'
+
+# FAQ
+[FAQ]
+other = 'FAQ'
+[FAQLong]
+other = 'Frequently Asked Questions'
+[Registration]
+other = 'Registration'
+[Badges]
+other = 'Badges'
+[BadgesDesc]
+other = '''
+  <div class="main-and-aside">
+    <div class="badge"><img src="/img/badges.min.svg" class="badge-img"></div>
+    <div class="main">
+      <p>We are going to be strict with the access to the talks. With this in mind, at the registration desk we will give you:</p>
+      <ul class="square">
+        <li><p>A wristband: This wristband must be showed when asked by the organization at the doors of the tracks, and will be also necessary to pick your lunch box, and must be worn during the entire event. Neither in the pocket, nor in the backpack, nor at home.</p><p><b>Without a wristband, the organization reserves the right to prohibit access to the talks</b>. </p><p>If you want to use the same ticket for one person the first day and for another one the second, tell it at the info point before leaving the event and we will cut your wristband and give you another for the next day.</p></li>
+        <li>A badge: The only purpose of the badge is to facilitate networking. It is not mandatory to wear it, but will help when meeting new people.</li>
+      </ul>
+    </div>
+  </div>
+'''
+[AccessControl]
+other = 'Registration and access control'
+[AccessControlDesc]
+other = '
+  <p>We will use the Koliseo Access Control application to verify your ticket. 
+  You only have to <b>bring your ticket</b> with you <b>and wear the wristband we will give you</b> at the registration desk.</p>
+  <p>You can bring your ticket either printed out or in your mobile device.</p>
+  <p>Important: <b>make sure you are using the right ticket for Commit</b>. Last August Koliseo made some changes and the QR codes of the tickets changed. If you bought your ticket before August you should have received an email from Koliseo with the new ticket. To avoid any problem you can just download your new ticket from your profile on Koliseo.
+'
+[RegistrationLimits]
+other = "I won't be able to make it to the first session the first day. Will I be able to do the registration later?"
+[RegistrationLimitsDesc]
+other = '''
+  <p>The official registration period is specified in the agenda, but you can register anytime either Friday or Saturday at the Info Point in the main entrance.</p>
+  <p>Once you are registered for Friday you do not need to register again for Saturday, just wear your wristband and the badge we gave you, since <b>there will be people controlling</b>.</p>
+'''
+[Tickets]
+other = 'Tickets'
+[TransferTicket]
+other = 'I want to transfer my ticket to someone else or change any data'
+[TransferTicketDesc]
+other = '''
+  <p>If you need to change any data for your ticket like the name or the t-shirt size, you can edit it in your ticket page in Koliseo. Some data (like t-shirt size or food preference) will be accumulated by the organization before the event, so make sure that you do not update these too close to the event date.</p>
+  <p>If you want to transfer your ticket to someone else, get in contact with <a target="_blank" href="mailto:info@commit-conf.com">the organization</a> specifying the username (in Koliseo) of the requested new ticket holder.</p>
+'''
+[TicketInvoice]
+other = 'I need an invoice for my ticket'
+[TicketInvoiceDesc]
+other = '''
+  <p>You can create the invoice yourself by using the <code>Create invoice</code> button that appears on your ticket page at <a target="_blank" href="https://www.koliseo.com" target="_blank">Koliseo</a> and filling in your data.</p>
+  <p>You can generate your invoice until up to 30 days after the event.</p>
+'''
+[Refund]
+other = 'I definitely will not be able to attend. Can I return or ask for a refund?'
+[RefundDesc]
+other = '<p><b>In no case will we refund or reimburse any purchased ticket</b>, but you can transfer it to someone else.</p>'
+[CannotFindTicket]
+other = 'I cannot find my ticket in Koliseo.'
+[CannotFindTicketDesc]
+other = '<p>This happens when the user signs in using a different account provider from the one used to purchase the ticket (for example, purchase using a Google account and log in later using Facebook). For Koliseo these would be two different accounts, even if they share e-mail.</p>'
+[StudentOrUnemployedRequirements]
+other = 'I am an student or unemployed. Do I get any discount? What would the requirements be?'
+[StudentOrUnemployedRequirementsDesc]
+other = '''
+  <p>If you are unemployed or if you are a student, you can buy a "Student/Unemployed" ticket with a reduced price.</p>
+  <p>At the registration desk you will have to show:</p>
+  <ul>
+    <li>If you are a student, your student ID. If you cease to be a student by the day of the event, you can show your ID from the previous academic year.</li>
+    <li>If unemployed, bring an INEM document that shows that you were unemployed by the purchase date of your ticket.</li>
+  </ul>
+  <p>There is a limited number of these tickets.</p>
+  <p><b>If you finally will not be able to assist and are planning to transfer your ticket, the new attendee will need to fulfill the same requirements.</b></p>
+'''
+[BuyTicketAtTheVenue]
+other = 'Can I buy my ticket directly at the venue?'
+[BuyTicketAtTheVenueDesc]
+other = '<p>No, you can only buy tickets at Koliseo.com until the event is sold out.</p>'
+[Others]
+other = 'Others'
+[BringLaptop]
+other = 'Do I have to bring my laptop?'
+[BringLaptopDesc]
+other = '''
+  <p>If you want to go to a workshop, you will most probably need it. It could also be useful to take notes or review the speaker slides during the talk.</p>
+  <p>Please mind your laptop battery life. There will be power plugs in lab tracks, but not for talks.</p>
+'''
+[WorkshopRequirements]
+other = 'What do I need to attend to a workshop?'
+[WorkshopRequirementsDesc]
+other = '''
+  <p>Each speaker will specify their workshop requirements in the agenda: laptop, install a specific application, previous experience, etc.</p>
+'''
+[WorkshopsRequireRegistration]
+other = 'Do I need to register to attend a talk?'
+[WorkshopsRequireRegistrationDesc]
+other = '''
+  <p>You don't need to register for talks. Your ticket allows you to attend any talk or lab. Although we distribute the talks through the tracks the best way possible, some of them will be more crowded that others and you won't be able to get a seat for some specific talk.</p>
+  <p>To help us understand the talks with bigger expected audience, <b>you can specify in the agenda page the talks that you are more interested in</b>. The talks with bigger expected audience will be assigned the biggest rooms. <a href="https://twitter.com/commitconf/status/1044880810069938176" target="_blank">Here</a> you have a tweet with instructions on how to do this.</p>
+'''
+[IsMealIncluded]
+other = 'Is the meal included or should I bring it with me?'
+[IsMealIncludedDesc]
+other = '''
+  <p>The ticket includes coffee breaks, meals and the networking beer break. While buying your ticket, <b>specify any food preference or special need</b> (we will have vegetarian, vegan and gluten-free options).</p>
+  <p>We will be more than two thousand people, which gives limited alternatives of customization. The meal will be a lunch box with sandwiches, fruits and chocolate. As an alternative  you can use to the cafeteria of the University or bring your own meal from home.</p>
+'''
+[TransportOptions]
+other = 'Which options do I have to get there?'
+[TransportOptionsDesc]
+other = '''
+  <p>You can use the public transport, taxi, car or any of the free shuttles that the organization will provide during the event (both ways). The schedule for the shuttles will be published in the web one month before the event (approx.).</p>
+  <p><b>These shuttles are provided as a courtesy, and may not have enough capacity for everyone</b>.</p>
+  <p><b>We recommend not to go by car</b> because the parking space is very limited and might be full, in which case you would need to park somewhere else and take a taxi or the public transport.</p>
+'''
+[Cloakroom]
+other = 'Will you have a cloakroom?'
+[CloakroomDesc]
+other = '''
+  <p>We will have a storage space for your coat, helmet or suitcase. The cloakroom will always have someone from the organization or volunteers. However, <b>neither Commit or the University will be responsible for your belongings</b>.</p>
+'''

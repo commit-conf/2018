@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+  <section class="content faq">
+    <h1>{{ i18n "FAQLong" }}</h1>
+    <nav class="menu">
+      <a class="menu-item selected" href="#registration">{{ i18n "Registration" }}</a>
+      <a class="menu-item" href="#tickets">{{ i18n "Tickets" }}</a>
+      <a class="menu-item" href="#others">{{ i18n "Others" }}</a>
+    </nav>
+    <div class="box">
+      <div class="faq-group" id="registration">
+        {{ partial "faq-entry.html" (dict "title" "Badges") }}
+        {{ partial "faq-entry.html" (dict "title" "AccessControl") }}
+        {{ partial "faq-entry.html" (dict "title" "RegistrationLimits") }}
+      </div>
+      <div class="faq-group" id="tickets">
+        {{ partial "faq-entry.html" (dict "title" "TransferTicket") }}
+        {{ partial "faq-entry.html" (dict "title" "TicketInvoice") }}
+        {{ partial "faq-entry.html" (dict "title" "Refund") }}
+        {{ partial "faq-entry.html" (dict "title" "CannotFindTicket") }}
+        {{ partial "faq-entry.html" (dict "title" "StudentOrUnemployedRequirements") }}
+      </div>
+      <div class="faq-group" id="others">
+        {{ partial "faq-entry.html" (dict "title" "BuyTicketAtTheVenue") }}
+        {{ partial "faq-entry.html" (dict "title" "BringLaptop") }}
+        {{ partial "faq-entry.html" (dict "title" "WorkshopRequirements") }}
+        {{ partial "faq-entry.html" (dict "title" "WorkshopsRequireRegistration") }}
+        {{ partial "faq-entry.html" (dict "title" "IsMealIncluded") }}
+        {{ partial "faq-entry.html" (dict "title" "TransportOptions") }}
+        {{ partial "faq-entry.html" (dict "title" "Cloakroom") }}
+      </div>
+    </div>
+  </section>
+
+  <script async src="/js/faq.js" />
+  </script>
+{{ end }}

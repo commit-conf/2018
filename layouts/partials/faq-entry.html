@@ -1,0 +1,5 @@
+<section class="faq-entry box">
+  <h3>{{ i18n .title}}</h3>
+  {{ $content := (printf "%s%s" .title "Desc" ) }}
+  {{ i18n $content | safeHTML }}
+</section>

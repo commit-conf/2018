@@ -8,6 +8,8 @@
 @import "footer";
 @import "buttons";
 @import "forms";
+@import "menu";
+@import "boxes";
 
 //pages
 @import "404";
@@ -20,5 +22,6 @@
 @import "pages/team";
 @import "pages/techshessions";
 @import "pages/indiemad";
+@import "pages/faq";
 
 @import "responsive";

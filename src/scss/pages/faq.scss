@@ -1,0 +1,15 @@
+.badge {
+  text-align: center;
+}
+
+.badge-img {
+  max-width: 150px;
+}
+
+@media #{$medium-up} {
+  .badge-img {
+    max-width: 350px;
+    width: 100%;
+    min-width: 150px;
+  }
+}

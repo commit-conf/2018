@@ -161,6 +161,14 @@ pre {
   border-radius: 3px;
 }
 
+code {
+  background: $gray-lighter;
+  padding: .25rem .5rem;
+  margin: .1rem;
+  display: inline-block;
+  border-radius: 3px;
+}
+
 .main-and-aside > aside {
   margin-bottom: $section-vertical-margin;
 }
