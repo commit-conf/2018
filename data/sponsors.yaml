@@ -84,6 +84,9 @@
     - name: Sngular 
       logo: sngular.svg
       href: https://sngular.team/
+    - name: Más Móvil
+      logo: masmovil.png
+      href: http://www.grupomasmovil.com/
 - name: Supporter
   items:
     - name: RSI
