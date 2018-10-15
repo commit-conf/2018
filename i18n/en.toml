@@ -170,6 +170,10 @@ other = '''You need to be in contact (remotely and/or in person) with your mente
 other = 'Our graduates'
 [OurMentors]
 other = 'Our mentors'
+[TechSHEssionsCollaborators]
+other = 'Collaborators'
+[TechSHEssionsCollaboratorsDesc]
+other = 'Our most special thanks for providing the space to host our sessions:'
 
 #IndieMad
 [IndieMadDesc]

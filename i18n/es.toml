@@ -177,6 +177,10 @@ other = 'Tener contacto, presencial y/o en remoto, con tu alumna aproximadamente
 other = 'Nuestras graduadas'
 [OurMentors]
 other = 'Nuestras mentoras'
+[TechSHEssionsCollaborators]
+other = 'Colaboradores'
+[TechSHEssionsCollaboratorsDesc]
+other = 'Queremos agradecer especialmente a aquellos que nos han cedido el espacio para poder hacer las sesiones:'
 
 #IndieMad
 [IndieMadDesc]

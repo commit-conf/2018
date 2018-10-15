@@ -121,3 +121,23 @@ $techsessions-avatar-size: 200px;
     opacity: 0;
   }
 }
+
+.techshessions-collaborators {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.techshessions-collaborator {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.techshessions-collaborator-img {
+  width: 130px;
+}
+
+.techshessions-flagship {
+  width: 100px;
+}
