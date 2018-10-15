@@ -125,6 +125,8 @@ other = 'Go to the agenda'
 other = "Tech SHEssions"
 [TechSHEssionsDesc]
 other = "At Commit we believe <b>diversity is very important</b>. That's why two years ago we started a program seeking to empower tech women in order to help them reach the confidence to participate actively in tech communities. In the long term we would like these women to be referents in their communities and the IT sector."
+[TechSHEssionsNextEdition]
+other = 'The next edition will begin in January 2019. For more info, contact us at <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>'
 [ViewMore]
 other = "View more"
 [TechSHEssionsObjectives]

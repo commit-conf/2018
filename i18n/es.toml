@@ -127,6 +127,8 @@ other = 'Ir a la agenda'
 other = "Tech SHEssions"
 [TechSHEssionsDesc]
 other = "En Commit creemos que <b>la diversidad en los eventos es muy importante</b>. Por eso, llevamos dos años con un programa que busca empoderar mujeres técnicas para que se atrevan a participar activamente en las comunidades técnicas. A largo plazo, nos gustaría que estas mujeres fueran referentes en sus comunidades y el sector IT."
+[TechSHEssionsNextEdition]
+other = 'La próxima edición del programa empezará en enero 2019. Para más información, escríbenos a <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>'
 [ViewMore]
 other = "Ver más"
 [TechSHEssionsObjectives]
