@@ -21,6 +21,11 @@
   padding: 1rem 0;
 }
 
+.diamond .sponsor {
+  width: 60%;
+  max-width: 400px;
+}
+
 .platinum .sponsor {
   width: 50%;
   max-width: 400px;
@@ -107,6 +112,10 @@
   .sponsor {
     width: 20%;
     margin-right: 2rem;
+  }
+  .diamond .sponsor {
+    width: 45%;
+    max-width: 600px;
   }
   .platinum .sponsor {
     max-width: 36%;

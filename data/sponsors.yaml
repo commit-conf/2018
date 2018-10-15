@@ -1,3 +1,8 @@
+- name: Diamond
+  items:
+    - name: IBM
+      logo: ibm.png
+      href: https://www.ibm.com/es-es/
 - name: Platinum
   items: 
     - name: Sopra Steria
