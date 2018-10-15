@@ -68,6 +68,9 @@
       logo: thecocktail.svg
       href: https://the-cocktail.com/
       offerJob: true
+    - name: Paradigma
+      logo: paradigma.svg
+      href: https://www.paradigmadigital.com
 - name: Silver
   items:
     - name: Liferay
