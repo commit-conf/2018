@@ -33,6 +33,9 @@
     - name: Hotelbeds Group
       logo: hotelbedsgroup.svg
       href: http://group.hotelbeds.com/
+    - name: Accenture
+      logo: accenture.svg
+      href: https://www.accenture.com/es-es
     - name: ING
       logo: ing.jpg
       href: https://www.ing.es/
