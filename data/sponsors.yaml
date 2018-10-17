@@ -36,6 +36,7 @@
     - name: Accenture
       logo: accenture.svg
       href: https://www.accenture.com/es-es
+      offerJob: true
     - name: ING
       logo: ing.jpg
       href: https://www.ing.es/
