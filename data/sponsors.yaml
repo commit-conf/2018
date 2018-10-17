@@ -40,6 +40,7 @@
     - name: ING
       logo: ing.jpg
       href: https://www.ing.es/
+      offerJob: true
 - name: Hiring Silver
   items: 
     - name: idealista
