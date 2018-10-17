@@ -72,6 +72,9 @@
     - name: Paradigma
       logo: paradigma.svg
       href: https://www.paradigmadigital.com
+    - name: ZOOPLUS
+      logo: zooplus.svg
+      href: https://www.zooplus.es/
 - name: Silver
   items:
     - name: Liferay
