@@ -39,11 +39,17 @@
           {{ i18n "GoToTheAgenda" }}
           <span class="button-small">{{ i18n "AgendaIsPublished" }}</span>
         </a>
+        <a class="button" href="{{ "/call-for-volunteers" | relLangURL }}">
+          Call for Volunteers
+          <span class="button-small">{{ i18n "CallForVolunteersButton" }}</span>
+        </a>
       </p> 
     </section>
   </div>
 
   {{ partial "stats.html" . }}
+
+  {{ partial "call-for-volunteers.html" . }}
 
   {{ partial "agenda.html" . }}
 

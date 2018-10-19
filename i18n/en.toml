@@ -203,6 +203,38 @@ other = 'Code of Conduct'
 [CodeOfConductCredits]
 other = 'Original source and credits'
 
+# Call for volunteers
+[CallForVolunteersDesc]
+other = 'Commit is an event for developers that brings together more than two thousand professionals. Without the support of volunteers this would not be possible to cope. If you like to join our team, have some busy but fun days together, and want to involve yourself, please sign up.'
+[CallForVolunteersButton]
+other = 'Become a volunteer'
+[CallForVolunteersRequirementsDesc]
+other = 'The organization of Commit itself is a small team, and on the day of the event we need to be significantly more to face the challenges of a conference of this size'
+[CallForVolunteersHelpInRooms]
+other = '<b>Help in the rooms</b> before, during and after the talks/labs.'
+[CallForVolunteersConditionCommonAreas]
+other = '<b>Condition the common areas</b> for the days of the event.'
+[CallForVolunteersPrepareSwags]
+other = '<b>Preparation and delivery of swag to attendees</b>.'
+[CallForVolunteersSupportAttendees]
+other = '<b>Support the attendees</b> looking for the tracks.'
+[CallForVolunteersHelpSpeakers]
+other = '<b>Help the speakers</b>.'
+[CallForVolunteersWhateverComes]
+other = '<b>And whatever comes</b>.'
+[CallForVolunteersRightsDesc]
+other = "It's not all about duties, but advantages too"
+[CallForVolunteersNetworking]
+other = '<b>Networking</b>. Commit is a great opportunity to know a lot of awesome people.'
+[CallForVolunteersAcquireExperience]
+other = '<b>Acquire first-hand experience</b> about organizing an event of more than a thousand people.'
+[CallForVolunteersExclusiveSwag]
+other = '<b>Get swag and tshirt</b> exclusive to Commit organizers.'
+[CallForVolunteersAttendTalks]
+other = '<b>You can attend some talks</b>, with moderation. Remember, you came to contribute.'
+[CallForVolunteersSignUp]
+other = 'Sign up'
+
 # The team
 [TheTeamSubtitle]
 other = 'Who organizes Commit?'

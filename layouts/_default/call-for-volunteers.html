@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  <section class="content">
+    <h1>Call for volunteers</h1>
+    <p>{{ i18n "CallForVolunteersRequirementsDesc" }}:</p>
+    <ul class="square">
+      <li>{{ i18n "CallForVolunteersHelpInRooms" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersConditionCommonAreas" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersPrepareSwags" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersSupportAttendees" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersHelpSpeakers" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersWhateverComes" | safeHTML }}</li>
+    </ul>
+    <p>{{ i18n "CallForVolunteersRightsDesc" }}:</p>
+    <ul class="square">
+      <li>{{ i18n "CallForVolunteersNetworking" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersAcquireExperience" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersExclusiveSwag" | safeHTML }}</li>
+      <li>{{ i18n "CallForVolunteersAttendTalks" | safeHTML }}</li>
+    </ul>
+    <br/>
+    <a href="https://docs.google.com/forms/d/1TKYn3N1RcSPc8c0sp7K8RsiMHmJVB3q9KyYOT6JzULk" target="_blank" class="button primary" title="{{ i18n "CallForVolunteersSignUp" }}">{{ i18n "CallForVolunteersSignUp" }}</a>
+  </section>
+
+{{ end }}
