@@ -119,3 +119,9 @@
     - name: Iberia
       logo: iberia.jpg
       href: https://www.iberia.com/
+    - name: Metricool
+      logo: metricool.png
+      href: https://metricool.com/es/
+    - name: Con Más Futuro
+      logo: conmasfuturo.png
+      href: https://www.conmasfuturo.com/
