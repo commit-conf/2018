@@ -1,0 +1,35 @@
+.cookie-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $white;
+  border-top: 1px solid $gray-light;
+  padding: 1rem 0;
+  background-color: $blue-dark;
+  background-color: rgba($blue-dark, .95);
+  .cookie-advice-title {
+    font-size: 140%;
+    color: $gray-light;
+    margin-bottom: 0.5rem;
+  }
+  .cookie-advice-desc {
+    color: $white;
+    > a {
+      color: $orange;
+      &:hover, &:focus, &:active {
+        color: $orange;
+      }
+    }
+  }
+}
+
+.accept-cookies {
+  margin-bottom: 0;
+}
+
+@media #{$medium-up} {
+  .main-and-aside.cookie-advice {
+    flex-direction: row;
+  }
+}

@@ -401,3 +401,41 @@ other = '¿Habrá guardarropa?'
 other = '''
   <p>Disponemos de un espacio para guardar tu abrigo, casco o maleta. El guardarropa estará vigilado todo el tiempo por la organización y los voluntarios. Aún así, <b>ni Commit ni la Universidad se hacen responsables de tus pertenencias</b>.</p>
 '''
+
+# Cookies
+[CookiePolicyTitle]
+other = 'Este sitio usa cookies'
+[CookiePolicyDesc]
+other = 'Usamos Cookies para ofrecerte un mejor servicio. Al usar este sitio web accedes a nuestra <a href="/cookies">Política de Cookies</a>.'
+[Accept]
+other = 'Acepto'
+[PrivacyPolicyTitle]
+other = 'Política de privacidad'
+[PrivacyPolicyDesc]
+other = 'Recopilamos información para mejorar nuestros servicios. Esta página explica qué información recogemos y para qué.'
+[InfoWeCollect]
+other = 'Información que recopilamos'
+[InfoWeCollectDesc]
+other = 'Recogemos información de las siguientes formas'
+[CookiesUse]
+other = '<b>Cookies</b>. Usamos cookies para recoger información de las visitas de los usuarios (usando Google Analytics) para ayudarnos a mejorar nuestro servicio. Puedes configurar tu navegador para bloquear las cookies de nuestra página web.'
+[SharingWithThirdParties]
+other = 'Compartir con terceras partes'
+[SharingWithThirdPartiesDesc]
+other = 'Nosotros <b>no compartimos información</b> con terceras partes salvo que aplique alguna de las siguientes circunstancias'
+[SharingWithThirdPartiesLegalReasons]
+other = 'Por <b>razones legales</b>. Compartiremos información personal si es razonablemente necesaria para'
+[SharingWithThirdPartiesLegalProcess]
+other = 'Cualquier ley aplicable o proceso legal.'
+[SharingWithThirdPartiesEnforceTerms]
+other = 'Asegurar la aplicación de los términos del servicio, incluyendo la investigación de posibles incumplimientos.'
+[SharingWithThirdPartiesProtection]
+other = 'Proteger contra daños a nuestros usuarios o al público según lo exija o lo permita la ley.'
+[Security]
+other = 'Seguridad'
+[SecurityDesc]
+other = 'Trabajamos para proteger el acceso a tus datos de forma no autorizada encriptando nuestras comunicaciones con SSL.'
+[PrivacyPolicyChanges]
+other = 'Cambios'
+[PrivacyPolicyChangesDesc]
+other = 'Nuestra política de privacidad puede cambiar. Informaremos de cualquier cambio en esta página y, si los cambios son significativos, usaremos otros métodos adicionales para notificar dichos cambios (incluyendo, por ejemplo, el envío de correos electrónicos).'
