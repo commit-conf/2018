@@ -3,6 +3,7 @@
     - name: IBM
       logo: ibm.png
       href: https://www.ibm.com/es-es/
+      offerJob: true
 - name: Platinum
   items: 
     - name: Sopra Steria
