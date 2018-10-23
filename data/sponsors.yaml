@@ -113,6 +113,9 @@
     - name: RSI
       logo: rsi.svg
       href: http://www.ruralserviciosinformaticos.com/
+    - name: Anfix
+      logo: anfix.svg
+      href: https://anfix.com/quienes-somos/
 - name: Collaborators
   items: 
     - name: Universidad San Pablo CEU
