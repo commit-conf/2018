@@ -45,6 +45,13 @@
       logo: ing.jpg
       href: https://www.ing.es/
       offerJob: true
+    - name: Amazon
+      logo: amazon.svg
+      href: https://www.amazon.es/
+    - name: adidas
+      logo: adidas.svg
+      href: http://a.did.as/6003DC5nv
+      offerJob: true
 - name: Hiring Silver
   items: 
     - name: idealista
@@ -59,9 +66,6 @@
       logo: intelygenz.png
       href: https://www.intelygenz.com/
       offerJob: true
-    - name: Amazon
-      logo: amazon.svg
-      href: https://www.amazon.es/
     - name: TravelPerk
       logo: travelperk.svg
       href: https://www.travelperk.com/
@@ -81,6 +85,7 @@
     - name: ZOOPLUS
       logo: zooplus.svg
       href: https://www.zooplus.es/
+      offerJob: true
 - name: Silver
   items:
     - name: Liferay
