@@ -48,6 +48,7 @@
     - name: Amazon
       logo: amazon.svg
       href: https://www.amazon.es/
+      offerJob: true
     - name: adidas
       logo: adidas.svg
       href: http://a.did.as/6003DC5nv
