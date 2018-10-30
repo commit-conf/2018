@@ -80,6 +80,7 @@ $techsessions-avatar-size: 200px;
     background: rgba($white, .7);
     justify-content: center;
     align-items: center;
+    padding: 5px;
   }
   &:hover, &:focus, &:active {
     .data {
@@ -91,6 +92,11 @@ $techsessions-avatar-size: 200px;
     width: $techsessions-avatar-size;
     max-width: $techsessions-avatar-size;
   }
+  
+}
+
+.techshessions-year {
+  color: $black;
 }
 
 .lazy-avatar-spinner {
