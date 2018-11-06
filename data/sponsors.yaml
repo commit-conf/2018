@@ -37,6 +37,7 @@
     - name: Hotelbeds Group
       logo: hotelbedsgroup.svg
       href: http://group.hotelbeds.com/
+      offerJob: true
     - name: Accenture
       logo: accenture.svg
       href: https://www.accenture.com/es-es
