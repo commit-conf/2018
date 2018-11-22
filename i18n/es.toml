@@ -110,6 +110,14 @@ other = 'Tras dos meses muy intensos, donde hemos recibido más de 400 propuesta
 [AgendaExpectation]
 other = 'Una vez tengamos la valoración hecha empezaremos a crear la agenda del evento, que tendremos lista para anunciar en septiembre.'
 
+# Streaming
+[Streaming]
+other = 'Streaming'
+[StreamingDesc]
+other = 'Sigue nuestras charlas desde casa a través del streaming en directo.'
+[GoToTheYoutubeChannel]
+other = 'Ir al canal de Youtube'
+
 # Agenda
 [AgendaIsPublished]
 other = 'La agenda ya está online'

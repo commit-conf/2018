@@ -108,6 +108,14 @@ other = "After a couple of very intense months where we received more than 400 t
 [AgendaExpectation]
 other = 'We expect to have the agenda ready to be published by the beginning of September.'
 
+# Streaming
+[Streaming]
+other = 'Streaming'
+[StreamingDesc]
+other = "Follow our talks from home through our live streaming."
+[GoToTheYoutubeChannel]
+other = 'Go to the Youtube channel'
+
 # Agenda
 [AgendaIsPublished]
 other = 'The agenda is already online'
