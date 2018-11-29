@@ -12,9 +12,10 @@
 }
 
 @media #{$medium-up} {
-  .home-section {
-    background-image: url(/img/bg-medium.jpg);
+  .background-img {
+    background-image: url('/img/background-large.jpg');
   }
+
   .number {
     font-size: 50px;
   }

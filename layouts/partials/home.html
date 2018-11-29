@@ -1,25 +1,11 @@
 <div class="content">
-  <div class="hero-container">
-    <div class="hero-img-container">
-      <div class="hero-filler"></div>
-    </div>
-    <div class="hero-img-container">
-      <div class="hero-img" style="background-image: url('/img/speakers/small/0/0.jpg')"></div>
-    </div>
-    <div class="hero-img-container">
-      <div class="hero-img" style="background-image: url('/img/speakers/small/1/0.jpg')"></div>
-    </div>
-    <div class="hero-img-container">
-      <div class="hero-img" style="background-image: url('/img/speakers/small/2/0.jpg')"></div>
-    </div>
-    <div class="hero-img-container">
-      <div class="hero-filler"></div>
+  <div class="background-container">
+    <div class="background-img-container">
+      <div class="background-img"></div>
     </div>
     <img class="spain-outline" src="/img/spain-outline.svg" alt="Commit conference, 23-24 November">
   </div>
 </div>
-<script async src="/js/home.js" />
-</script>
 
   <div class="home-highlight">
     <svg class="home-separator" viewBox="0 0 500 500" preserveAspectRatio="none" aria-hidden="true">
@@ -28,20 +14,20 @@
 
     <section class="content">
 
-      <h1>{{ i18n "TheEvent" }}</h1>
-      {{ i18n "EventDesc" | safeHTML }}
+      <h1>{{ i18n "Thanks" }}</h1>
+      {{ i18n "ThanksDesc" | safeHTML }}
       <p class="actions">
         <a class="button primary" target="_blank" href="https://www.koliseo.com/events/commit-2018/r4p/5630471824211968/agenda">
           {{ i18n "GoToTheAgenda" }}
-          <span class="button-small">{{ i18n "AgendaIsPublished" }}</span>
         </a>
       </p> 
     </section>
   </div>
 
+  
   {{ partial "stats.html" . }}
-
-  {{ partial "streaming.html" . }}
+  
+  {{ partial "the-event.html" . }}
 
   {{ partial "agenda.html" . }}
 

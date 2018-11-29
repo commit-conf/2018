@@ -16,6 +16,12 @@ other = 'About us'
 [TheTeam]
 other = 'The team'
 
+# Thanks
+[Thanks]
+other = 'Thank you all'
+[ThanksDesc]
+other = '<p>This edition of Commit is over. We want to thank everyone (attendees, speakers, communities, sponsors and volunteers) for making it possible. You are very big. We now have to analyze the feedback to try to do better next year.</p><p>We will upload the photos of the event, the slides and videos of the talks as soon as we get them. Looking forward to seeing you in the next edition!</p>'
+
 # The event
 [TheEvent]
 other = 'The IT landscape from Spain, distilled'
