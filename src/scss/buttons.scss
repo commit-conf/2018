@@ -35,6 +35,9 @@ $button-primary-color: $white;
       background-color: darken($button-primary-bg, 5%);
     } 
   }
+  &.no-margin {
+    margin-bottom: 0;
+  }
 
 }
 

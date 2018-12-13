@@ -101,6 +101,8 @@ other = 'Nuestros patrocinadores tienen algunas ofertas de trabajo, échales un 
 other = 'Ver las ofertas'
 [ReturnTop]
 other = 'Volver arriba'
+[SeeInterviews]
+other = "Ver entrevistas"
 
 # Communities
 [OurCommunities]

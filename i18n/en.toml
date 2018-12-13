@@ -99,6 +99,8 @@ other = 'Our sponsors have some job offers, check them out.'
 other = 'View job offers'
 [ReturnTop]
 other = 'Return top'
+[SeeInterviews]
+other = "See interviews"
 
 # Communities
 [OurCommunities]

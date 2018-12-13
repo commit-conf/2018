@@ -3,6 +3,7 @@
   <section class="content">
     <h1>{{ i18n "OurSponsors" }}</h1>
     <p>{{ i18n "OurSponsorsDesc" }}</p>
+    <a href="https://www.youtube.com/playlist?list=PLu976vDeELBro8ZTH2x321SeThi9fLb3Z" class="button primary no-margin" target="_blank">{{i18n "SeeInterviews"}}</a>
     {{ range $category := $.Site.Data.sponsors }}
       <div class="sponsor-category">
         <h2 class="category-name">{{ $category.name }}</h2>
