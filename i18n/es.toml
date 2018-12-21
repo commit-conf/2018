@@ -23,6 +23,8 @@ other = 'Muchas gracias a todos'
 other = '<p>Esta edición de Commit ha terminado. Queremos agradeceros a todos (asistentes, ponentes, comunidades, sponsors y voluntarios) el haberlo hecho posible. Sois muy grandes. A nosotros ahora nos queda analizar el feedback para intentar hacerlo mejor el próximo año.</p><p>Iremos subiendo las fotos del evento, las slides y vídeos de las charlas conforme los tengamos. ¡Esperamos verte en la pŕoxima edición!</p>'
 [ViewPhotos]
 other = 'Ver fotos'
+[WatchVideo]
+other = 'Ver vídeo'
 
 # The event
 [TheEvent]
