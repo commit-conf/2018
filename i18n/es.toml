@@ -16,6 +16,10 @@ other = 'Quiénes somos'
 [TheTeam]
 other = 'El equipo'
 
+# Next edition
+[NextEdition]
+other = 'La próxima edición de Commit se celebrará los días 22 y 23 de noviembre de 2019. Pronto más información.'
+
 # Thanks
 [Thanks]
 other = 'Muchas gracias a todos'
