@@ -33,15 +33,10 @@ $svg-separator-size: 2rem;
 }
 
 .message {
-  position: absolute;
-  top: 54px;
-  left: 0;
-  right: 0;
-  padding: 1rem 0;
-  background: rgba($orange, .9);
+  padding: 1rem;
+  background: $orange;
   color: $white;
-  z-index: 99;
-  font-size: 80%;
+  border-radius: 3px;
   @media #{$medium-up} {
     font-size: 100%;
   }
