@@ -2,18 +2,47 @@ students:
   - name: Ana Sanmartín Domenech
     twitter: ASDomenech7
     avatar: ana-sanmartin.jpg
+    year: 2017
   - name: Carmen Pérez Elvira
     twitter: holayosoycarmen
     avatar: carmen-perez.jpg
+    year: 2017
   - name: Luna Garrido
     twitter: LunaGarridoLpez
     avatar: luna-garrido.jpg
+    year: 2017
   - name: Rosa María González
     twitter: gprosemary
     avatar: rosa-gonzalez.jpg
+    year: 2017
   - name: Cristina Fernández
     twitter: cristinafsanz
     avatar: cristina-fernandez.jpg
+    year: 2017
+  - name: Adriana Gómez
+    twitter: AdrianaGomezIT
+    avatar: adriana-gomez.jpg
+    year: 2018
+  - name: Debora Gomez
+    twitter: dgomezdebora
+    avatar: debora-gomez.jpg
+    year: 2018
+  - name: Julieta M Cuadrado
+    twitter: julietaCuadrado
+    avatar: julieta-cuadrado.jpg
+    year: 2018
+  - name: Marisa Quiroga
+    twitter: marisaqfm
+    avatar: marisa-quiroga.jpg
+    year: 2018
+  - name: Natalia Recarte
+    twitter: laririt1
+    avatar: natalia-recarte.jpg
+    year: 2018
+  - name: Plata - Eun Young Cho
+    twitter: eunEsPlata
+    avatar: eun-young-cho.jpg
+    year: 2018
 mentors:
   - name: Laura Morillo-Velarde Rodríguez
     twitter: Laura_Morillo
@@ -74,4 +103,8 @@ mentors:
   - name: Paola García
     twitter: gGarciaPaola
     avatar: paola-garcia.jpg
+    year: 2018
+  - name: Juliet Moreiro
+    twitter: julietsvq
+    avatar: juliet-moreiro.jpg
     year: 2018
