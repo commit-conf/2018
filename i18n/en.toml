@@ -294,7 +294,7 @@ other = '''
 [OrganizerIdentification]
 other = 'Organizer Identification'
 [DataOwner]
-other = 'Fundación Extrema, owner of the website <a href="http://commit-conf.com">http://commit-conf.com</a> (hereinafter Commit), residing at 24A Casas de Miravete St., 28031 Madrid; with CIF G86410040. Any inquiries may be directed to the address: <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>.'
+other = 'Fundación Extrema, owner of the website <a href="http://commit-conf.com">http://commit-conf.com</a> (hereinafter Commit), residing at 4ºI, 33 Villanueva St., 28001 Madrid; with CIF G86410040. Any inquiries may be directed to the address: <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>.'
 
 # FAQ
 [FAQ]
