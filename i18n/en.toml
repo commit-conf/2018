@@ -18,7 +18,7 @@ other = 'The team'
 
 # Next edition
 [NextEdition]
-other = 'The next edition of Commit will take place on November 22-23, 2019. More info coming soon.'
+other = 'The next edition of Commit will take place on November 22-23, 2019. Take a look at the <a href="https://2019.commit-conf.com">new website</a>.'
 
 # Thanks
 [Thanks]
