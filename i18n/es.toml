@@ -158,15 +158,16 @@ other = "Ver más"
 [TechSHEssionsObjectives]
 other = "Objetivos de Tech SHEssions"
 [TechSHEssionsObjectivesDesc]
-other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssions</a> pretende empoderar mujeres técnicas para que se atrevan a participar activamente en comunidades tecnológicas.
-    El programa incluye formación en habilidades de comunicación oral, expresión corporal, control del
-    nerviosismo y gestión de situaciones difíciles que puedan surgir.</p>
+other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssions</a> es un programa gratuito que pretende 
+    empoderar mujeres para que se atrevan a participar como ponentes en eventos tecnológicos. 
+    Este programa incluye formación en habilidades de comunicación oral, expresión corporal, control del nerviosismo y 
+    gestión de situaciones difíciles que puedan surgir.</p>
   <p>
     Para ello hemos optado por un mentoring para guiar a la alumna en su proceso formativo. 
     Las mentoras son mujeres profesionales del sector IT con experiencia participando en la organización de eventos tecnológicos o como ponentes en eventos de este tipo. 
     Su misión es enseñar y apoyar a las alumnas a la hora de recorrer el camino que ellas ya han recorrido.
   </p>
-  <p>A largo plazo, nos gustaría conseguir que estas mujeres sean referentes en sus
+  <p>A largo plazo, nos gustaría conseguir que estas mujeres también sean referentes en sus
     comunidades. Creemos que la existencia de referentes femeninos en las comunidades tecnológicas animará a las mujeres
     a participar en ellas, contribuirá a cerrar la brecha de género en el sector IT y fomentará que más mujeres
     consideren carreras de este sector.
@@ -197,6 +198,11 @@ other = 'Tener contacto, presencial y/o en remoto, con tu alumna aproximadamente
     la presentación. Y, cómo no, servir de apoyo. Las revisiones ayudan muchísimo, pero los nervios no siempre atienden 
     a razones. Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote 
     es una ayuda tremenda.'
+[JoinToProgram]
+other = '¿Cómo me apunto al programa?'
+[JoinToProgramDesc]
+other = '<p>Cada año en febrero lanzamos una nueva convocatoria de Tech SHEssions. La anunciaremos en Twitter y en nuestra página de Meetup, así que puedes seguirnos para estar al tanto de las novedades.
+<p>Si tienes cualquier duda, también puedes escribirnos a <a href="mailto:techshessions@commit-conf.com">techshessions@commit-conf.com</a>.'
 [OurStudents]
 other = 'Nuestras graduadas'
 [OurMentors]

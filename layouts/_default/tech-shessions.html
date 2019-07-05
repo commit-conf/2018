@@ -7,8 +7,9 @@
 </div>
 
 <section class="techshessions-links">
-  <a class="techshessions-link" href="https://www.meetup.com/es-ES/Tech-SHEssions/"><img src="/img/meetup.svg" /></a>
-  <a class="techshessions-link" href="https://www.youtube.com/playlist?list=PLu976vDeELBoOaC8OW2HrgaKkeWLpvco5"><img src="/img/youtube.svg" /></a>
+  <a class="techshessions-link" href="https://twitter.com/techshessions"><img src="/img/twitter.svg" class="twitter" alt="Twitter logo"/></a>
+  <a class="techshessions-link" href="https://www.meetup.com/es-ES/Tech-SHEssions/"><img src="/img/meetup.svg" alt="Meetup logo"/></a>
+  <a class="techshessions-link" href="https://www.youtube.com/playlist?list=PLu976vDeELBrxaEJPaQD4itE10WokTJ6B"><img src="/img/youtube.svg" alt="YouTube logo"/></a>
 </section>
 
 <section class="content"> 
@@ -40,11 +41,18 @@
 {{ partial "separator.html" (dict "class" "theme-3") }}
 
 <section class="content">
+  <h2>{{ i18n "JoinToProgram" }}</h2>
+  <p>{{ i18n "JoinToProgramDesc" | safeHTML }}</p>
+</section>
+
+{{ partial "separator.html" (dict "class" "theme-4") }}
+
+<section class="content">
   {{ partial "tech-shessions-members.html" (dict "title" "OurStudents" "members" $.Site.Data.techshessions.students) }}
   {{ partial "tech-shessions-members.html" (dict "title" "OurMentors" "members" $.Site.Data.techshessions.mentors) }}
 </section>
 
-{{ partial "separator.html" (dict "class" "theme-4") }}
+{{ partial "separator.html" (dict "class" "theme-5") }}
 
 <section class="content">
   <h2>{{ i18n "TechSHEssionsCollaborators" }}</h2>
