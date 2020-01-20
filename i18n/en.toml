@@ -150,53 +150,9 @@ other = "Tech SHEssions"
 [TechSHEssionsDesc]
 other = "At Commit we believe <b>diversity is very important</b>. That's why two years ago we started a program seeking to empower tech women in order to help them reach the confidence to participate actively in tech communities. In the long term we would like these women to be referents in their communities and the IT sector."
 [TechSHEssionsNextEdition]
-other = 'The next edition will begin in January 2019. For more info, contact us at <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>'
+other = 'The next edition will begin in January 2019. For more info, contact us at <a href="mailto:info@techshessions.com">info@techshessions.com</a>'
 [ViewMore]
 other = "View more"
-[TechSHEssionsObjectives]
-other = "Tech SHEssions objectives"
-[TechSHEssionsObjectivesDesc]
-other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssions</a> is a free program that seeks 
-    to empower women so they can become confident enough to participate as speakers in tech events. This program includes 
-    training in oral communication, body language, anxiety control and also difficult situations management.</p>
-  <p>
-    To achieve that we chose the mentoring model to guide the students in their training. Mentors are IT professionals 
-    women with experience in the organization of tech events or speakers. Their goal is to teach and support the mentees 
-    with their own experience and knowledge.
-  </p>
-  <p>In the long term, we would like these women also to be referents of their communities. We believe that having female 
-  referents in tech communities will enforce other women to participate, and will contribute to close the gender 
-  gap in the IT sector and also make more women consider working in this sector.
-  </p>'
-[WantToBeAStudent]
-other = "Do you want to be a mentee?"
-[WantToBeAStudentDesc]
-other = "Any woman with a technical background, interested in participating actively in communities, can be part of the program. It doesn't matter if you are a professional or a student."
-[StudentRequirements]
-other = "What do you have to do?"
-[StudentRequirementsDesc]
-other = '''<b>Attend talks and training activities</b> given by women who are referents in this sector. 
-  What better way to learn about oral communication skills, body language, relax techniques than listening to 
-  experts that were once beginners as well? Also, you will have to <b>prepare and present your own talks</b> with 
-  your mentor's support, always in a safe space that makes you feel confortable.'''
-[WantToBeAMentor]
-other = "Do you want to be a mentor?"
-[WantToBeAMentorDesc]
-other = '''You don't need any specific tech skills to be a mentor, you only need experience participating in 
-  communities or tech events. Your goal is not to give tech support but teach how to do talks, speak in public and 
-  help with their first steps full of anxiety and scenic panic.'''
-[MentorRequirements]
-other = "What do mentors do?"
-[MentorRequirementsDesc]
-other = '''You need to be in contact (remotely and/or in person) with your mentee approximately once a week or every 
-  two weeks. You will review her slides, suggest improvements, help her rehearse the presentation. And, of course, 
-  give her support. Reviews help a lot but when you are nervous, you have doubts or don't know how to move forward, 
-  something as simple as having someone supporting you is a huge help.'''
-[JoinToProgram]
-other = 'How do I join the program?'
-[JoinToProgramDesc]
-other = '<p>Every year in February, we launched a new call for Tech SHEssions. We will announce it on Twitter and our Meetup page, so you can follow us to stay up to date with the latest news.
-<p>If you have any questions, you can also write to <a href="mailto:techshessions@commit-conf.com">techshessions@commit-conf.com</a>.'
 
 [OurStudents]
 other = 'Our graduates'

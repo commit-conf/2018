@@ -152,65 +152,9 @@ other = "Tech SHEssions"
 [TechSHEssionsDesc]
 other = "En Commit creemos que <b>la diversidad en los eventos es muy importante</b>. Por eso, llevamos dos años con un programa que busca empoderar mujeres técnicas para que se atrevan a participar activamente en las comunidades técnicas. A largo plazo, nos gustaría que estas mujeres fueran referentes en sus comunidades y el sector IT."
 [TechSHEssionsNextEdition]
-other = 'La próxima edición del programa empezará en enero 2019. Para más información, escríbenos a <a href="mailto:info@commit-conf.com">info@commit-conf.com</a>'
+other = 'La próxima edición del programa empezará en enero 2019. Para más información, escríbenos a <a href="mailto:info@techshessions.com">info@techshessions.com</a>'
 [ViewMore]
 other = "Ver más"
-[TechSHEssionsObjectives]
-other = "Objetivos de Tech SHEssions"
-[TechSHEssionsObjectivesDesc]
-other = '<p><a href="https://www.meetup.com/es-ES/Tech-SHEssions/">Tech SHEssions</a> es un programa gratuito que pretende 
-    empoderar mujeres para que se atrevan a participar como ponentes en eventos tecnológicos. 
-    Este programa incluye formación en habilidades de comunicación oral, expresión corporal, control del nerviosismo y 
-    gestión de situaciones difíciles que puedan surgir.</p>
-  <p>
-    Para ello hemos optado por un mentoring para guiar a la alumna en su proceso formativo. 
-    Las mentoras son mujeres profesionales del sector IT con experiencia participando en la organización de eventos tecnológicos o como ponentes en eventos de este tipo. 
-    Su misión es enseñar y apoyar a las alumnas a la hora de recorrer el camino que ellas ya han recorrido.
-  </p>
-  <p>A largo plazo, nos gustaría conseguir que estas mujeres también sean referentes en sus
-    comunidades. Creemos que la existencia de referentes femeninos en las comunidades tecnológicas animará a las mujeres
-    a participar en ellas, contribuirá a cerrar la brecha de género en el sector IT y fomentará que más mujeres
-    consideren carreras de este sector.
-  </p>'
-[WantToBeAStudent]
-other = "¿Quieres ser alumna?"
-[WantToBeAStudentDesc]
-other = "Cualquier mujer con un background técnico que esté interesada en participar activamente en comunidades puede formar parte del programa. No importa si eres una profesional del sector o una alumna."
-[StudentRequirements]
-other = "¿Qué tendrías que hacer?"
-[StudentRequirementsDesc]
-other = '<b>Asistir a charlas y actividades</b> formativas impartidas por mujeres que ya son un referente en el sector. 
-    ¿Qué mejor forma de aprender comunicación oral, expresión corporal, técnicas de relajación, etc. que de auténticas 
-    expertas que han pasado por tu misma situación? Además, tendrás que <b>preparar y realizar presentaciones</b> con el 
-    apoyo de tu mentora, siempre dentro de un espacio seguro para que puedas hacerlo de forma cómoda.'
-[WantToBeAMentor]
-other = "¿Quieres ayudar como mentora del programa?"
-[WantToBeAMentorDesc]
-other = 'No hace falta que tengas ninguna habilidad técnica concreta para participar en el programa como mentora, tan sólo
-    que tengas experiencia participando en comunidades o eventos tecnológicos. Tu objetivo no es proporcionar soporte
-    técnico, sino enseñar a hacer presentaciones, hablar en público y ayudar en esos primeros pasos llenos de nerviosismo
-    y pánico escénico.'
-[MentorRequirements]
-other = "¿Qué implica ser una mentora?"
-[MentorRequirementsDesc]
-other = 'Tener contacto, presencial y/o en remoto, con tu alumna aproximadamente una vez a la semana o una vez cada 
-    dos semanas. Revisar cómo va la presentación en la que está trabajando, proponerle mejoras, ayudarla a ensayar 
-    la presentación. Y, cómo no, servir de apoyo. Las revisiones ayudan muchísimo, pero los nervios no siempre atienden 
-    a razones. Cuando se tienen nervios, dudas o no se sabe cómo seguir, simplemente tener a alguien al lado apoyándote 
-    es una ayuda tremenda.'
-[JoinToProgram]
-other = '¿Cómo me apunto al programa?'
-[JoinToProgramDesc]
-other = '<p>Cada año en febrero lanzamos una nueva convocatoria de Tech SHEssions. La anunciaremos en Twitter y en nuestra página de Meetup, así que puedes seguirnos para estar al tanto de las novedades.
-<p>Si tienes cualquier duda, también puedes escribirnos a <a href="mailto:techshessions@commit-conf.com">techshessions@commit-conf.com</a>.'
-[OurStudents]
-other = 'Nuestras graduadas'
-[OurMentors]
-other = 'Nuestras mentoras'
-[TechSHEssionsCollaborators]
-other = 'Colaboradores'
-[TechSHEssionsCollaboratorsDesc]
-other = 'Queremos agradecer especialmente a aquellos que nos han cedido el espacio para poder hacer las sesiones:'
 
 #IndieMad
 [IndieMadDesc]
