@@ -16,7 +16,7 @@
     "concurrently": "^3.5.1",
     "google-spreadsheets": "^1.0.0",
     "lodash": "^4.17.5",
-    "node-fetch": "^2.0.0",
+    "node-fetch": "^2.6.1",
     "node-sass": "^4.13.1",
     "node-sprite": "^0.1.2",
     "promise": "^8.0.1"
